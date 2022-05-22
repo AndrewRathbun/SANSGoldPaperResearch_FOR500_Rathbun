@@ -1,0 +1,457 @@
+struct ShellLinkHeader sShellLinkHeader		0h	4Ch	Fg: Bg:0x95E8FF	
+uint32 HeaderSize	76	0h	4h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[16]	{00021401-0000-0000-C000-000000000046}	4h	10h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[0]	1	4h	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[1]	20	5h	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[2]	2	6h	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[3]	0	7h	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[4]	0	8h	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[5]	0	9h	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[6]	0	Ah	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[7]	0	Bh	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[8]	192	Ch	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[9]	0	Dh	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[10]	0	Eh	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[11]	0	Fh	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[12]	0	10h	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[13]	0	11h	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[14]	0	12h	1h	Fg: Bg:0x95E8FF	
+GUID LinkCLSID[15]	70	13h	1h	Fg: Bg:0x95E8FF	
+struct LinkFlags sLinkFlags		14h	4h	Fg: Bg:0x95E8FF	
+uint32 HasLinkTargetIDList : 1	1	14h	4h	Fg: Bg:0x95E8FF	
+uint32 HasLinkInfo : 1	1	14h	4h	Fg: Bg:0x95E8FF	
+uint32 HasName : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 HasRelativePath : 1	1	14h	4h	Fg: Bg:0x95E8FF	
+uint32 HasWorkingDir : 1	1	14h	4h	Fg: Bg:0x95E8FF	
+uint32 HasArguments : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 HasIconLocation : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 IsUnicode : 1	1	14h	4h	Fg: Bg:0x95E8FF	
+uint32 ForceNoLinkInfo : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 HasExpString : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 RunInSeparateProcess : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 Unused1 : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 HasDarwinID : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 RunAsUser : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 HasExpIcon : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 NoPidlAlias : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 Unused2 : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 RunWithShimLayer : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 ForceNoLinkTrack : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 EnableTargetMetadata : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 DisableLinkPathTracking : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 DisableKnownFolderTracking : 1	1	14h	4h	Fg: Bg:0x95E8FF	
+uint32 DisableKnownFolderAlias : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 AllowLinkToLink : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 UnaliasOnSave : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 PreferEnvironmentPath : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 KeepLocalIDListForUNCTarget : 1	0	14h	4h	Fg: Bg:0x95E8FF	
+uint32 Unused : 5	0	14h	4h	Fg: Bg:0x95E8FF	
+struct FileAttributes sFileAttributes	FILE_ATTRIBUTE_ARCHIVE	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_READONLY : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_HIDDEN : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_SYSTEM : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_VOLUME_LABEL : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_DIRECTORY : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_ARCHIVE : 1	1	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_NORMAL : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_TEMPORARY : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_SPARSE_FILE : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_REPARSE_POINT : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_COMPRESSED : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_OFFLINE : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_NOT_CONTENT_INDEXED : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_ENCRYPTED : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_INTEGRITY_STREAM : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_VIRTUAL : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 FILE_ATTRIBUTE_NO_SCRUB_DATA : 1	0	18h	4h	Fg: Bg:0x95E8FF	
+uint32 Unused : 15	0	18h	4h	Fg: Bg:0x95E8FF	
+FILETIME CreationTime	02/06/2022 20:17:56 UTC	1Ch	8h	Fg: Bg:0x95E8FF	
+FILETIME AccessTime	02/06/2022 20:17:56 UTC	24h	8h	Fg: Bg:0x95E8FF	
+FILETIME WriteTime	02/06/2022 20:17:56 UTC	2Ch	8h	Fg: Bg:0x95E8FF	
+uint32 FileSize	0	34h	4h	Fg: Bg:0x95E8FF	
+uint32 IconIndex	0	38h	4h	Fg: Bg:0x95E8FF	
+enum ShowCommand	SW_SHOWNORMAL (1)	3Ch	4h	Fg: Bg:0x95E8FF	
+uint16 HotKey	UNKNOWN	40h	2h	Fg: Bg:0x95E8FF	
+uint16 Reserved[0]	0	42h	2h	Fg: Bg:0x95E8FF	
+uint32 Reserved[1]	0	44h	4h	Fg: Bg:0x95E8FF	
+uint32 Reserved[2]	0	48h	4h	Fg: Bg:0x95E8FF	
+struct LinkTargetIDList sLinkTargetIDList	New Text Document.txt	4Ch	7Ch	Fg: Bg:	
+uint16 IDListSize	122	4Ch	2h	Fg: Bg:	
+struct IDList sIDList	New Text Document.txt	4Eh	78h	Fg: Bg:	
+uint16 Size	120	4Eh	2h	Fg: Bg:	
+ubyte TypeData : 4	2	50h	1h	Fg: Bg:	
+enum Type : 4	FILE (3)	50h	1h	Fg: Bg:	
+ubyte Unknown	0	51h	1h	Fg: Bg:	
+uint32 FileSize	0	52h	4h	Fg: Bg:	
+struct DOSDATETIME Modified	02/06/2022 20:17:58 UTC	56h	4h	Fg: Bg:	
+DOSDATE Date	02/06/2022	56h	2h	Fg: Bg:	
+DOSTIME Time	20:17:58	58h	2h	Fg: Bg:	
+struct FileAttributesL Attributes	FILE_ATTRIBUTE_ARCHIVE	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_READONLY : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_HIDDEN : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_SYSTEM : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_VOLUME_LABEL : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_DIRECTORY : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_ARCHIVE : 1	1	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_NORMAL : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_TEMPORARY : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_SPARSE_FILE : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_REPARSE_POINT : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_COMPRESSED : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_OFFLINE : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_NOT_CONTENT_INDEXED : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_ENCRYPTED : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_INTEGRITY_STREAM : 1	0	5Ah	2h	Fg: Bg:	
+uint16 FILE_ATTRIBUTE_VIRTUAL : 1	0	5Ah	2h	Fg: Bg:	
+string PrimaryName[13]	NEWTEX~1.TXT	5Ch	Dh	Fg: Bg:	
+string PrimaryName[0]	78 'N'	5Ch	1h	Fg: Bg:	
+string PrimaryName[1]	69 'E'	5Dh	1h	Fg: Bg:	
+string PrimaryName[2]	87 'W'	5Eh	1h	Fg: Bg:	
+string PrimaryName[3]	84 'T'	5Fh	1h	Fg: Bg:	
+string PrimaryName[4]	69 'E'	60h	1h	Fg: Bg:	
+string PrimaryName[5]	88 'X'	61h	1h	Fg: Bg:	
+string PrimaryName[6]	126 '~'	62h	1h	Fg: Bg:	
+string PrimaryName[7]	49 '1'	63h	1h	Fg: Bg:	
+string PrimaryName[8]	46 '.'	64h	1h	Fg: Bg:	
+string PrimaryName[9]	84 'T'	65h	1h	Fg: Bg:	
+string PrimaryName[10]	88 'X'	66h	1h	Fg: Bg:	
+string PrimaryName[11]	84 'T'	67h	1h	Fg: Bg:	
+string PrimaryName[12]	0	68h	1h	Fg: Bg:	
+ubyte Align	0	69h	1h	Fg: Bg:	
+struct ExtraDataBlock ExtraBlock	New Text Document.txt	6Ah	5Ch	Fg: Bg:	
+uint16 Size	92	6Ah	2h	Fg: Bg:	
+uint16 Version	9	6Ch	2h	Fg: Bg:	
+uint32 Signature	3203334148	6Eh	4h	Fg: Bg:	
+struct DOSDATETIME Created	02/06/2022 20:17:58 UTC	72h	4h	Fg: Bg:	
+DOSDATE Date	02/06/2022	72h	2h	Fg: Bg:	
+DOSTIME Time	20:17:58	74h	2h	Fg: Bg:	
+struct DOSDATETIME Accessed	02/06/2022 20:17:58 UTC	76h	4h	Fg: Bg:	
+DOSDATE Date	02/06/2022	76h	2h	Fg: Bg:	
+DOSTIME Time	20:17:58	78h	2h	Fg: Bg:	
+uint16 Identifier	46	7Ah	2h	Fg: Bg:	
+uint16 Unknown[0]	0	7Ch	2h	Fg: Bg:	
+uint64 FileReference	1125899906946977	7Eh	8h	Fg: Bg:	
+uint64 Unknown[1]	0	86h	8h	Fg: Bg:	
+uint16 LongStringSize	0	8Eh	2h	Fg: Bg:	
+uint32 Unknown[2]	0	90h	4h	Fg: Bg:	
+uint32 Unknown[3]	18313450	94h	4h	Fg: Bg:	
+wstring Name[22]	New Text Document.txt	98h	2Ch	Fg: Bg:	
+wstring Name[0]	78 'N'	98h	2h	Fg: Bg:	
+wstring Name[1]	101 'e'	9Ah	2h	Fg: Bg:	
+wstring Name[2]	119 'w'	9Ch	2h	Fg: Bg:	
+wstring Name[3]	32 ' '	9Eh	2h	Fg: Bg:	
+wstring Name[4]	84 'T'	A0h	2h	Fg: Bg:	
+wstring Name[5]	101 'e'	A2h	2h	Fg: Bg:	
+wstring Name[6]	120 'x'	A4h	2h	Fg: Bg:	
+wstring Name[7]	116 't'	A6h	2h	Fg: Bg:	
+wstring Name[8]	32 ' '	A8h	2h	Fg: Bg:	
+wstring Name[9]	68 'D'	AAh	2h	Fg: Bg:	
+wstring Name[10]	111 'o'	ACh	2h	Fg: Bg:	
+wstring Name[11]	99 'c'	AEh	2h	Fg: Bg:	
+wstring Name[12]	117 'u'	B0h	2h	Fg: Bg:	
+wstring Name[13]	109 'm'	B2h	2h	Fg: Bg:	
+wstring Name[14]	101 'e'	B4h	2h	Fg: Bg:	
+wstring Name[15]	110 'n'	B6h	2h	Fg: Bg:	
+wstring Name[16]	116 't'	B8h	2h	Fg: Bg:	
+wstring Name[17]	46 '.'	BAh	2h	Fg: Bg:	
+wstring Name[18]	116 't'	BCh	2h	Fg: Bg:	
+wstring Name[19]	120 'x'	BEh	2h	Fg: Bg:	
+wstring Name[20]	116 't'	C0h	2h	Fg: Bg:	
+wstring Name[21]	0	C2h	2h	Fg: Bg:	
+uint16 VersionOffset	28	C4h	2h	Fg: Bg:	
+uint16 TerminalID	0	C6h	2h	Fg: Bg:	
+struct LinkInfo sLinkInfo		C8h	63h	Fg: Bg:0x95E8FF	
+uint32 LinkInfoSize	99	C8h	4h	Fg: Bg:0x95E8FF	
+uint32 LinkInfoHeaderSize	28	CCh	4h	Fg: Bg:0x95E8FF	
+struct LinkInfoFlags sLinkInfoFlags		D0h	4h	Fg: Bg:0x95E8FF	
+int VolumeIDAndLocalBasePath : 1	1	D0h	4h	Fg: Bg:0x95E8FF	
+int CommonNetworkRelativeLinkAndPathSuffix : 1	0	D0h	4h	Fg: Bg:0x95E8FF	
+int Unused1 : 30	0	D0h	4h	Fg: Bg:0x95E8FF	
+uint32 VolumeIDOffset	28	D4h	4h	Fg: Bg:0x95E8FF	
+uint32 LocalBasePathOffset	45	D8h	4h	Fg: Bg:0x95E8FF	
+uint32 CommonNetworkRelativeLinkOffset	0	DCh	4h	Fg: Bg:0x95E8FF	
+uint32 CommonPathSuffixOffset	98	E0h	4h	Fg: Bg:0x95E8FF	
+struct VolumeID sVolumeID		E4h	11h	Fg: Bg:0x95E8FF	
+uint32 VolumeIDSize	17	E4h	4h	Fg: Bg:0x95E8FF	
+enum DriveType	DRIVE_FIXED (3)	E8h	4h	Fg: Bg:0x95E8FF	
+uint32 DriveSerialNumber	3035691828	ECh	4h	Fg: Bg:0x95E8FF	
+uint32 VolumeLabelOffset	16	F0h	4h	Fg: Bg:0x95E8FF	
+string Data[1]		F4h	1h	Fg: Bg:0x95E8FF	
+string Data[0]	0	F4h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[53]	C:\Users\AndrewRathbun\Desktop\New Text Document.txt	F5h	35h	Fg: Bg:0x95E8FF	
+string LocalBasePath[0]	67 'C'	F5h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[1]	58 ':'	F6h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[2]	92 '\'	F7h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[3]	85 'U'	F8h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[4]	115 's'	F9h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[5]	101 'e'	FAh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[6]	114 'r'	FBh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[7]	115 's'	FCh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[8]	92 '\'	FDh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[9]	65 'A'	FEh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[10]	110 'n'	FFh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[11]	100 'd'	100h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[12]	114 'r'	101h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[13]	101 'e'	102h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[14]	119 'w'	103h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[15]	82 'R'	104h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[16]	97 'a'	105h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[17]	116 't'	106h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[18]	104 'h'	107h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[19]	98 'b'	108h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[20]	117 'u'	109h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[21]	110 'n'	10Ah	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[22]	92 '\'	10Bh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[23]	68 'D'	10Ch	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[24]	101 'e'	10Dh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[25]	115 's'	10Eh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[26]	107 'k'	10Fh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[27]	116 't'	110h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[28]	111 'o'	111h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[29]	112 'p'	112h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[30]	92 '\'	113h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[31]	78 'N'	114h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[32]	101 'e'	115h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[33]	119 'w'	116h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[34]	32 ' '	117h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[35]	84 'T'	118h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[36]	101 'e'	119h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[37]	120 'x'	11Ah	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[38]	116 't'	11Bh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[39]	32 ' '	11Ch	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[40]	68 'D'	11Dh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[41]	111 'o'	11Eh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[42]	99 'c'	11Fh	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[43]	117 'u'	120h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[44]	109 'm'	121h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[45]	101 'e'	122h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[46]	110 'n'	123h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[47]	116 't'	124h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[48]	46 '.'	125h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[49]	116 't'	126h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[50]	120 'x'	127h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[51]	116 't'	128h	1h	Fg: Bg:0x95E8FF	
+string LocalBasePath[52]	0	129h	1h	Fg: Bg:0x95E8FF	
+string CommonPathSuffix[1]		12Ah	1h	Fg: Bg:0x95E8FF	
+string CommonPathSuffix[0]	0	12Ah	1h	Fg: Bg:0x95E8FF	
+struct StringData RELATIVE_PATH	..\..\..\..\..\Desktop\New Text Document.txt	12Bh	5Ah	Fg: Bg:	
+uint16 CountCharacters	44	12Bh	2h	Fg: Bg:	
+wchar_t String[44]	..\..\..\..\..\Desktop\New Text Document.txt	12Dh	58h	Fg: Bg:	
+wchar_t String[0]	46 '.'	12Dh	2h	Fg: Bg:	
+wchar_t String[1]	46 '.'	12Fh	2h	Fg: Bg:	
+wchar_t String[2]	92 '\'	131h	2h	Fg: Bg:	
+wchar_t String[3]	46 '.'	133h	2h	Fg: Bg:	
+wchar_t String[4]	46 '.'	135h	2h	Fg: Bg:	
+wchar_t String[5]	92 '\'	137h	2h	Fg: Bg:	
+wchar_t String[6]	46 '.'	139h	2h	Fg: Bg:	
+wchar_t String[7]	46 '.'	13Bh	2h	Fg: Bg:	
+wchar_t String[8]	92 '\'	13Dh	2h	Fg: Bg:	
+wchar_t String[9]	46 '.'	13Fh	2h	Fg: Bg:	
+wchar_t String[10]	46 '.'	141h	2h	Fg: Bg:	
+wchar_t String[11]	92 '\'	143h	2h	Fg: Bg:	
+wchar_t String[12]	46 '.'	145h	2h	Fg: Bg:	
+wchar_t String[13]	46 '.'	147h	2h	Fg: Bg:	
+wchar_t String[14]	92 '\'	149h	2h	Fg: Bg:	
+wchar_t String[15]	68 'D'	14Bh	2h	Fg: Bg:	
+wchar_t String[16]	101 'e'	14Dh	2h	Fg: Bg:	
+wchar_t String[17]	115 's'	14Fh	2h	Fg: Bg:	
+wchar_t String[18]	107 'k'	151h	2h	Fg: Bg:	
+wchar_t String[19]	116 't'	153h	2h	Fg: Bg:	
+wchar_t String[20]	111 'o'	155h	2h	Fg: Bg:	
+wchar_t String[21]	112 'p'	157h	2h	Fg: Bg:	
+wchar_t String[22]	92 '\'	159h	2h	Fg: Bg:	
+wchar_t String[23]	78 'N'	15Bh	2h	Fg: Bg:	
+wchar_t String[24]	101 'e'	15Dh	2h	Fg: Bg:	
+wchar_t String[25]	119 'w'	15Fh	2h	Fg: Bg:	
+wchar_t String[26]	32 ' '	161h	2h	Fg: Bg:	
+wchar_t String[27]	84 'T'	163h	2h	Fg: Bg:	
+wchar_t String[28]	101 'e'	165h	2h	Fg: Bg:	
+wchar_t String[29]	120 'x'	167h	2h	Fg: Bg:	
+wchar_t String[30]	116 't'	169h	2h	Fg: Bg:	
+wchar_t String[31]	32 ' '	16Bh	2h	Fg: Bg:	
+wchar_t String[32]	68 'D'	16Dh	2h	Fg: Bg:	
+wchar_t String[33]	111 'o'	16Fh	2h	Fg: Bg:	
+wchar_t String[34]	99 'c'	171h	2h	Fg: Bg:	
+wchar_t String[35]	117 'u'	173h	2h	Fg: Bg:	
+wchar_t String[36]	109 'm'	175h	2h	Fg: Bg:	
+wchar_t String[37]	101 'e'	177h	2h	Fg: Bg:	
+wchar_t String[38]	110 'n'	179h	2h	Fg: Bg:	
+wchar_t String[39]	116 't'	17Bh	2h	Fg: Bg:	
+wchar_t String[40]	46 '.'	17Dh	2h	Fg: Bg:	
+wchar_t String[41]	116 't'	17Fh	2h	Fg: Bg:	
+wchar_t String[42]	120 'x'	181h	2h	Fg: Bg:	
+wchar_t String[43]	116 't'	183h	2h	Fg: Bg:	
+struct StringData WORKING_DIR	C:\Users\AndrewRathbun\Desktop	185h	3Eh	Fg: Bg:0x95E8FF	
+uint16 CountCharacters	30	185h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[30]	C:\Users\AndrewRathbun\Desktop	187h	3Ch	Fg: Bg:0x95E8FF	
+wchar_t String[0]	67 'C'	187h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[1]	58 ':'	189h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[2]	92 '\'	18Bh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[3]	85 'U'	18Dh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[4]	115 's'	18Fh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[5]	101 'e'	191h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[6]	114 'r'	193h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[7]	115 's'	195h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[8]	92 '\'	197h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[9]	65 'A'	199h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[10]	110 'n'	19Bh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[11]	100 'd'	19Dh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[12]	114 'r'	19Fh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[13]	101 'e'	1A1h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[14]	119 'w'	1A3h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[15]	82 'R'	1A5h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[16]	97 'a'	1A7h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[17]	116 't'	1A9h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[18]	104 'h'	1ABh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[19]	98 'b'	1ADh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[20]	117 'u'	1AFh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[21]	110 'n'	1B1h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[22]	92 '\'	1B3h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[23]	68 'D'	1B5h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[24]	101 'e'	1B7h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[25]	115 's'	1B9h	2h	Fg: Bg:0x95E8FF	
+wchar_t String[26]	107 'k'	1BBh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[27]	116 't'	1BDh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[28]	111 'o'	1BFh	2h	Fg: Bg:0x95E8FF	
+wchar_t String[29]	112 'p'	1C1h	2h	Fg: Bg:0x95E8FF	
+struct ExtraData sExtraData		1C3h	A9h	Fg: Bg:	
+struct TrackerDataBlock sTrackerDataBlock		1C3h	60h	Fg: Bg:	
+uint32 Size	96	1C3h	4h	Fg: Bg:	
+uint32 Signature	2684354563	1C7h	4h	Fg: Bg:	
+uint32 Length	88	1CBh	4h	Fg: Bg:	
+uint32 Version	0	1CFh	4h	Fg: Bg:	
+byte MachineID[16]	desktop-gnccvrk	1D3h	10h	Fg: Bg:	
+byte MachineID[0]	100 'd'	1D3h	1h	Fg: Bg:	
+byte MachineID[1]	101 'e'	1D4h	1h	Fg: Bg:	
+byte MachineID[2]	115 's'	1D5h	1h	Fg: Bg:	
+byte MachineID[3]	107 'k'	1D6h	1h	Fg: Bg:	
+byte MachineID[4]	116 't'	1D7h	1h	Fg: Bg:	
+byte MachineID[5]	111 'o'	1D8h	1h	Fg: Bg:	
+byte MachineID[6]	112 'p'	1D9h	1h	Fg: Bg:	
+byte MachineID[7]	45 '-'	1DAh	1h	Fg: Bg:	
+byte MachineID[8]	103 'g'	1DBh	1h	Fg: Bg:	
+byte MachineID[9]	110 'n'	1DCh	1h	Fg: Bg:	
+byte MachineID[10]	99 'c'	1DDh	1h	Fg: Bg:	
+byte MachineID[11]	99 'c'	1DEh	1h	Fg: Bg:	
+byte MachineID[12]	118 'v'	1DFh	1h	Fg: Bg:	
+byte MachineID[13]	114 'r'	1E0h	1h	Fg: Bg:	
+byte MachineID[14]	107 'k'	1E1h	1h	Fg: Bg:	
+byte MachineID[15]	0	1E2h	1h	Fg: Bg:	
+GUID FileDroid[16]	{A0EDA9FE-DBEF-4D91-BF7A-EABD0971F8DF}	1E3h	10h	Fg: Bg:	
+GUID FileDroid[0]	254	1E3h	1h	Fg: Bg:	
+GUID FileDroid[1]	169	1E4h	1h	Fg: Bg:	
+GUID FileDroid[2]	237	1E5h	1h	Fg: Bg:	
+GUID FileDroid[3]	160	1E6h	1h	Fg: Bg:	
+GUID FileDroid[4]	239	1E7h	1h	Fg: Bg:	
+GUID FileDroid[5]	219	1E8h	1h	Fg: Bg:	
+GUID FileDroid[6]	145	1E9h	1h	Fg: Bg:	
+GUID FileDroid[7]	77	1EAh	1h	Fg: Bg:	
+GUID FileDroid[8]	191	1EBh	1h	Fg: Bg:	
+GUID FileDroid[9]	122	1ECh	1h	Fg: Bg:	
+GUID FileDroid[10]	234	1EDh	1h	Fg: Bg:	
+GUID FileDroid[11]	189	1EEh	1h	Fg: Bg:	
+GUID FileDroid[12]	9	1EFh	1h	Fg: Bg:	
+GUID FileDroid[13]	113	1F0h	1h	Fg: Bg:	
+GUID FileDroid[14]	248	1F1h	1h	Fg: Bg:	
+GUID FileDroid[15]	223	1F2h	1h	Fg: Bg:	
+GUID VolumeDroid[16]	{1884E423-86BA-11EC-9E53-EC63D7728336}	1F3h	10h	Fg: Bg:	
+GUID VolumeDroid[0]	35	1F3h	1h	Fg: Bg:	
+GUID VolumeDroid[1]	228	1F4h	1h	Fg: Bg:	
+GUID VolumeDroid[2]	132	1F5h	1h	Fg: Bg:	
+GUID VolumeDroid[3]	24	1F6h	1h	Fg: Bg:	
+GUID VolumeDroid[4]	186	1F7h	1h	Fg: Bg:	
+GUID VolumeDroid[5]	134	1F8h	1h	Fg: Bg:	
+GUID VolumeDroid[6]	236	1F9h	1h	Fg: Bg:	
+GUID VolumeDroid[7]	17	1FAh	1h	Fg: Bg:	
+GUID VolumeDroid[8]	158	1FBh	1h	Fg: Bg:	
+GUID VolumeDroid[9]	83	1FCh	1h	Fg: Bg:	
+GUID VolumeDroid[10]	236	1FDh	1h	Fg: Bg:	
+GUID VolumeDroid[11]	99	1FEh	1h	Fg: Bg:	
+GUID VolumeDroid[12]	215	1FFh	1h	Fg: Bg:	
+GUID VolumeDroid[13]	114	200h	1h	Fg: Bg:	
+GUID VolumeDroid[14]	131	201h	1h	Fg: Bg:	
+GUID VolumeDroid[15]	54	202h	1h	Fg: Bg:	
+GUID FileDroidBirth[16]	{A0EDA9FE-DBEF-4D91-BF7A-EABD0971F8DF}	203h	10h	Fg: Bg:	
+GUID FileDroidBirth[0]	254	203h	1h	Fg: Bg:	
+GUID FileDroidBirth[1]	169	204h	1h	Fg: Bg:	
+GUID FileDroidBirth[2]	237	205h	1h	Fg: Bg:	
+GUID FileDroidBirth[3]	160	206h	1h	Fg: Bg:	
+GUID FileDroidBirth[4]	239	207h	1h	Fg: Bg:	
+GUID FileDroidBirth[5]	219	208h	1h	Fg: Bg:	
+GUID FileDroidBirth[6]	145	209h	1h	Fg: Bg:	
+GUID FileDroidBirth[7]	77	20Ah	1h	Fg: Bg:	
+GUID FileDroidBirth[8]	191	20Bh	1h	Fg: Bg:	
+GUID FileDroidBirth[9]	122	20Ch	1h	Fg: Bg:	
+GUID FileDroidBirth[10]	234	20Dh	1h	Fg: Bg:	
+GUID FileDroidBirth[11]	189	20Eh	1h	Fg: Bg:	
+GUID FileDroidBirth[12]	9	20Fh	1h	Fg: Bg:	
+GUID FileDroidBirth[13]	113	210h	1h	Fg: Bg:	
+GUID FileDroidBirth[14]	248	211h	1h	Fg: Bg:	
+GUID FileDroidBirth[15]	223	212h	1h	Fg: Bg:	
+GUID VolumeDroidBirth[16]	{1884E423-86BA-11EC-9E53-EC63D7728336}	213h	10h	Fg: Bg:	
+GUID VolumeDroidBirth[0]	35	213h	1h	Fg: Bg:	
+GUID VolumeDroidBirth[1]	228	214h	1h	Fg: Bg:	
+GUID VolumeDroidBirth[2]	132	215h	1h	Fg: Bg:	
+GUID VolumeDroidBirth[3]	24	216h	1h	Fg: Bg:	
+GUID VolumeDroidBirth[4]	186	217h	1h	Fg: Bg:	
+GUID VolumeDroidBirth[5]	134	218h	1h	Fg: Bg:	
+GUID VolumeDroidBirth[6]	236	219h	1h	Fg: Bg:	
+GUID VolumeDroidBirth[7]	17	21Ah	1h	Fg: Bg:	
+GUID VolumeDroidBirth[8]	158	21Bh	1h	Fg: Bg:	
+GUID VolumeDroidBirth[9]	83	21Ch	1h	Fg: Bg:	
+GUID VolumeDroidBirth[10]	236	21Dh	1h	Fg: Bg:	
+GUID VolumeDroidBirth[11]	99	21Eh	1h	Fg: Bg:	
+GUID VolumeDroidBirth[12]	215	21Fh	1h	Fg: Bg:	
+GUID VolumeDroidBirth[13]	114	220h	1h	Fg: Bg:	
+GUID VolumeDroidBirth[14]	131	221h	1h	Fg: Bg:	
+GUID VolumeDroidBirth[15]	54	222h	1h	Fg: Bg:	
+struct PropertyStoreDataBlock sPropertyStoreDataBlock		223h	45h	Fg: Bg:	
+uint32 Size	69	223h	4h	Fg: Bg:	
+uint32 Signature	2684354569	227h	4h	Fg: Bg:	
+struct PropertyStoreList sPropertyStoreList		22Bh	39h	Fg: Bg:	
+uint32 Size	57	22Bh	4h	Fg: Bg:	
+uint32 Version	1397773105	22Fh	4h	Fg: Bg:	
+GUID FormatID[16]	{446D16B1-8DAD-4870-A748-402EA43D788C}	233h	10h	Fg: Bg:	
+GUID FormatID[0]	177	233h	1h	Fg: Bg:	
+GUID FormatID[1]	22	234h	1h	Fg: Bg:	
+GUID FormatID[2]	109	235h	1h	Fg: Bg:	
+GUID FormatID[3]	68	236h	1h	Fg: Bg:	
+GUID FormatID[4]	173	237h	1h	Fg: Bg:	
+GUID FormatID[5]	141	238h	1h	Fg: Bg:	
+GUID FormatID[6]	112	239h	1h	Fg: Bg:	
+GUID FormatID[7]	72	23Ah	1h	Fg: Bg:	
+GUID FormatID[8]	167	23Bh	1h	Fg: Bg:	
+GUID FormatID[9]	72	23Ch	1h	Fg: Bg:	
+GUID FormatID[10]	64	23Dh	1h	Fg: Bg:	
+GUID FormatID[11]	46	23Eh	1h	Fg: Bg:	
+GUID FormatID[12]	164	23Fh	1h	Fg: Bg:	
+GUID FormatID[13]	61	240h	1h	Fg: Bg:	
+GUID FormatID[14]	120	241h	1h	Fg: Bg:	
+GUID FormatID[15]	140	242h	1h	Fg: Bg:	
+struct PropertyIntegerValue sPropertyIntegerValue		243h	1Dh	Fg: Bg:	
+uint32 Size	29	243h	4h	Fg: Bg:	
+uint32 ID	104	247h	4h	Fg: Bg:	
+ubyte Reserved	0	24Bh	1h	Fg: Bg:	
+struct TypedPropertyValue Value		24Ch	14h	Fg: Bg:	
+enum TYPE Type	VT_CLSID (72)	24Ch	2h	Fg: Bg:	
+uint16 Padding	0	24Eh	2h	Fg: Bg:	
+GUID CLSID[16]	{BBBAB51B-2A04-434B-9B7E-65F20FD3482E}	250h	10h	Fg: Bg:	
+GUID CLSID[0]	27	250h	1h	Fg: Bg:	
+GUID CLSID[1]	181	251h	1h	Fg: Bg:	
+GUID CLSID[2]	186	252h	1h	Fg: Bg:	
+GUID CLSID[3]	187	253h	1h	Fg: Bg:	
+GUID CLSID[4]	4	254h	1h	Fg: Bg:	
+GUID CLSID[5]	42	255h	1h	Fg: Bg:	
+GUID CLSID[6]	75	256h	1h	Fg: Bg:	
+GUID CLSID[7]	67	257h	1h	Fg: Bg:	
+GUID CLSID[8]	155	258h	1h	Fg: Bg:	
+GUID CLSID[9]	126	259h	1h	Fg: Bg:	
+GUID CLSID[10]	101	25Ah	1h	Fg: Bg:	
+GUID CLSID[11]	242	25Bh	1h	Fg: Bg:	
+GUID CLSID[12]	15	25Ch	1h	Fg: Bg:	
+GUID CLSID[13]	211	25Dh	1h	Fg: Bg:	
+GUID CLSID[14]	72	25Eh	1h	Fg: Bg:	
+GUID CLSID[15]	46	25Fh	1h	Fg: Bg:	
+uint32 TerminalBlock	0	260h	4h	Fg: Bg:	
+uint32 TerminalBlock	0	264h	4h	Fg: Bg:	
+uint32 TerminalBlock	0	268h	4h	Fg: Bg:	
