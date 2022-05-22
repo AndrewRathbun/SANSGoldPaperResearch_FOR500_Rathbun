@@ -1,0 +1,12 @@
+C:\ProgramData\USOPrivate\UpdateStore\store.db
+C:\Program Files\WindowsApps\Microsoft.BingWeather_4.25.20211.0_x64__8wekyb3d8bbwe\Configuration\configuration.sqlite
+C:\ProgramData\Microsoft\Windows\AppRepository\StateRepository-Deployment.srd
+C:\Users\CFUser\AppData\Local\Temp\18e190413af045db88dfbd29609eb877.db
+C:\Users\CFUser\AppData\Local\Temp\offline
+C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons
+C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\History
+C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Login Data
+C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Media History
+C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Web Data
+C:\Users\CFUser\AppData\Local\Microsoft\OneDrive\logs\Personal\telemetryCache.otc.session
+C:\Windows\System32\config\systemprofile\AppData\Local\Microsoft\Windows\Notifications\wpndatabase.db
