@@ -1,0 +1,184 @@
+***** Repair of database '.\Windows.edb' started [ESENT version 10.00.19044.0000, (ESENT[10.0.19044.0] RETAIL RTM MBCS)]
+
+search for 'ERROR:' to find errors
+search for 'WARNING:' to find warnings
+checking database header
+ERROR: database was not shutdown cleanly (Dirty Shutdown)
+database file ".\Windows.edb" is 25165824 bytes
+database file ".\Windows.edb" is 25165824 bytes on disk.
+Creating 64 threads
+checking SystemRoot
+SystemRoot (OE)
+SystemRoot (AE)
+ERROR: page 3: dbtime is larger than database dbtime (0x6c95, 0x51ef)
+checking system tables
+MSysObjects 
+MSysObjectsShadow 
+MSysObjects:	4356:	ERROR: page 14: dbtime is larger than database dbtime (0x6ca3, 0x51ef)
+MSysObjects Name
+MSysObjects RootObjects
+MSysObjectsShadow:	4356:	ERROR: page 28: dbtime is larger than database dbtime (0x6ca5, 0x51ef)
+MSysObjects:	4356:	ERROR: page 18: dbtime is larger than database dbtime (0x6ca4, 0x51ef)
+MSysObjects:	4356:	ERROR: page 10: dbtime is larger than database dbtime (0x6c99, 0x51ef)
+rebuilding and comparing indexes
+checking logical consistency of system tables
+MSysObjects
+MSysObjectsShadow
+MSysObjids
+CatalogManager_Properties:	4356:	checking table "CatalogManager_Properties" (8)
+CatalogStorageManager:	17092:	checking table "CatalogStorageManager" (9)
+CatalogManager_Properties:	4356:	checking data
+CatalogStorageManager:	17092:	checking data
+CatalogManager_Properties:	4356:	integrity-check of table "CatalogManager_Properties" (8) finishes with error 0 (0x0) after 0 seconds
+CatalogStorageManager:	17092:	integrity-check of table "CatalogStorageManager" (9) finishes with error 0 (0x0) after 0 seconds
+MSysLocales:	17092:	checking table "MSysLocales" (7)
+MSysLocales:	17092:	checking data
+MSysLocales:	17092:	integrity-check of table "MSysLocales" (7) finishes with error 0 (0x0) after 0 seconds
+MSysObjids:	17092:	checking table "MSysObjids" (6)
+MSysObjids:	17092:	checking data
+ChangeTracking:	4356:	checking table "ChangeTracking" (42)
+MSysObjids:	17092:	ERROR: page 29: dbtime is larger than database dbtime (0x6c9c, 0x51ef)
+MSysObjids:	17092:	integrity-check of table "MSysObjids" (6) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1:	17092:	checking table "SystemIndex_1" (16)
+ChangeTracking:	4356:	ERROR: page 134: dbtime is larger than database dbtime (0x5edc, 0x51ef)
+ChangeTracking:	4356:	ERROR: page 135: dbtime is larger than database dbtime (0x5edb, 0x51ef)
+ChangeTracking:	4356:	checking data
+SystemIndex_1:	17092:	checking long value tree (19)
+ChangeTracking:	4356:	ERROR: page 240: dbtime is larger than database dbtime (0x5ed9, 0x51ef)
+ChangeTracking:	4356:	ERROR: page 146: dbtime is larger than database dbtime (0x6f6b, 0x51ef)
+ChangeTracking:	4356:	integrity-check of table "ChangeTracking" (42) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1:	17092:	ERROR: page 142: dbtime is larger than database dbtime (0x6cb7, 0x51ef)
+SystemIndex_1_DATA_14:	4356:	checking table "SystemIndex_1_DATA_14" (47)
+SystemIndex_1:	17092:	checking data
+SystemIndex_1:	17092:	ERROR: page 42: dbtime is larger than database dbtime (0x6cb8, 0x51ef)
+SystemIndex_1_DATA_14:	4356:	checking data
+SystemIndex_1:	17092:	checking LV refcounts
+SystemIndex_1:	17092:	integrity-check of table "SystemIndex_1" (16) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_15:	17092:	checking table "SystemIndex_1_DATA_15" (49)
+SystemIndex_1_DATA_15:	17092:	checking data
+SystemIndex_1_DATA_15:	17092:	integrity-check of table "SystemIndex_1_DATA_15" (49) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_16:	17092:	checking table "SystemIndex_1_DATA_16" (51)
+SystemIndex_1_DATA_16:	17092:	checking data
+SystemIndex_1_DATA_16:	17092:	integrity-check of table "SystemIndex_1_DATA_16" (51) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_21:	17092:	checking table "SystemIndex_1_DATA_21" (53)
+SystemIndex_1_DATA_21:	17092:	checking data
+SystemIndex_1_DATA_21:	17092:	ERROR: page 148: dbtime is larger than database dbtime (0x647d, 0x51ef)
+SystemIndex_1_DATA_21:	17092:	integrity-check of table "SystemIndex_1_DATA_21" (53) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_22:	17092:	checking table "SystemIndex_1_DATA_22" (55)
+SystemIndex_1_DATA_22:	17092:	checking data
+SystemIndex_1_DATA_22:	17092:	ERROR: page 183: dbtime is larger than database dbtime (0x6cac, 0x51ef)
+SystemIndex_1_DATA_14:	4356:	integrity-check of table "SystemIndex_1_DATA_14" (47) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_22:	17092:	integrity-check of table "SystemIndex_1_DATA_22" (55) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_14:	4356:	checking table "SystemIndex_1_OCC_14" (48)
+SystemIndex_1_OCC_15:	17092:	checking table "SystemIndex_1_OCC_15" (50)
+SystemIndex_1_OCC_14:	4356:	checking data
+SystemIndex_1_OCC_15:	17092:	checking data
+SystemIndex_1_OCC_14:	4356:	integrity-check of table "SystemIndex_1_OCC_14" (48) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_15:	17092:	integrity-check of table "SystemIndex_1_OCC_15" (50) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_16:	4356:	checking table "SystemIndex_1_OCC_16" (52)
+SystemIndex_1_OCC_21:	17092:	checking table "SystemIndex_1_OCC_21" (54)
+SystemIndex_1_OCC_21:	17092:	checking data
+SystemIndex_1_OCC_16:	4356:	checking data
+SystemIndex_1_OCC_21:	17092:	ERROR: page 182: dbtime is larger than database dbtime (0x647c, 0x51ef)
+SystemIndex_1_OCC_21:	17092:	integrity-check of table "SystemIndex_1_OCC_21" (54) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_16:	4356:	integrity-check of table "SystemIndex_1_OCC_16" (52) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_22:	17092:	checking table "SystemIndex_1_OCC_22" (56)
+SystemIndex_1_OCC_22:	17092:	checking data
+SystemIndex_1_OCC_22:	17092:	ERROR: page 184: dbtime is larger than database dbtime (0x6cab, 0x51ef)
+SystemIndex_1_OCC_22:	17092:	integrity-check of table "SystemIndex_1_OCC_22" (56) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_Properties:	4356:	checking table "SystemIndex_1_Properties" (15)
+SystemIndex_Gthr:	17092:	checking table "SystemIndex_Gthr" (10)
+SystemIndex_1_Properties:	4356:	ERROR: page 50: dbtime is larger than database dbtime (0x6cae, 0x51ef)
+SystemIndex_1_Properties:	4356:	checking long value tree (18)
+SystemIndex_Gthr:	17092:	ERROR: page 35: dbtime is larger than database dbtime (0x7bf5, 0x51ef)
+SystemIndex_1_Properties:	4356:	ERROR: page 54: dbtime is larger than database dbtime (0x6493, 0x51ef)
+SystemIndex_1_Properties:	4356:	ERROR: page 52: dbtime is larger than database dbtime (0x6496, 0x51ef)
+SystemIndex_Gthr:	17092:	checking long value tree (41)
+SystemIndex_Gthr:	17092:	checking data
+SystemIndex_Gthr:	17092:	ERROR: page 33: dbtime is larger than database dbtime (0x7bf4, 0x51ef)
+SystemIndex_Gthr:	17092:	ERROR: page 36: dbtime is larger than database dbtime (0x8de1, 0x51ef)
+SystemIndex_Gthr:	17092:	ERROR: page 166: dbtime is larger than database dbtime (0x8bae, 0x51ef)
+SystemIndex_1_Properties:	4356:	ERROR: page 55: dbtime is larger than database dbtime (0x51fe, 0x51ef)
+SystemIndex_1_Properties:	4356:	ERROR: page 56: dbtime is larger than database dbtime (0x5201, 0x51ef)
+SystemIndex_Gthr:	17092:	ERROR: page 168: dbtime is larger than database dbtime (0x8624, 0x51ef)
+SystemIndex_Gthr:	17092:	ERROR: page 167: dbtime is larger than database dbtime (0x8758, 0x51ef)
+SystemIndex_Gthr:	17092:	ERROR: page 169: dbtime is larger than database dbtime (0x8a55, 0x51ef)
+SystemIndex_Gthr:	17092:	ERROR: page 171: dbtime is larger than database dbtime (0x8b9a, 0x51ef)
+SystemIndex_Gthr:	17092:	ERROR: page 173: dbtime is larger than database dbtime (0x8bb4, 0x51ef)
+SystemIndex_Gthr:	17092:	checking index "indexRecovery" (12)
+SystemIndex_Gthr:	17092:	checking index "indexDocID" (11)
+SystemIndex_Gthr:	17092:	ERROR: page 192: dbtime is larger than database dbtime (0x70c3, 0x51ef)
+SystemIndex_Gthr:	17092:	ERROR: page 37: dbtime is larger than database dbtime (0x70c6, 0x51ef)
+SystemIndex_Gthr:	17092:	ERROR: page 193: dbtime is larger than database dbtime (0x8afc, 0x51ef)
+SystemIndex_Gthr:	17092:	ERROR: page 194: dbtime is larger than database dbtime (0x85ce, 0x51ef)
+SystemIndex_1_Properties:	4356:	ERROR: page 112: dbtime is larger than database dbtime (0x6486, 0x51ef)
+SystemIndex_Gthr:	17092:	ERROR: page 195: dbtime is larger than database dbtime (0x8afa, 0x51ef)
+SystemIndex_Gthr:	17092:	checking LV refcounts
+SystemIndex_1_Properties:	4356:	ERROR: page 113: dbtime is larger than database dbtime (0x648f, 0x51ef)
+SystemIndex_Gthr:	17092:	rebuilding and comparing indexes
+SystemIndex_1_Properties:	4356:	ERROR: page 114: dbtime is larger than database dbtime (0x6496, 0x51ef)
+SystemIndex_1_Properties:	4356:	ERROR: page 115: dbtime is larger than database dbtime (0x6496, 0x51ef)
+SystemIndex_1_Properties:	4356:	checking data
+SystemIndex_1_Properties:	4356:	ERROR: page 41: dbtime is larger than database dbtime (0x6cb1, 0x51ef)
+SystemIndex_1_Properties:	4356:	ERROR: page 51: dbtime is larger than database dbtime (0x6cb9, 0x51ef)
+SystemIndex_1_Properties:	4356:	ERROR: page 122: dbtime is larger than database dbtime (0x6cb1, 0x51ef)
+SystemIndex_1_Properties:	4356:	ERROR: page 123: dbtime is larger than database dbtime (0x6cb5, 0x51ef)
+SystemIndex_1_Properties:	4356:	checking LV refcounts
+SystemIndex_1_Properties:	4356:	integrity-check of table "SystemIndex_1_Properties" (15) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_GthrAppOwner:	4356:	checking table "SystemIndex_GthrAppOwner" (14)
+SystemIndex_Gthr:	17092:	integrity-check of table "SystemIndex_Gthr" (10) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_GthrAppOwner:	4356:	checking data
+SystemIndex_GthrPth:	17092:	checking table "SystemIndex_GthrPth" (13)
+SystemIndex_GthrPth:	17092:	checking data
+SystemIndex_GthrPth:	17092:	ERROR: page 39: dbtime is larger than database dbtime (0x8ac3, 0x51ef)
+SystemIndex_GthrAppOwner:	4356:	integrity-check of table "SystemIndex_GthrAppOwner" (14) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_GthrPth:	17092:	integrity-check of table "SystemIndex_GthrPth" (13) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_PropertyStore:	4356:	checking table "SystemIndex_PropertyStore" (17)
+SystemIndex_PropertyStore:	4356:	ERROR: page 60: dbtime is larger than database dbtime (0x8cc0, 0x51ef)
+SystemIndex_PropertyStore:	4356:	ERROR: space allocation error (OE): page 190 is available to objid 1
+SystemIndex_PropertyStore:	4356:	ERROR: node [60:5]: leaf node check failed
+SystemIndex_PropertyStore:	4356:		Data table will be rebuilt
+SystemIndex_PropertyStore:	4356:		Long-Value table will be rebuilt
+SystemIndex_PropertyStore:	4356:		Indexes will be rebuilt
+SystemIndex_PropertyStore:	4356:		Long-Value refcounts will be rebuilt
+SystemIndex_PropertyStore:	4356:	table "SystemIndex_PropertyStore" is corrupted
+SystemIndex_PropertyStore:	4356:		data: 17 (43)
+SystemIndex_PropertyStore:	4356:		long values: 34 (147)
+SystemIndex_PropertyStore:	4356:		primary index
+SystemIndex_PropertyStore:	4356:	ERROR: integrity-check of table "SystemIndex_PropertyStore" (17) finishes with error -1206 (0xfffffb4a) after 0 seconds
+WARNING: Database file is too big (expected 510 pages, file is 766 pages)
+changing signature of .\Windows.edb
+new DB signature is:
+Create time:Create time:02/25/2022 13:21:26.076 Rand:2288398600 Computer:
+scanning the database from page 1 to page 766
+changing signature of .\Windows.edb
+new DB signature is:
+Create time:Create time:02/25/2022 13:21:26.186 Rand:1978787661 Computer:
+
+Deleting unicode fixup table.
+
+Deleting MSObjids.
+
+Deleting MSysLocales.
+repairing table "SystemIndex_PropertyStore"
+rebuilding data
+creating new FDP with 6 pages starting at 185
+table SystemIndex_PropertyStore (17). new pgnoFDP is 185
+b-tree rebuilt with 36 data pages
+rebuilding long value tree
+creating new FDP with 3 pages starting at 214
+LV (34). new pgnoFDP is 214
+b-tree rebuilt with 1 data pages
+fixing long value tree
+fixing records
+fixing long value refcounts
+rebuilding indexes
+Closing and detaching database (for MSO dependent table fixups).
+Reattaching database (for MSO dependent table fixups).
+
+Repair completed. Database corruption has been repaired!
+
+
+
+***** Eseutil completed in 1 seconds
+

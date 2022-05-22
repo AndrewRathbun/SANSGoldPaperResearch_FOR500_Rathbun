@@ -1,0 +1,216 @@
+***** Repair of database '.\Windows.edb' started [ESENT version 10.00.22000.0000, (ESENT[10.0.22000.0] RETAIL RTM MBCS)]
+
+search for 'ERROR:' to find errors
+search for 'WARNING:' to find warnings
+checking database header
+ERROR: database was not shutdown cleanly (Dirty Shutdown)
+database file ".\Windows.edb" is 33554432 bytes
+database file ".\Windows.edb" is 33554432 bytes on disk.
+Creating 48 threads
+checking SystemRoot
+SystemRoot (OE)
+SystemRoot (AE)
+ERROR: page 3: dbtime is larger than database dbtime (0xae2d, 0x7ccb)
+checking system tables
+MSysObjects 
+MSysObjectsShadow 
+MSysObjects:	21548:	ERROR: page 14: dbtime is larger than database dbtime (0xae3b, 0x7ccb)
+MSysObjects Name
+MSysObjects RootObjects
+MSysObjectsShadow:	21548:	ERROR: page 28: dbtime is larger than database dbtime (0xae3d, 0x7ccb)
+MSysObjects:	21548:	ERROR: page 18: dbtime is larger than database dbtime (0xae3c, 0x7ccb)
+MSysObjects:	21548:	ERROR: page 10: dbtime is larger than database dbtime (0xae31, 0x7ccb)
+rebuilding and comparing indexes
+checking logical consistency of system tables
+MSysObjects
+MSysObjectsShadow
+MSysObjids
+CatalogStorageManager:	21548:	checking table "CatalogStorageManager" (8)
+CatalogStorageManager:	21548:	checking data
+CatalogStorageManager:	21548:	integrity-check of table "CatalogStorageManager" (8) finishes with error 0 (0x0) after 0 seconds
+ChangeTracking:	21548:	checking table "ChangeTracking" (40)
+ChangeTracking:	21548:	ERROR: page 90: dbtime is larger than database dbtime (0xa760, 0x7ccb)
+ChangeTracking:	21548:	ERROR: page 91: dbtime is larger than database dbtime (0xa854, 0x7ccb)
+ChangeTracking:	21548:	checking data
+ChangeTracking:	21548:	ERROR: page 396: dbtime is larger than database dbtime (0xa853, 0x7ccb)
+ChangeTracking:	21548:	ERROR: page 94: dbtime is larger than database dbtime (0xc52b, 0x7ccb)
+ChangeTracking:	21548:	integrity-check of table "ChangeTracking" (40) finishes with error 0 (0x0) after 0 seconds
+MSysLocales:	21548:	checking table "MSysLocales" (7)
+MSysLocales:	21548:	checking data
+MSysLocales:	21548:	integrity-check of table "MSysLocales" (7) finishes with error 0 (0x0) after 0 seconds
+MSysObjids:	21548:	checking table "MSysObjids" (6)
+MSysObjids:	21548:	checking data
+MSysObjids:	21548:	ERROR: page 29: dbtime is larger than database dbtime (0xae34, 0x7ccb)
+MSysObjids:	21548:	integrity-check of table "MSysObjids" (6) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1:	21548:	checking table "SystemIndex_1" (16)
+SystemIndex_1:	21548:	checking long value tree (18)
+SystemIndex_1:	21548:	ERROR: page 304: dbtime is larger than database dbtime (0x7d46, 0x7ccb)
+SystemIndex_1:	21548:	ERROR: page 69: dbtime is larger than database dbtime (0x7d44, 0x7ccb)
+SystemIndex_1:	21548:	ERROR: page 308: dbtime is larger than database dbtime (0xae5f, 0x7ccb)
+SystemIndex_1:	21548:	checking data
+SystemIndex_1:	21548:	ERROR: page 42: dbtime is larger than database dbtime (0xae12, 0x7ccb)
+SystemIndex_1:	21548:	checking LV refcounts
+SystemIndex_1:	21548:	integrity-check of table "SystemIndex_1" (16) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_14:	21548:	checking table "SystemIndex_1_DATA_14" (45)
+SystemIndex_1_DATA_14:	21548:	checking data
+SystemIndex_1_DATA_14:	21548:	integrity-check of table "SystemIndex_1_DATA_14" (45) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_15:	21548:	checking table "SystemIndex_1_DATA_15" (47)
+SystemIndex_1_DATA_15:	21548:	checking data
+SystemIndex_1_DATA_15:	21548:	integrity-check of table "SystemIndex_1_DATA_15" (47) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_16:	21548:	checking table "SystemIndex_1_DATA_16" (49)
+SystemIndex_1_DATA_16:	21548:	checking data
+SystemIndex_1_DATA_16:	21548:	integrity-check of table "SystemIndex_1_DATA_16" (49) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_17:	21548:	checking table "SystemIndex_1_DATA_17" (51)
+SystemIndex_1_DATA_17:	21548:	checking data
+SystemIndex_1_DATA_17:	21548:	integrity-check of table "SystemIndex_1_DATA_17" (51) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_21:	21548:	checking table "SystemIndex_1_DATA_21" (53)
+SystemIndex_1_DATA_21:	21548:	checking data
+SystemIndex_1_DATA_21:	21548:	ERROR: page 163: dbtime is larger than database dbtime (0x8e60, 0x7ccb)
+SystemIndex_1_DATA_21:	21548:	integrity-check of table "SystemIndex_1_DATA_21" (53) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_22:	21548:	checking table "SystemIndex_1_DATA_22" (55)
+SystemIndex_1_DATA_22:	21548:	checking data
+SystemIndex_1_DATA_22:	21548:	ERROR: page 135: dbtime is larger than database dbtime (0xae45, 0x7ccb)
+SystemIndex_1_DATA_22:	21548:	integrity-check of table "SystemIndex_1_DATA_22" (55) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_14:	21548:	checking table "SystemIndex_1_OCC_14" (46)
+SystemIndex_1_OCC_14:	21548:	checking data
+SystemIndex_1_OCC_14:	21548:	integrity-check of table "SystemIndex_1_OCC_14" (46) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_15:	21548:	checking table "SystemIndex_1_OCC_15" (48)
+SystemIndex_1_OCC_15:	21548:	checking data
+SystemIndex_1_OCC_15:	21548:	integrity-check of table "SystemIndex_1_OCC_15" (48) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_16:	21548:	checking table "SystemIndex_1_OCC_16" (50)
+SystemIndex_1_OCC_16:	21548:	checking data
+SystemIndex_1_OCC_16:	21548:	integrity-check of table "SystemIndex_1_OCC_16" (50) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_17:	21548:	checking table "SystemIndex_1_OCC_17" (52)
+SystemIndex_1_OCC_17:	21548:	checking data
+SystemIndex_1_OCC_17:	21548:	integrity-check of table "SystemIndex_1_OCC_17" (52) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_21:	21548:	checking table "SystemIndex_1_OCC_21" (54)
+SystemIndex_1_OCC_21:	21548:	checking data
+SystemIndex_1_OCC_21:	21548:	ERROR: page 164: dbtime is larger than database dbtime (0x8e5f, 0x7ccb)
+SystemIndex_1_OCC_21:	21548:	integrity-check of table "SystemIndex_1_OCC_21" (54) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_22:	21548:	checking table "SystemIndex_1_OCC_22" (56)
+SystemIndex_1_OCC_22:	21548:	checking data
+SystemIndex_1_OCC_22:	21548:	ERROR: page 165: dbtime is larger than database dbtime (0xae44, 0x7ccb)
+SystemIndex_1_OCC_22:	21548:	integrity-check of table "SystemIndex_1_OCC_22" (56) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_Properties:	21548:	checking table "SystemIndex_1_Properties" (14)
+SystemIndex_1_Properties:	21548:	ERROR: page 49: dbtime is larger than database dbtime (0xae46, 0x7ccb)
+SystemIndex_1_Properties:	21548:	checking long value tree (17)
+SystemIndex_1_Properties:	21548:	ERROR: page 53: dbtime is larger than database dbtime (0xae57, 0x7ccb)
+SystemIndex_1_Properties:	21548:	ERROR: page 51: dbtime is larger than database dbtime (0xae5a, 0x7ccb)
+SystemIndex_1_Properties:	21548:	ERROR: page 56: dbtime is larger than database dbtime (0x8e67, 0x7ccb)
+SystemIndex_1_Properties:	21548:	ERROR: page 58: dbtime is larger than database dbtime (0x8e70, 0x7ccb)
+SystemIndex_1_Properties:	21548:	ERROR: page 362: dbtime is larger than database dbtime (0x8e77, 0x7ccb)
+SystemIndex_1_Properties:	21548:	ERROR: page 363: dbtime is larger than database dbtime (0xae53, 0x7ccb)
+SystemIndex_1_Properties:	21548:	ERROR: page 364: dbtime is larger than database dbtime (0xae5a, 0x7ccb)
+SystemIndex_1_Properties:	21548:	ERROR: page 365: dbtime is larger than database dbtime (0xae5d, 0x7ccb)
+SystemIndex_1_Properties:	21548:	checking data
+SystemIndex_1_Properties:	21548:	ERROR: page 40: dbtime is larger than database dbtime (0xae49, 0x7ccb)
+SystemIndex_1_Properties:	21548:	ERROR: page 120: dbtime is larger than database dbtime (0x7d00, 0x7ccb)
+SystemIndex_1_Properties:	21548:	ERROR: page 121: dbtime is larger than database dbtime (0xae49, 0x7ccb)
+SystemIndex_1_Properties:	21548:	ERROR: page 122: dbtime is larger than database dbtime (0xae5e, 0x7ccb)
+SystemIndex_1_Properties:	21548:	checking LV refcounts
+SystemIndex_1_Properties:	21548:	integrity-check of table "SystemIndex_1_Properties" (14) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_Gthr:	21548:	checking table "SystemIndex_Gthr" (10)
+SystemIndex_Gthr:	21548:	ERROR: page 34: dbtime is larger than database dbtime (0xa303, 0x7ccb)
+SystemIndex_Gthr:	21548:	ERROR: page 35: dbtime is larger than database dbtime (0xc88f, 0x7ccb)
+SystemIndex_Gthr:	21548:	checking data
+SystemIndex_Gthr:	21548:	ERROR: page 33: dbtime is larger than database dbtime (0xc892, 0x7ccb)
+SystemIndex_Gthr:	21548:	ERROR: page 147: dbtime is larger than database dbtime (0xbacf, 0x7ccb)
+SystemIndex_Gthr:	21548:	ERROR: page 150: dbtime is larger than database dbtime (0xc0ae, 0x7ccb)
+SystemIndex_Gthr:	21548:	ERROR: page 149: dbtime is larger than database dbtime (0xc60a, 0x7ccb)
+SystemIndex_Gthr:	21548:	ERROR: page 154: error -1019 on read
+SystemIndex_Gthr:	21548:		Data table will be rebuilt
+SystemIndex_Gthr:	21548:		Indexes will be rebuilt
+SystemIndex_Gthr:	21548:		Long-Value refcounts will be rebuilt
+SystemIndex_Gthr:	21548:	table "SystemIndex_Gthr" is corrupted
+SystemIndex_Gthr:	21548:		data: 10 (33)
+SystemIndex_Gthr:	21548:		primary index
+SystemIndex_Gthr:	21548:		index "indexRecovery": 12 (38)
+SystemIndex_Gthr:	21548:		index "indexDocID": 11 (37)
+SystemIndex_Gthr:	21548:	ERROR: integrity-check of table "SystemIndex_Gthr" (10) finishes with error -1206 (0xfffffb4a) after 0 seconds
+SystemIndex_GthrAppOwner:	21548:	checking table "SystemIndex_GthrAppOwner" (9)
+SystemIndex_GthrAppOwner:	21548:	checking data
+SystemIndex_GthrAppOwner:	21548:	integrity-check of table "SystemIndex_GthrAppOwner" (9) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_GthrPth:	21548:	checking table "SystemIndex_GthrPth" (13)
+SystemIndex_GthrPth:	21548:	checking data
+SystemIndex_GthrPth:	21548:	ERROR: page 39: dbtime is larger than database dbtime (0xc894, 0x7ccb)
+SystemIndex_GthrPth:	21548:	integrity-check of table "SystemIndex_GthrPth" (13) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_PropertyStore:	21548:	checking table "SystemIndex_PropertyStore" (15)
+SystemIndex_PropertyStore:	21548:	ERROR: page 59: dbtime is larger than database dbtime (0x8f04, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 60: dbtime is larger than database dbtime (0x8f01, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	checking long value tree (29)
+SystemIndex_PropertyStore:	21548:	ERROR: page 586: dbtime is larger than database dbtime (0x8efb, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 587: dbtime is larger than database dbtime (0x8ef9, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 162: dbtime is larger than database dbtime (0x8ef6, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	checking data
+SystemIndex_PropertyStore:	21548:	ERROR: page 41: dbtime is larger than database dbtime (0x8e10, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 97: dbtime is larger than database dbtime (0xc87e, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 112: dbtime is larger than database dbtime (0xad4d, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 98: dbtime is larger than database dbtime (0xae0f, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 65: dbtime is larger than database dbtime (0xae0d, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 99: dbtime is larger than database dbtime (0xadf5, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 100: dbtime is larger than database dbtime (0xadf3, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 196: dbtime is larger than database dbtime (0xac90, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 107: dbtime is larger than database dbtime (0xac7f, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 106: dbtime is larger than database dbtime (0xac6d, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 105: dbtime is larger than database dbtime (0xac58, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 104: dbtime is larger than database dbtime (0xac46, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 103: dbtime is larger than database dbtime (0xac32, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 195: dbtime is larger than database dbtime (0xac6a, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 197: dbtime is larger than database dbtime (0xac0e, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 206: dbtime is larger than database dbtime (0xabf7, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 198: dbtime is larger than database dbtime (0xabdd, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 200: dbtime is larger than database dbtime (0xab7c, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 204: dbtime is larger than database dbtime (0xab70, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 201: dbtime is larger than database dbtime (0xab51, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 203: dbtime is larger than database dbtime (0x87a9, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 207: dbtime is larger than database dbtime (0xab01, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 209: dbtime is larger than database dbtime (0xaaef, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 210: dbtime is larger than database dbtime (0xaad2, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 287: dbtime is larger than database dbtime (0xaab3, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 288: dbtime is larger than database dbtime (0xaa8f, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 289: dbtime is larger than database dbtime (0xaa7e, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 290: dbtime is larger than database dbtime (0xaa5a, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 291: dbtime is larger than database dbtime (0xaa35, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 292: dbtime is larger than database dbtime (0xaa11, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 295: dbtime is larger than database dbtime (0xa9ec, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	ERROR: page 383: dbtime is larger than database dbtime (0xa9db, 0x7ccb)
+SystemIndex_PropertyStore:	21548:	checking LV refcounts
+SystemIndex_PropertyStore:	21548:	integrity-check of table "SystemIndex_PropertyStore" (15) finishes with error 0 (0x0) after 0 seconds
+WARNING: Database file is too big (expected 766 pages, file is 1022 pages)
+changing signature of .\Windows.edb
+new DB signature is:
+Create time:Create time:02/25/2022 13:22:55.761 Rand:4136549740 Computer:
+scanning the database from page 1 to page 1022
+page 136 (objidFDP: 10, objidInsert: 10) is owned by objid 55. ignoring
+page 137 (objidFDP: 10, objidInsert: 10) is owned by objid 55. ignoring
+page 138 (objidFDP: 10, objidInsert: 10) is owned by objid 55. ignoring
+changing signature of .\Windows.edb
+new DB signature is:
+Create time:Create time:02/25/2022 13:22:55.864 Rand:701698980 Computer:
+
+Deleting unicode fixup table.
+
+Deleting MSObjids.
+
+Deleting MSysLocales.
+repairing table "SystemIndex_Gthr"
+rebuilding data
+creating new FDP with 3 pages starting at 166
+table SystemIndex_Gthr (10). new pgnoFDP is 166
+b-tree rebuilt with 5 data pages
+fixing records
+fixing long value refcounts
+rebuilding indexes
+creating new FDP with 3 pages starting at 169
+creating new FDP with 3 pages starting at 172
+
+Deleting MSExtentPageCountCache.
+Closing and detaching database (for MSO dependent table fixups).
+Reattaching database (for MSO dependent table fixups).
+
+Repair completed. Database corruption has been repaired!
+
+
+
+***** Eseutil completed in 1 seconds
+

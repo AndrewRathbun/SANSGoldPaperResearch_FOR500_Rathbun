@@ -1,0 +1,216 @@
+ObjidTable	Type	Id	ColtypOrPgnoFDP	SpaceUsage	Flags	PagesOrLocale	RootFlag	RecordOffset	LCMapFlags	KeyMost	LVChunkMax	Name	Stats	TemplateTable	DefaultValue	KeyFldIDs	VarSegMac	ConditionalColumns	TupleLimits	Version	SortID	CallbackData	CallbackDependencies	SeparateLV	SpaceHints	SpaceDeferredLVHints	LocaleName	
+2	1	2	4	80	-1073741824	20	255					MSysObjects																
+2	2	1	4	4	1	1252	42	4				ObjidTable																
+2	2	2	3	2	1	1252	42	4				Type																
+2	2	3	4	4	1	1252	42	4				Id																
+2	2	4	4	4	1	1252	42	4				ColtypOrPgnoFDP																
+2	2	5	4	4	1	1252	42	4				SpaceUsage																
+2	2	6	4	4	1	1252	42	4				Flags																
+2	2	7	4	4	1	1252	42	4				PagesOrLocale																
+2	2	8	1	1	0	1252	42	4				RootFlag																
+2	2	9	3	2	0	1252	42	4				RecordOffset																
+2	2	10	4	4	0	1252	42	4				LCMapFlags																
+2	2	11	17	2	0	1252	42	4				KeyMost																
+2	2	12	4	4	0	1252	42	4				LVChunkMax																
+2	2	128	10	255	1	1252						Name																
+2	2	129	9	255	0	1252						Stats																
+2	2	130	10	255	0	1252						TemplateTable																
+2	2	131	9	255	0	1252						DefaultValue																
+2	2	132	9	255	0	1252						KeyFldIDs																
+2	2	133	9	255	0	1252						VarSegMac																
+2	2	134	9	255	0	1252						ConditionalColumns																
+2	2	135	9	255	0	1252						TupleLimits																
+2	2	136	9	255	0	1252						Version																
+2	2	137	9	255	0	1252						SortID																
+2	2	256	11	0	0	1252						CallbackData																
+2	2	257	11	0	0	1252						CallbackDependencies																
+2	2	258	11	0	0	1252						SeparateLV																
+2	2	259	11	0	0	1252						SpaceHints																
+2	2	260	11	0	0	1252						SpaceDeferredLVHints																
+2	2	261	11	0	0	1252						LocaleName																
+2	3	2	4	80	65585	0	42	10794	197633			Id				00 00 01 00 00 00 02 00 00 00 03 00											65 00 6E 00 2D 00 55 00 53 00	
+2	3	4	7	80	65553	0	42	10794	197633			Name				00 00 01 00 00 00 02 00 00 00 80 00											65 00 6E 00 2D 00 55 00 53 00	
+2	3	5	10	80	65545	0	42	10794	197633			RootObjects				00 00 08 00 00 00 80 00											65 00 6E 00 2D 00 55 00 53 00	
+3	1	3	24	80	-1073741824	5	255					MSysObjectsShadow																
+3	2	1	4	4	1	1252	42	4				ObjidTable																
+3	2	2	3	2	1	1252	42	4				Type																
+3	2	3	4	4	1	1252	42	4				Id																
+3	2	4	4	4	1	1252	42	4				ColtypOrPgnoFDP																
+3	2	5	4	4	1	1252	42	4				SpaceUsage																
+3	2	6	4	4	1	1252	42	4				Flags																
+3	2	7	4	4	1	1252	42	4				PagesOrLocale																
+3	2	8	1	1	0	1252	42	4				RootFlag																
+3	2	9	3	2	0	1252	42	4				RecordOffset																
+3	2	10	4	4	0	1252	42	4				LCMapFlags																
+3	2	11	17	2	0	1252	42	4				KeyMost																
+3	2	12	4	4	0	1252	42	4				LVChunkMax																
+3	2	128	10	255	1	1252						Name																
+3	2	129	9	255	0	1252						Stats																
+3	2	130	10	255	0	1252						TemplateTable																
+3	2	131	9	255	0	1252						DefaultValue																
+3	2	132	9	255	0	1252						KeyFldIDs																
+3	2	133	9	255	0	1252						VarSegMac																
+3	2	134	9	255	0	1252						ConditionalColumns																
+3	2	135	9	255	0	1252						TupleLimits																
+3	2	136	9	255	0	1252						Version																
+3	2	137	9	255	0	1252						SortID																
+3	2	256	11	0	0	1252						CallbackData																
+3	2	257	11	0	0	1252						CallbackDependencies																
+3	2	258	11	0	0	1252						SeparateLV																
+3	2	259	11	0	0	1252						SpaceHints																
+3	2	260	11	0	0	1252						SpaceDeferredLVHints																
+3	2	261	11	0	0	1252						LocaleName																
+3	3	3	24	80	65585	0	42	10794	197633			Id				00 00 01 00 00 00 02 00 00 00 03 00											65 00 6E 00 2D 00 55 00 53 00	
+6	3	6	29	100	65583	0	42	10794	197633			primary				00 00 00 01											65 00 6E 00 2D 00 55 00 53 00	
+6	1	6	29	100	-939524096	0	255					MSysObjids																
+6	2	256	4	4	0	0						objid																
+6	2	257	4	4	0	0						objidTable																
+6	2	258	3	2	0	0						type																
+7	1	7	30	92	-2013265920	0	255					MSysLocales																
+7	2	1	2	1	1	0	42	4				Type																
+7	2	2	4	4	48	0	42	5				iValue			00 00 00 00													
+7	2	128	9	255	0	0						Key																
+7	3	7	30	92	81967	0	42	10794	197633			KeyPrimary				00 00 80 00											65 00 6E 00 2D 00 55 00 53 00	
+8	3	9	35	95	65550	0	42	10794	197633			IdTypeIdBlob				00 00 01 00 00 00 00 01											65 00 6E 00 2D 00 55 00 53 00	
+8	1	8	31	95	0	0	255					SruDbIdMapTable																
+8	2	1	2	1	0	0	42	4				IdType																
+8	2	2	4	4	4	0	42	5				IdIndex																
+8	2	256	11	0	0	0						IdBlob																
+8	3	8	31	95	65583	0	42	10794	197633	5		IdIndex				00 00 02 00											65 00 6E 00 2D 00 55 00 53 00	
+10	1	10	36	95	0	0	255					SruDbCheckpointTable																
+10	2	1	16	16	0	0	42	4				ProviderId																
+10	2	2	4	4	0	0	42	20				CheckpointId																
+10	2	3	4	4	0	0	42	24				NextIncId																
+10	2	128	9	255	0	0						SeqNumber																
+10	2	256	11	0	0	0						RecordSet																
+10	3	10	36	95	65583	0	42	10794	197633	22		IdIdIndex				00 00 01 00 00 00 02 00											65 00 6E 00 2D 00 55 00 53 00	
+10	3	11	40	95	65550	0	42	10794	197633			IdSeqNumberIndex				00 00 01 00 00 00 80 00											65 00 6E 00 2D 00 55 00 53 00	
+12	1	12	47	95	0	10	255					{5C8CF1C7-7257-4F13-B223-970EF5939312}																
+12	2	1	4	4	4	0	42	4				AutoIncId																
+12	2	2	8	8	0	0	42	8				TimeStamp																
+12	2	3	4	4	0	0	42	16				AppId																
+12	2	4	4	4	0	0	42	20				UserId																
+12	2	5	4	4	0	0	42	24				Flags																
+12	2	6	15	8	0	0	42	28				EndTime																
+12	2	7	4	4	0	0	42	36				DurationMS																
+12	2	8	4	4	0	0	42	40				SpanMS																
+12	2	9	4	4	0	0	42	44				TimelineEnd																
+12	2	10	15	8	0	0	42	48				InFocusTimeline																
+12	2	11	15	8	0	0	42	56				UserInputTimeline																
+12	2	12	15	8	0	0	42	64				CompRenderedTimeline																
+12	2	13	15	8	0	0	42	72				CompDirtiedTimeline																
+12	2	14	15	8	0	0	42	80				CompPropagatedTimeline																
+12	2	15	15	8	0	0	42	88				AudioInTimeline																
+12	2	16	15	8	0	0	42	96				AudioOutTimeline																
+12	2	17	15	8	0	0	42	104				CpuTimeline																
+12	2	18	15	8	0	0	42	112				DiskTimeline																
+12	2	19	15	8	0	0	42	120				NetworkTimeline																
+13	1	13	63	95	0	10	255					{5C8CF1C7-7257-4F13-B223-970EF5939312}																
+13	2	1	4	4	4	0	42	4				AutoIncId																
+13	2	2	8	8	0	0	42	8				TimeStamp																
+13	2	3	4	4	0	0	42	16				AppId																
+13	2	4	4	4	0	0	42	20				UserId																
+13	2	5	4	4	0	0	42	24				Flags																
+13	2	6	15	8	0	0	42	28				EndTime																
+13	2	7	4	4	0	0	42	36				DurationMS																
+13	2	8	4	4	0	0	42	40				SpanMS																
+13	2	9	4	4	0	0	42	44				TimelineEnd																
+13	2	10	15	8	0	0	42	48				InFocusTimeline																
+13	2	11	15	8	0	0	42	56				UserInputTimeline																
+13	2	12	15	8	0	0	42	64				CompRenderedTimeline																
+13	2	13	15	8	0	0	42	72				CompDirtiedTimeline																
+13	2	14	15	8	0	0	42	80				CompPropagatedTimeline																
+13	2	15	15	8	0	0	42	88				AudioInTimeline																
+13	2	16	15	8	0	0	42	96				AudioOutTimeline																
+13	2	17	15	8	0	0	42	104				CpuTimeline																
+13	2	18	15	8	0	0	42	112				DiskTimeline																
+13	2	19	15	8	0	0	42	120				NetworkTimeline																
+13	2	20	15	8	0	0	42	128				MBBTimeline																
+13	2	21	4	4	0	0	42	136				InFocusS																
+13	2	22	4	4	0	0	42	140				PSMForegroundS																
+13	2	23	4	4	0	0	42	144				UserInputS																
+13	2	24	4	4	0	0	42	148				CompRenderedS																
+13	2	25	4	4	0	0	42	152				CompDirtiedS																
+13	2	26	4	4	0	0	42	156				CompPropagatedS																
+13	2	27	4	4	0	0	42	160				AudioInS																
+13	2	28	4	4	0	0	42	164				AudioOutS																
+13	2	29	15	8	0	0	42	168				Cycles																
+13	2	30	15	8	0	0	42	176				CyclesBreakdown																
+13	2	31	15	8	0	0	42	184				CyclesAttr																
+13	2	32	15	8	0	0	42	192				CyclesAttrBreakdown																
+13	2	33	15	8	0	0	42	200				CyclesWOB																
+13	2	34	15	8	0	0	42	208				CyclesWOBBreakdown																
+13	2	35	15	8	0	0	42	216				DiskRaw																
+13	2	36	15	8	0	0	42	224				NetworkTailRaw																
+13	2	37	15	8	0	0	42	232				NetworkBytesRaw																
+13	2	38	15	8	0	0	42	240				MBBTailRaw																
+13	2	39	15	8	0	0	42	248				MBBBytesRaw																
+13	2	40	4	4	0	0	42	256				DisplayRequiredS																
+13	2	41	15	8	0	0	42	260				DisplayRequiredTimeline																
+13	2	42	15	8	0	0	42	268				KeyboardInputTimeline																
+13	2	43	4	4	0	0	42	276				KeyboardInputS																
+13	2	44	4	4	0	0	42	280				MouseInputS																
+13	3	13	63	95	65583	0	42	10794	197633	14		TimeStamp				00 00 02 00 00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+13	3	14	64	95	65550	0	42	10794	197633			UserIdTimeStamp				00 00 04 00 00 00 02 00 00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+13	3	15	65	95	65550	0	42	10794	197633			AutoIncIdIndex				00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+16	1	16	111	95	0	10	255					{7ACBBAA3-D029-4BE4-9A7A-0885927F1D8F}																
+16	2	1	4	4	4	0	42	4				AutoIncId																
+16	2	2	8	8	0	0	42	8				TimeStamp																
+16	2	3	4	4	0	0	42	16				AppId																
+16	2	4	4	4	0	0	42	20				UserId																
+16	2	5	4	4	0	0	42	24				Flags																
+16	2	6	15	8	0	0	42	28				StartTime																
+16	2	7	15	8	0	0	42	36				EndTime																
+16	2	128	9	255	0	0						Usage																
+16	3	16	111	95	65583	0	42	10794	197633	14		TimeStamp				00 00 02 00 00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+16	3	17	112	95	65550	0	42	10794	197633			UserIdTimeStamp				00 00 04 00 00 00 02 00 00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+16	3	18	113	95	65550	0	42	10794	197633			AutoIncIdIndex				00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+19	1	19	127	95	0	10	255					{973F5D5C-1D90-4944-BE8E-24B94231A174}																
+19	2	1	4	4	4	0	42	4				AutoIncId																
+19	2	2	8	8	0	0	42	8				TimeStamp																
+19	2	3	4	4	0	0	42	16				AppId																
+19	2	4	4	4	0	0	42	20				UserId																
+19	2	5	15	8	0	0	42	24				InterfaceLuid																
+19	2	6	4	4	0	0	42	32				L2ProfileId																
+19	2	7	4	4	0	0	42	36				L2ProfileFlags																
+19	2	8	15	8	0	0	42	40				BytesSent																
+19	2	9	15	8	0	0	42	48				BytesRecvd																
+19	3	19	127	95	65583	0	42	10794	197633	14		TimeStamp				00 00 02 00 00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+19	3	20	128	95	65550	0	42	10794	197633			UserIdTimeStamp				00 00 04 00 00 00 02 00 00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+19	3	21	129	95	65550	0	42	10794	197633			AutoIncIdIndex				00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+22	1	22	143	95	0	10	255					{D10CA2FE-6FCF-4F6D-848E-B2E99266FA89}																
+22	2	1	4	4	4	0	42	4				AutoIncId																
+22	2	2	8	8	0	0	42	8				TimeStamp																
+22	2	3	4	4	0	0	42	16				AppId																
+22	2	4	4	4	0	0	42	20				UserId																
+22	2	5	15	8	0	0	42	24				ForegroundCycleTime																
+22	2	6	15	8	0	0	42	32				BackgroundCycleTime																
+22	2	7	15	8	0	0	42	40				FaceTime																
+22	2	8	4	4	0	0	42	48				ForegroundContextSwitches																
+22	2	9	4	4	0	0	42	52				BackgroundContextSwitches																
+22	2	10	15	8	0	0	42	56				ForegroundBytesRead																
+22	2	11	15	8	0	0	42	64				ForegroundBytesWritten																
+22	2	12	4	4	0	0	42	72				ForegroundNumReadOperations																
+22	2	13	4	4	0	0	42	76				ForegroundNumWriteOperations																
+22	2	14	4	4	0	0	42	80				ForegroundNumberOfFlushes																
+22	2	15	15	8	0	0	42	84				BackgroundBytesRead																
+22	2	16	15	8	0	0	42	92				BackgroundBytesWritten																
+22	2	17	4	4	0	0	42	100				BackgroundNumReadOperations																
+22	2	18	4	4	0	0	42	104				BackgroundNumWriteOperations																
+22	2	19	4	4	0	0	42	108				BackgroundNumberOfFlushes																
+22	3	22	143	95	65583	0	42	10794	197633	14		TimeStamp				00 00 02 00 00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+22	3	23	144	95	65550	0	42	10794	197633			UserIdTimeStamp				00 00 04 00 00 00 02 00 00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+22	3	24	145	95	65550	0	42	10794	197633			AutoIncIdIndex				00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+25	1	25	159	95	0	10	255					{DD6636C4-8929-4683-974E-22C046A43763}																
+25	2	1	4	4	4	0	42	4				AutoIncId																
+25	2	2	8	8	0	0	42	8				TimeStamp																
+25	2	3	4	4	0	0	42	16				AppId																
+25	2	4	4	4	0	0	42	20				UserId																
+25	2	5	15	8	0	0	42	24				InterfaceLuid																
+25	2	6	4	4	0	0	42	32				L2ProfileId																
+25	2	7	4	4	0	0	42	36				ConnectedTime																
+25	2	8	15	8	0	0	42	40				ConnectStartTime																
+25	2	9	4	4	0	0	42	48				L2ProfileFlags																
+25	3	25	159	95	65583	0	42	10794	197633	14		TimeStamp				00 00 02 00 00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+25	3	26	160	95	65550	0	42	10794	197633			UserIdTimeStamp				00 00 04 00 00 00 02 00 00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
+25	3	27	161	95	65550	0	42	10794	197633			AutoIncIdIndex				00 00 01 00											65 00 6E 00 2D 00 55 00 53 00	
