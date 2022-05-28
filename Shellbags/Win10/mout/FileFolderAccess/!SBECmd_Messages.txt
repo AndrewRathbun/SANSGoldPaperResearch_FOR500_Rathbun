@@ -1,0 +1,42 @@
+[22:37:51.244 INF] SBECmd version 2.0.0.0
+
+Author: Eric Zimmerman (saericzimmerman@gmail.com)
+https://github.com/EricZimmerman
+[22:37:51.260 INF] Command line: -d C:\temp\shellbags\tout --csv C:\temp\shellbags\mout\FileFolderAccess
+[22:37:51.260 INF] Directory to process: C:\temp\shellbags\tout
+[22:37:51.260 INF] Deduplication: false
+[22:37:51.276 INF] All messages will be saved to C:\temp\shellbags\mout\FileFolderAccess\!SBECmd_Messages.txt
+[22:37:51.292 INF] Processing C:\temp\shellbags\tout\C\Users\CFUser\NTUSER.DAT
+[22:37:51.541 INF] Two transaction logs found. Determining primary log...
+[22:37:51.541 INF] Primary log: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG2, secondary log: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG1
+[22:37:51.541 INF] Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG2
+[22:37:51.541 INF] Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG1
+[22:37:51.541 INF] At least one transaction log was applied. Sequence numbers have been updated to 0x008A. New Checksum: 0x1B1FDF
+[22:37:51.838 INF] Parse time: 0.38 seconds
+[22:37:51.838 INF] Total ShellBags found: 0
+[22:37:51.838 INF] Totals by bag type
+[22:37:51.838 INF] Finished processing C:\temp\shellbags\tout\C\Users\CFUser\NTUSER.DAT
+[22:37:51.838 INF] Exported to: C:\temp\shellbags\mout\FileFolderAccess\CFUser_NTUSER.csv
+[22:37:51.838 INF] ---------------------------------------------------------------------
+[22:37:51.838 INF] Processing C:\temp\shellbags\tout\C\Users\Default\NTUSER.DAT
+[22:37:51.854 FTL] 	There was an error processing C:\temp\shellbags\tout\C\Users\Default\NTUSER.DAT. Error message: 'Software\Microsoft\Windows\Shell\BagMRU' not found in 'C:\Users\Default\NTUSER.DAT'
+[22:37:51.854 INF] Processing C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat
+[22:37:51.854 INF] Two transaction logs found. Determining primary log...
+[22:37:51.854 INF] Primary log: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2, secondary log: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1
+[22:37:51.854 INF] Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2
+[22:37:51.854 INF] Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1
+[22:37:51.854 INF] At least one transaction log was applied. Sequence numbers have been updated to 0x0054. New Checksum: 0x3D2D67ED
+[22:37:52.182 INF] Parse time: 0.29 seconds
+[22:37:52.182 INF] Total ShellBags found: 17
+[22:37:52.182 INF] Totals by bag type
+[22:37:52.182 INF] Directory: 14
+[22:37:52.182 INF] Drive letter: 1
+[22:37:52.182 INF] Root folder: GUID: 2
+[22:37:52.182 INF] Finished processing C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat
+[22:37:52.182 INF] Exported to: C:\temp\shellbags\mout\FileFolderAccess\CFUser_UsrClass.csv
+[22:37:52.182 INF] ---------------------------------------------------------------------
+[22:37:52.182 INF] Processing complete!
+[22:37:52.182 INF] Processed 3 files in 0.67 seconds!
+[22:37:52.182 INF] Total ShellBags found: 17
+
+

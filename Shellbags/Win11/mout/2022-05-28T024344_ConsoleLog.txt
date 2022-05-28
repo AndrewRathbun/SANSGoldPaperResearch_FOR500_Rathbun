@@ -1,0 +1,210 @@
+2022-05-27 22:43:46.4004 | D | Enabled debug messages...
+2022-05-27 22:43:46.4794 | I | KAPE version 1.2.0.0 Author: Eric Zimmerman (kape@kroll.com)
+2022-05-27 22:43:46.5255 | I | KAPE directory: C:\Users\CFUser\Desktop\kape
+2022-05-27 22:43:46.5255 | I | Command line: --tsource C: --tdest C:\temp\shellbags\tout --tflush --target RegistryHivesUser --mdest C:\temp\shellbags\mout --mflush --module SBECmd --debug 
+2022-05-27 22:43:46.5410 | I | System info: Machine name: DESKTOP-O6N6ORL, 64-bit: True, User: CFUser OS: Windows10 (10.0.22000)
+2022-05-27 22:43:46.8384 | D | Validating configuration files
+2022-05-27 22:43:51.0880 | D | 261 targets and 254 modules validated successfully
+2022-05-27 22:43:51.1034 | I | Using Target operations
+2022-05-27 22:43:51.1191 | W | 	Flushing target destination directory 'C:\temp\shellbags\tout'
+2022-05-27 22:43:51.1191 | W | 	Creating target destination directory 'C:\temp\shellbags\tout'
+2022-05-27 22:43:51.1191 | I | Found 9 targets. Expanding targets to file list...
+2022-05-27 22:43:51.1505 | D | Processing target: NTUSER.DAT registry hive XP
+2022-05-27 22:43:51.1666 | D | Expanding directory: 'C:\Documents and Settings\%user%\'
+2022-05-27 22:43:51.2130 | D | Getting files from 'C:\ProgramData'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2130 | D | Getting files from 'C:\Users\CFUser'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2286 | D | Found match: C:\Users\CFUser\NTUSER.DAT
+2022-05-27 22:43:51.2286 | D | Getting files from 'C:\Users\Default'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2286 | D | Found match: C:\Users\Default\NTUSER.DAT
+2022-05-27 22:43:51.2286 | D | Getting files from 'C:\Users\Default'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2286 | D | Found match: C:\Users\Default\NTUSER.DAT
+2022-05-27 22:43:51.2286 | D | Getting files from 'C:\Users\defaultuser0'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2286 | D | Found match: C:\Users\defaultuser0\NTUSER.DAT
+2022-05-27 22:43:51.2286 | D | Getting files from 'C:\Users\Public'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2446 | D | Files found: 4
+2022-05-27 22:43:51.2446 | D | Processing target: NTUSER.DAT registry hive
+2022-05-27 22:43:51.2446 | D | Expanding directory: 'C:\Users\%user%\'
+2022-05-27 22:43:51.2446 | D | Getting files from 'C:\ProgramData'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2446 | D | Getting files from 'C:\Users\CFUser'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2606 | D | Found match: C:\Users\CFUser\NTUSER.DAT
+2022-05-27 22:43:51.2606 | D | Getting files from 'C:\Users\Default'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2606 | D | Found match: C:\Users\Default\NTUSER.DAT
+2022-05-27 22:43:51.2606 | D | Getting files from 'C:\Users\Default'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2606 | D | Found match: C:\Users\Default\NTUSER.DAT
+2022-05-27 22:43:51.2606 | D | Getting files from 'C:\Users\defaultuser0'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2606 | D | Found match: C:\Users\defaultuser0\NTUSER.DAT
+2022-05-27 22:43:51.2606 | D | Getting files from 'C:\Users\Public'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 22:43:51.2756 | D | Files found: 4
+2022-05-27 22:43:51.2756 | D | Processing target: NTUSER.DAT registry transaction files
+2022-05-27 22:43:51.2756 | D | Expanding directory: 'C:\Users\%user%\'
+2022-05-27 22:43:51.2756 | D | Getting files from 'C:\ProgramData'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-27 22:43:51.2756 | D | Getting files from 'C:\Users\CFUser'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-27 22:43:51.2756 | D | Found match: C:\Users\CFUser\ntuser.dat.LOG1
+2022-05-27 22:43:51.2756 | D | Found match: C:\Users\CFUser\ntuser.dat.LOG2
+2022-05-27 22:43:51.2911 | D | Getting files from 'C:\Users\Default'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-27 22:43:51.2911 | D | Found match: C:\Users\Default\NTUSER.DAT.LOG1
+2022-05-27 22:43:51.2911 | D | Found match: C:\Users\Default\NTUSER.DAT.LOG2
+2022-05-27 22:43:51.2911 | D | Getting files from 'C:\Users\Default'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-27 22:43:51.2911 | D | Found match: C:\Users\Default\NTUSER.DAT.LOG1
+2022-05-27 22:43:51.2911 | D | Found match: C:\Users\Default\NTUSER.DAT.LOG2
+2022-05-27 22:43:51.2911 | D | Getting files from 'C:\Users\defaultuser0'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-27 22:43:51.2911 | D | Found match: C:\Users\defaultuser0\ntuser.dat.LOG1
+2022-05-27 22:43:51.2911 | D | Found match: C:\Users\defaultuser0\ntuser.dat.LOG2
+2022-05-27 22:43:51.2911 | D | Getting files from 'C:\Users\Public'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-27 22:43:51.2911 | D | Files found: 8
+2022-05-27 22:43:51.2911 | D | Processing target: NTUSER.DAT DEFAULT registry hive
+2022-05-27 22:43:51.3069 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-27 22:43:51.3069 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: DEFAULT
+2022-05-27 22:43:51.3069 | D | Found match: C:\Windows\System32\config\DEFAULT
+2022-05-27 22:43:51.3069 | D | Files found: 1
+2022-05-27 22:43:51.3069 | D | Processing target: NTUSER.DAT DEFAULT registry hive
+2022-05-27 22:43:51.3069 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-27 22:43:51.3069 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-27 22:43:51.3069 | D | Files found: 0
+2022-05-27 22:43:51.3069 | D | Processing target: NTUSER.DAT DEFAULT transaction files
+2022-05-27 22:43:51.3069 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-27 22:43:51.3069 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: DEFAULT.LOG*
+2022-05-27 22:43:51.3226 | D | Found match: C:\Windows\System32\config\DEFAULT.LOG1
+2022-05-27 22:43:51.3226 | D | Found match: C:\Windows\System32\config\DEFAULT.LOG2
+2022-05-27 22:43:51.3226 | D | Files found: 2
+2022-05-27 22:43:51.3388 | D | Processing target: NTUSER.DAT DEFAULT transaction files
+2022-05-27 22:43:51.3534 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-27 22:43:51.3534 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-27 22:43:51.3534 | D | Files found: 0
+2022-05-27 22:43:51.3534 | D | Processing target: UsrClass.dat registry hive
+2022-05-27 22:43:51.3534 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Windows\'
+2022-05-27 22:43:51.3691 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Windows' does not exist. Skipping
+2022-05-27 22:43:51.3691 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Windows'. Recursive: False, Mask: UsrClass.dat
+2022-05-27 22:43:51.3691 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat
+2022-05-27 22:43:51.3852 | D | Getting files from 'C:\Users\Default\AppData\Local\Microsoft\Windows'. Recursive: False, Mask: UsrClass.dat
+2022-05-27 22:43:51.3852 | D | Getting files from 'C:\Users\Default\AppData\Local\Microsoft\Windows'. Recursive: False, Mask: UsrClass.dat
+2022-05-27 22:43:51.4005 | D | Getting files from 'C:\Users\defaultuser0\AppData\Local\Microsoft\Windows'. Recursive: False, Mask: UsrClass.dat
+2022-05-27 22:43:51.4005 | D | Found match: C:\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat
+2022-05-27 22:43:51.4005 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Windows' does not exist. Skipping
+2022-05-27 22:43:51.4005 | D | Files found: 2
+2022-05-27 22:43:51.4005 | D | Processing target: UsrClass.dat registry transaction files
+2022-05-27 22:43:51.4005 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Windows\'
+2022-05-27 22:43:51.4160 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Windows' does not exist. Skipping
+2022-05-27 22:43:51.4160 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Windows'. Recursive: False, Mask: UsrClass.dat.LOG*
+2022-05-27 22:43:51.4160 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1
+2022-05-27 22:43:51.4160 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2
+2022-05-27 22:43:51.4160 | D | Getting files from 'C:\Users\Default\AppData\Local\Microsoft\Windows'. Recursive: False, Mask: UsrClass.dat.LOG*
+2022-05-27 22:43:51.4317 | D | Getting files from 'C:\Users\Default\AppData\Local\Microsoft\Windows'. Recursive: False, Mask: UsrClass.dat.LOG*
+2022-05-27 22:43:51.4317 | D | Getting files from 'C:\Users\defaultuser0\AppData\Local\Microsoft\Windows'. Recursive: False, Mask: UsrClass.dat.LOG*
+2022-05-27 22:43:51.4317 | D | Found match: C:\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1
+2022-05-27 22:43:51.4317 | D | Found match: C:\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2
+2022-05-27 22:43:51.4317 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Windows' does not exist. Skipping
+2022-05-27 22:43:51.4317 | D | Files found: 4
+2022-05-27 22:43:51.6977 | I | Found 18 files in 0.398 seconds. Beginning copy...
+2022-05-27 22:43:53.6975 | I | 	Deferring 'C:\Users\CFUser\NTUSER.DAT' due to IOException...
+2022-05-27 22:43:53.7131 | D | Creating directory 'C:\temp\shellbags\tout\C\Users\Default'
+2022-05-27 22:43:53.7286 | D | Copied 'C:\Users\Default\NTUSER.DAT' to 'C:\temp\shellbags\tout\C\Users\Default\NTUSER.DAT' | Source SHA-1: D6BE3F89B6083106A40A9E0F21C86E2B706447A4 | Source created: 2021-06-05 12:01:25.1871455 | Source modified: 2022-03-05 13:30:02.7203731 | Source last accessed: 2022-03-05 13:30:02.7203731
+2022-05-27 22:43:53.8381 | D | Creating directory 'C:\temp\shellbags\tout\C\Users\defaultuser0'
+2022-05-27 22:43:53.8536 | D | Copied 'C:\Users\defaultuser0\NTUSER.DAT' to 'C:\temp\shellbags\tout\C\Users\defaultuser0\NTUSER.DAT' | Source SHA-1: A251EA2EAE9333430FD270A7A09797F4A5C997DD | Source created: 2022-03-05 16:21:08.3904422 | Source modified: 2022-03-05 13:39:28.4040504 | Source last accessed: 2022-05-28 02:41:13.1724602
+2022-05-27 22:43:53.8536 | I | 	Deferring 'C:\Users\CFUser\ntuser.dat.LOG1' due to IOException...
+2022-05-27 22:43:53.8536 | I | 	Deferring 'C:\Users\CFUser\ntuser.dat.LOG2' due to IOException...
+2022-05-27 22:43:53.8690 | D | Copied 'C:\Users\Default\NTUSER.DAT.LOG1' to 'C:\temp\shellbags\tout\C\Users\Default\NTUSER.DAT.LOG1' | Source SHA-1: 7D1CE9F05FD330BCDE72583CBA7DFA3683CF8F3B | Source created: 2021-06-05 12:01:25.3277878 | Source modified: 2021-06-05 12:01:25.3277878 | Source last accessed: 2021-06-05 12:01:25.3277878
+2022-05-27 22:43:53.8846 | D | Copied 'C:\Users\Default\NTUSER.DAT.LOG2' to 'C:\temp\shellbags\tout\C\Users\Default\NTUSER.DAT.LOG2' | Source SHA-1: 6800CE7CEA7709CCEFC8C27223A2ABAB6094EB65 | Source created: 2021-06-05 12:01:25.3277878 | Source modified: 2021-06-05 12:01:25.3277878 | Source last accessed: 2022-03-05 16:19:54.9884862
+2022-05-27 22:43:53.8846 | D | Copied 'C:\Users\defaultuser0\ntuser.dat.LOG1' to 'C:\temp\shellbags\tout\C\Users\defaultuser0\ntuser.dat.LOG1' | Source SHA-1: 3422876607CF7128FA552385E6D082CF938ADC3F | Source created: 2022-03-05 16:21:08.4529637 | Source modified: 2022-03-05 16:21:08.4529637 | Source last accessed: 2022-03-05 16:21:08.4529637
+2022-05-27 22:43:53.9003 | D | Copied 'C:\Users\defaultuser0\ntuser.dat.LOG2' to 'C:\temp\shellbags\tout\C\Users\defaultuser0\ntuser.dat.LOG2' | Source SHA-1: 74CBB3A0BA52FCA57E9235AD0EAE5A114BB10A62 | Source created: 2022-03-05 16:21:08.4529637 | Source modified: 2022-03-05 16:21:08.4529637 | Source last accessed: 2022-03-05 16:21:08.4529637
+2022-05-27 22:43:53.9003 | I | 	Deferring 'C:\Windows\System32\config\DEFAULT' due to IOException...
+2022-05-27 22:43:53.9003 | I | 	Deferring 'C:\Windows\System32\config\DEFAULT.LOG1' due to IOException...
+2022-05-27 22:43:53.9003 | I | 	Deferring 'C:\Windows\System32\config\DEFAULT.LOG2' due to IOException...
+2022-05-27 22:43:53.9162 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat' due to IOException...
+2022-05-27 22:43:53.9162 | D | Creating directory 'C:\temp\shellbags\tout\C\Users\defaultuser0\AppData\Local\Microsoft\Windows'
+2022-05-27 22:43:53.9472 | D | Copied 'C:\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat' to 'C:\temp\shellbags\tout\C\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat' | Source SHA-1: 17F3EA3939FDD5307A9D5BF19605C82C7578A8BC | Source created: 2022-03-05 16:21:08.4846634 | Source modified: 2022-03-05 13:34:49.1942791 | Source last accessed: 2022-05-28 02:41:13.1724602
+2022-05-27 22:43:53.9472 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1' due to IOException...
+2022-05-27 22:43:53.9472 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2' due to IOException...
+2022-05-27 22:43:53.9472 | D | Copied 'C:\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1' to 'C:\temp\shellbags\tout\C\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1' | Source SHA-1: DA39A3EE5E6B4B0D3255BFEF95601890AFD80709 | Source created: 2022-03-05 16:21:08.4846634 | Source modified: 2022-03-05 16:21:08.4846634 | Source last accessed: 2022-03-05 16:21:08.4846634
+2022-05-27 22:43:53.9631 | D | Copied 'C:\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2' to 'C:\temp\shellbags\tout\C\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2' | Source SHA-1: E0FC42FA199FAE0A24A534AE1016B7EFDDEC31BF | Source created: 2022-03-05 16:21:08.4846634 | Source modified: 2022-03-05 16:21:08.4846634 | Source last accessed: 2022-03-05 16:21:08.4846634
+2022-05-27 22:43:53.9631 | I | Deferred file count: 9. Copying locked files...
+2022-05-27 22:43:54.0411 | D | Creating directory 'C:\temp\shellbags\tout\C\Users\CFUser'
+2022-05-27 22:43:54.0572 | I | 	Copied deferred file 'C:\Users\CFUser\NTUSER.DAT' to 'C:\temp\shellbags\tout\C\Users\CFUser\NTUSER.DAT'. Hashing source file...
+2022-05-27 22:43:54.0572 | D | Copied deferred file 'C:\Users\CFUser\NTUSER.DAT' to 'C:\temp\shellbags\tout\C\Users\CFUser\NTUSER.DAT' | Source SHA-1: 61537D82A43A44E0F10BDC5E1561EAFB31C96A9B | Source created: 2022-03-05 13:34:22.8455314 | Source modified: 2022-03-05 13:34:48.8033313 | Source last accessed: 2022-03-05 13:34:48.8033313
+2022-05-27 22:43:54.0721 | I | 	Copied deferred file 'C:\Users\CFUser\ntuser.dat.LOG1' to 'C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG1'. Hashing source file...
+2022-05-27 22:43:54.0721 | D | Copied deferred file 'C:\Users\CFUser\ntuser.dat.LOG1' to 'C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG1' | Source SHA-1: F33E07BDFCFE7D68C0C98658E5AD9AB8F5037505 | Source created: 2022-03-05 13:34:22.9131982 | Source modified: 2022-03-05 13:34:22.9131982 | Source last accessed: 2022-03-05 13:34:22.9131982
+2022-05-27 22:43:54.1037 | I | 	Copied deferred file 'C:\Users\CFUser\ntuser.dat.LOG2' to 'C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG2'. Hashing source file...
+2022-05-27 22:43:54.1037 | D | Copied deferred file 'C:\Users\CFUser\ntuser.dat.LOG2' to 'C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG2' | Source SHA-1: 474ABA1A0766BB38777F2C9B44F64BD7F3325A3D | Source created: 2022-03-05 13:34:22.9131982 | Source modified: 2022-03-05 13:34:22.9131982 | Source last accessed: 2022-03-05 13:34:22.9131982
+2022-05-27 22:43:54.1347 | D | Creating directory 'C:\temp\shellbags\tout\C\Windows\System32\config'
+2022-05-27 22:43:54.1347 | I | 	Copied deferred file 'C:\Windows\System32\config\DEFAULT' to 'C:\temp\shellbags\tout\C\Windows\System32\config\DEFAULT'. Hashing source file...
+2022-05-27 22:43:54.1504 | D | Copied deferred file 'C:\Windows\System32\config\DEFAULT' to 'C:\temp\shellbags\tout\C\Windows\System32\config\DEFAULT' | Source SHA-1: 01197B3A0181BE1001F13899AAF5DF9D07E79218 | Source created: 2021-06-05 12:01:25.1871455 | Source modified: 2022-03-05 13:31:39.8249097 | Source last accessed: 2022-03-05 13:31:39.8249097
+2022-05-27 22:43:54.1504 | I | 	Copied deferred file 'C:\Windows\System32\config\DEFAULT.LOG1' to 'C:\temp\shellbags\tout\C\Windows\System32\config\DEFAULT.LOG1'. Hashing source file...
+2022-05-27 22:43:54.1504 | D | Copied deferred file 'C:\Windows\System32\config\DEFAULT.LOG1' to 'C:\temp\shellbags\tout\C\Windows\System32\config\DEFAULT.LOG1' | Source SHA-1: 8566FC42BEBD7C93DD592CA15CA6D119728D9B82 | Source created: 2021-06-05 12:01:25.3121687 | Source modified: 2021-06-05 12:01:25.3121687 | Source last accessed: 2021-06-05 12:01:25.3121687
+2022-05-27 22:43:54.1816 | I | 	Copied deferred file 'C:\Windows\System32\config\DEFAULT.LOG2' to 'C:\temp\shellbags\tout\C\Windows\System32\config\DEFAULT.LOG2'. Hashing source file...
+2022-05-27 22:43:54.1816 | D | Copied deferred file 'C:\Windows\System32\config\DEFAULT.LOG2' to 'C:\temp\shellbags\tout\C\Windows\System32\config\DEFAULT.LOG2' | Source SHA-1: 247CA5C83D812CAF3CC0211D423523142969FDA0 | Source created: 2021-06-05 12:01:25.3121687 | Source modified: 2021-06-05 12:01:25.3121687 | Source last accessed: 2021-06-05 12:01:25.3121687
+2022-05-27 22:43:54.3221 | D | Creating directory 'C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows'
+2022-05-27 22:43:54.3377 | I | 	Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat' to 'C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat'. Hashing source file...
+2022-05-27 22:43:54.3377 | D | Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat' to 'C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat' | Source SHA-1: E32DF1D353FEBD517102638DEF831F67A5ED0EAF | Source created: 2022-03-05 13:34:22.9447247 | Source modified: 2022-03-05 13:34:48.8033313 | Source last accessed: 2022-03-05 13:34:48.8033313
+2022-05-27 22:43:54.3846 | I | 	Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1' to 'C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1'. Hashing source file...
+2022-05-27 22:43:54.3846 | D | Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1' to 'C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1' | Source SHA-1: 315051175EC6602115BF1EDA3B27774DDD861372 | Source created: 2022-03-05 13:34:22.9447247 | Source modified: 2022-03-05 13:34:22.9447247 | Source last accessed: 2022-03-05 13:34:22.9447247
+2022-05-27 22:43:54.4472 | I | 	Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2' to 'C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2'. Hashing source file...
+2022-05-27 22:43:54.4472 | D | Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2' to 'C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2' | Source SHA-1: 0FE29E96B63ABDB86F24F233B1373698D820144D | Source created: 2022-03-05 13:34:22.9447247 | Source modified: 2022-03-05 13:34:22.9447247 | Source last accessed: 2022-03-05 13:34:22.9447247
+2022-05-27 22:43:54.4472 | D | Flushing writers and streams...
+2022-05-27 22:43:54.4636 | D | Deleting empty skiplog CSV
+2022-05-27 22:43:54.4636 | I | Copied 18 out of 18 files in 3.3747 seconds. See '*_CopyLog.csv' in 'C:\temp\shellbags\tout' for copy details
+2022-05-27 22:43:54.4806 | I | Using Module operations
+2022-05-27 22:43:54.4806 | W | 	Setting --msource to 'C:\temp\shellbags\tout' since --msource was not provided
+2022-05-27 22:43:54.4806 | W | 	Flushing module destination directory 'C:\temp\shellbags\mout'
+2022-05-27 22:43:54.4806 | W | 	Creating module destination directory 'C:\temp\shellbags\mout'
+2022-05-27 22:43:54.4941 | D | 	SBECmd: Determining correct processor based export type 'csv'...
+2022-05-27 22:43:54.4941 | I | 		Found processor 'Executable: SBECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory%, Export: csv, Append: False'!
+2022-05-27 22:43:54.4941 | I | Discovered 1 processor to run.
+2022-05-27 22:43:54.4941 | D | Module name: SBECmd, Processor: Executable: SBECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory%, Export: csv, Append: False  , Category: FileFolderAccess 
+2022-05-27 22:43:54.5101 | W | Executing modules with file masks...
+2022-05-27 22:43:54.5101 | W | Executing remaining modules...
+2022-05-27 22:43:54.5101 | I | 	Running 'SBECmd.exe': -d C:\temp\shellbags\tout --csv C:\temp\shellbags\mout\FileFolderAccess
+2022-05-27 22:43:57.0724 | D | SBECmd version 2.0.0.0
+2022-05-27 22:43:57.0724 | D | Author: Eric Zimmerman (saericzimmerman@gmail.com)
+2022-05-27 22:43:57.0724 | D | https://github.com/EricZimmerman
+2022-05-27 22:43:57.1034 | D | Command line: -d C:\temp\shellbags\tout --csv C:\temp\shellbags\mout\FileFolderAccess
+2022-05-27 22:43:57.1034 | D | Directory to process: C:\temp\shellbags\tout
+2022-05-27 22:43:57.1191 | D | Deduplication: False
+2022-05-27 22:43:57.1191 | D | All messages will be saved to C:\temp\shellbags\mout\FileFolderAccess\!SBECmd_Messages.txt
+2022-05-27 22:43:57.2910 | D | Processing C:\temp\shellbags\tout\C\Users\CFUser\NTUSER.DAT
+2022-05-27 22:43:57.6503 | D | Two transaction logs found. Determining primary log...
+2022-05-27 22:43:57.6503 | D | Primary log: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG2, secondary log: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG1
+2022-05-27 22:43:57.6503 | D | Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG2
+2022-05-27 22:43:57.6662 | D | Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG1
+2022-05-27 22:43:57.6662 | D | At least one transaction log was applied. Sequence numbers have been updated to 0x0063. New Checksum: 0xF66C3705
+2022-05-27 22:43:58.0566 | D | Parse time: 0.51 seconds
+2022-05-27 22:43:58.0566 | D | Total ShellBags found: 0
+2022-05-27 22:43:58.0566 | D | Totals by bag type
+2022-05-27 22:43:58.0566 | D | Finished processing C:\temp\shellbags\tout\C\Users\CFUser\NTUSER.DAT
+2022-05-27 22:43:58.0566 | D | Exported to: C:\temp\shellbags\mout\FileFolderAccess\CFUser_NTUSER.csv
+2022-05-27 22:43:58.0566 | D | ---------------------------------------------------------------------
+2022-05-27 22:43:58.0566 | D | Processing C:\temp\shellbags\tout\C\Users\Default\NTUSER.DAT
+2022-05-27 22:43:58.0723 | D | 	There was an error processing C:\temp\shellbags\tout\C\Users\Default\NTUSER.DAT. Error message: 'Software\Microsoft\Windows\Shell\BagMRU' not found in 'C:\Users\Default\NTUSER.DAT'
+2022-05-27 22:43:58.0723 | D | Processing C:\temp\shellbags\tout\C\Users\defaultuser0\NTUSER.DAT
+2022-05-27 22:43:58.1191 | D | Parse time: 0.03 seconds
+2022-05-27 22:43:58.1191 | D | Total ShellBags found: 0
+2022-05-27 22:43:58.1191 | D | Totals by bag type
+2022-05-27 22:43:58.1191 | D | Finished processing C:\temp\shellbags\tout\C\Users\defaultuser0\NTUSER.DAT
+2022-05-27 22:43:58.1191 | D | Exported to: C:\temp\shellbags\mout\FileFolderAccess\defaultuser0_NTUSER.csv
+2022-05-27 22:43:58.1191 | D | ---------------------------------------------------------------------
+2022-05-27 22:43:58.1191 | D | Processing C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat
+2022-05-27 22:43:58.1191 | D | Two transaction logs found. Determining primary log...
+2022-05-27 22:43:58.1191 | D | Primary log: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2, secondary log: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1
+2022-05-27 22:43:58.1191 | D | Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2
+2022-05-27 22:43:58.1191 | D | Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1
+2022-05-27 22:43:58.1191 | D | At least one transaction log was applied. Sequence numbers have been updated to 0x0028. New Checksum: 0xF03BE6B7
+2022-05-27 22:43:58.5097 | D | Parse time: 0.26 seconds
+2022-05-27 22:43:58.5097 | D | Total ShellBags found: 6
+2022-05-27 22:43:58.5097 | D | Totals by bag type
+2022-05-27 22:43:58.5097 | D | Root folder: GUID: 1
+2022-05-27 22:43:58.5097 | D | Users property view: Drive letter: 1
+2022-05-27 22:43:58.5097 | D | Directory: 4
+2022-05-27 22:43:58.5097 | D | Finished processing C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat
+2022-05-27 22:43:58.5097 | D | Exported to: C:\temp\shellbags\mout\FileFolderAccess\CFUser_UsrClass.csv
+2022-05-27 22:43:58.5097 | D | ---------------------------------------------------------------------
+2022-05-27 22:43:58.5097 | D | Processing C:\temp\shellbags\tout\C\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat
+2022-05-27 22:43:58.5723 | D | Parse time: 0.05 seconds
+2022-05-27 22:43:58.5723 | D | Total ShellBags found: 0
+2022-05-27 22:43:58.5723 | D | Totals by bag type
+2022-05-27 22:43:58.5723 | D | Finished processing C:\temp\shellbags\tout\C\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat
+2022-05-27 22:43:58.5723 | D | Exported to: C:\temp\shellbags\mout\FileFolderAccess\defaultuser0_UsrClass.csv
+2022-05-27 22:43:58.5723 | D | ---------------------------------------------------------------------
+2022-05-27 22:43:58.5723 | D | Processing complete!
+2022-05-27 22:43:58.5723 | D | Processed 5 files in 0.85 seconds!
+2022-05-27 22:43:58.5723 | D | Total ShellBags found: 6
+2022-05-27 22:43:58.6815 | I | Executed 1 processor in 4.1970 seconds
+2022-05-27 22:43:58.6815 | F | Total execution time: 7.6014 seconds

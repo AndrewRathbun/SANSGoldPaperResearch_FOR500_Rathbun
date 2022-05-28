@@ -1,0 +1,18 @@
+﻿BagPath,Slot,NodeSlot,MRUPosition,AbsolutePath,ShellType,Value,ChildBags,CreatedOn,ModifiedOn,AccessedOn,LastWriteTime,MFTEntry,MFTSequenceNumber,ExtensionBlockCount,FirstInteracted,LastInteracted,HasExplored,Miscellaneous
+BagMRU,0,0,3,Desktop\Maps,Directory,Maps,0,,,,2022-05-28 02:35:29,103446,3,1,2022-03-05 13:22:55,,False,NTFS file system
+BagMRU,1,0,2,Desktop\My Computer,Root folder: GUID,My Computer,2,,,,2022-05-28 02:35:29,,,0,,,False,
+BagMRU,2,0,1,Desktop\New folder (2),Directory,New folder (2),0,,,,2022-05-28 02:35:29,102492,15,1,2022-05-28 02:35:20,,False,NTFS file system
+BagMRU,3,0,0,Desktop\kape,Directory,kape,0,,,,2022-05-28 02:35:29,102492,15,1,2022-05-28 02:35:29,2022-05-28 02:35:29,False,NTFS file system
+BagMRU\1,0,3,1,Desktop\My Computer\C:,Drive letter,C:,2,,,,2022-05-28 02:26:52,,,0,,,True,
+BagMRU\1,1,10,0,Desktop\My Computer\Desktop,Root folder: GUID,Desktop,1,,,,2022-05-28 02:26:52,,,1,,2022-05-28 02:26:52,True,
+BagMRU\1\0,0,4,1,Desktop\My Computer\C:\temp,Directory,temp,0,,,,2022-03-05 21:21:58,103687,3,1,2022-03-05 13:22:59,,True,NTFS file system
+BagMRU\1\0,1,5,0,Desktop\My Computer\C:\Users,Directory,Users,1,,,,2022-03-05 21:21:58,1519,1,1,,2022-03-05 21:21:58,True,NTFS file system
+BagMRU\1\0\1,0,6,0,Desktop\My Computer\C:\Users\CFUser,Directory,CFUser,1,,,,2022-03-05 21:21:59,98303,2,1,,2022-03-05 21:21:59,True,NTFS file system
+BagMRU\1\0\1\0,0,0,0,Desktop\My Computer\C:\Users\CFUser\AppData,Directory,AppData,1,,,,2022-03-05 21:22:04,98426,2,1,,2022-03-05 21:22:04,False,NTFS file system
+BagMRU\1\0\1\0\0,0,7,0,Desktop\My Computer\C:\Users\CFUser\AppData\Local,Directory,Local,1,,,,2022-03-05 21:22:04,99381,3,1,,2022-03-05 21:22:04,True,NTFS file system
+BagMRU\1\0\1\0\0\0,0,8,0,Desktop\My Computer\C:\Users\CFUser\AppData\Local\ConnectedDevicesPlatform,Directory,ConnectedDevicesPlatform,1,,,,2022-03-05 21:22:06,101144,2,1,,2022-03-05 21:22:06,True,NTFS file system
+BagMRU\1\0\1\0\0\0\0,0,9,0,Desktop\My Computer\C:\Users\CFUser\AppData\Local\ConnectedDevicesPlatform\L.CFUser,Directory,L.CFUser,0,,,,2022-03-05 21:22:07,102011,2,1,2022-03-05 21:22:07,2022-03-05 21:22:07,True,NTFS file system
+BagMRU\1\1,0,11,0,Desktop\My Computer\Desktop\New folder,Directory,New folder,1,,,,2022-05-28 02:26:57,34141,8,1,,2022-05-28 02:26:57,True,NTFS file system
+BagMRU\1\1\0,0,12,0,Desktop\My Computer\Desktop\New folder\New folder,Directory,New folder,1,,,,2022-05-28 02:27:01,34154,6,1,,2022-05-28 02:27:01,True,NTFS file system
+BagMRU\1\1\0\0,0,13,0,Desktop\My Computer\Desktop\New folder\New folder\test,Directory,test,1,,,,2022-05-28 02:27:05,99219,4,1,,2022-05-28 02:27:05,True,NTFS file system
+BagMRU\1\1\0\0\0,0,14,0,Desktop\My Computer\Desktop\New folder\New folder\test\shellbagstest,Directory,shellbagstest,0,,,,2022-05-28 02:27:12,100468,2,1,2022-05-28 02:27:12,2022-05-28 02:27:12,False,NTFS file system

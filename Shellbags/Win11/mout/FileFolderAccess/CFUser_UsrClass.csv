@@ -1,0 +1,7 @@
+﻿BagPath,Slot,NodeSlot,MRUPosition,AbsolutePath,ShellType,Value,ChildBags,CreatedOn,ModifiedOn,AccessedOn,LastWriteTime,MFTEntry,MFTSequenceNumber,ExtensionBlockCount,FirstInteracted,LastInteracted,HasExplored,Miscellaneous
+BagMRU,0,0,3,Desktop\Home Folder,Root folder: GUID,Home Folder,0,,,,2022-05-28 02:40:50,,,0,2022-03-05 13:37:00,,False,
+BagMRU,1,0,2,Desktop\D:\,Users property view: Drive letter,D:\,0,,,,2022-05-28 02:40:50,,,0,2022-03-05 13:39:36,,False,
+BagMRU,2,0,1,Desktop\New folder,Directory,New folder,1,,,,2022-05-28 02:40:50,363,6,1,,,False,NTFS file system
+BagMRU,3,0,0,Desktop\kape,Directory,kape,0,,,,2022-05-28 02:40:50,25138,2,1,2022-05-28 02:40:50,2022-05-28 02:40:50,False,NTFS file system
+BagMRU\2,0,4,0,Desktop\New folder\New folder,Directory,New folder,1,,,,2022-05-28 02:40:26,102002,2,1,,2022-05-28 02:40:26,True,NTFS file system
+BagMRU\2\0,0,5,0,Desktop\New folder\New folder\test,Directory,test,0,,,,2022-05-28 02:40:30,102032,2,1,2022-05-28 02:40:30,2022-05-28 02:40:30,False,NTFS file system

@@ -1,0 +1,56 @@
+[22:43:56.994 INF] SBECmd version 2.0.0.0
+
+Author: Eric Zimmerman (saericzimmerman@gmail.com)
+https://github.com/EricZimmerman
+[22:43:57.103 INF] Command line: -d C:\temp\shellbags\tout --csv C:\temp\shellbags\mout\FileFolderAccess
+[22:43:57.103 INF] Directory to process: C:\temp\shellbags\tout
+[22:43:57.119 INF] Deduplication: false
+[22:43:57.119 INF] All messages will be saved to C:\temp\shellbags\mout\FileFolderAccess\!SBECmd_Messages.txt
+[22:43:57.291 INF] Processing C:\temp\shellbags\tout\C\Users\CFUser\NTUSER.DAT
+[22:43:57.650 INF] Two transaction logs found. Determining primary log...
+[22:43:57.650 INF] Primary log: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG2, secondary log: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG1
+[22:43:57.650 INF] Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG2
+[22:43:57.666 INF] Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\ntuser.dat.LOG1
+[22:43:57.666 INF] At least one transaction log was applied. Sequence numbers have been updated to 0x0063. New Checksum: 0xF66C3705
+[22:43:58.056 INF] Parse time: 0.51 seconds
+[22:43:58.056 INF] Total ShellBags found: 0
+[22:43:58.056 INF] Totals by bag type
+[22:43:58.056 INF] Finished processing C:\temp\shellbags\tout\C\Users\CFUser\NTUSER.DAT
+[22:43:58.056 INF] Exported to: C:\temp\shellbags\mout\FileFolderAccess\CFUser_NTUSER.csv
+[22:43:58.056 INF] ---------------------------------------------------------------------
+[22:43:58.056 INF] Processing C:\temp\shellbags\tout\C\Users\Default\NTUSER.DAT
+[22:43:58.072 FTL] 	There was an error processing C:\temp\shellbags\tout\C\Users\Default\NTUSER.DAT. Error message: 'Software\Microsoft\Windows\Shell\BagMRU' not found in 'C:\Users\Default\NTUSER.DAT'
+[22:43:58.072 INF] Processing C:\temp\shellbags\tout\C\Users\defaultuser0\NTUSER.DAT
+[22:43:58.119 INF] Parse time: 0.03 seconds
+[22:43:58.119 INF] Total ShellBags found: 0
+[22:43:58.119 INF] Totals by bag type
+[22:43:58.119 INF] Finished processing C:\temp\shellbags\tout\C\Users\defaultuser0\NTUSER.DAT
+[22:43:58.119 INF] Exported to: C:\temp\shellbags\mout\FileFolderAccess\defaultuser0_NTUSER.csv
+[22:43:58.119 INF] ---------------------------------------------------------------------
+[22:43:58.119 INF] Processing C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat
+[22:43:58.119 INF] Two transaction logs found. Determining primary log...
+[22:43:58.119 INF] Primary log: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2, secondary log: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1
+[22:43:58.119 INF] Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2
+[22:43:58.119 INF] Replaying log file: C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1
+[22:43:58.119 INF] At least one transaction log was applied. Sequence numbers have been updated to 0x0028. New Checksum: 0xF03BE6B7
+[22:43:58.509 INF] Parse time: 0.26 seconds
+[22:43:58.509 INF] Total ShellBags found: 6
+[22:43:58.509 INF] Totals by bag type
+[22:43:58.509 INF] Root folder: GUID: 1
+[22:43:58.509 INF] Users property view: Drive letter: 1
+[22:43:58.509 INF] Directory: 4
+[22:43:58.509 INF] Finished processing C:\temp\shellbags\tout\C\Users\CFUser\AppData\Local\Microsoft\Windows\UsrClass.dat
+[22:43:58.509 INF] Exported to: C:\temp\shellbags\mout\FileFolderAccess\CFUser_UsrClass.csv
+[22:43:58.509 INF] ---------------------------------------------------------------------
+[22:43:58.509 INF] Processing C:\temp\shellbags\tout\C\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat
+[22:43:58.572 INF] Parse time: 0.05 seconds
+[22:43:58.572 INF] Total ShellBags found: 0
+[22:43:58.572 INF] Totals by bag type
+[22:43:58.572 INF] Finished processing C:\temp\shellbags\tout\C\Users\defaultuser0\AppData\Local\Microsoft\Windows\UsrClass.dat
+[22:43:58.572 INF] Exported to: C:\temp\shellbags\mout\FileFolderAccess\defaultuser0_UsrClass.csv
+[22:43:58.572 INF] ---------------------------------------------------------------------
+[22:43:58.572 INF] Processing complete!
+[22:43:58.572 INF] Processed 5 files in 0.85 seconds!
+[22:43:58.572 INF] Total ShellBags found: 6
+
+
