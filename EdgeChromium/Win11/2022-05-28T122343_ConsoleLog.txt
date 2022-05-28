@@ -1,0 +1,954 @@
+2022-05-28 08:23:43.7318 | D | Enabled debug messages...
+2022-05-28 08:23:43.7632 | I | KAPE version 1.2.0.0 Author: Eric Zimmerman (kape@kroll.com)
+2022-05-28 08:23:43.7632 | I | KAPE directory: C:\Users\CFUser\Desktop\kape
+2022-05-28 08:23:43.7632 | I | Command line: --tsource C: --tdest C:\temp\edgechromium\tout --tflush --target EdgeChromium,RegistryHivesSystem --zip %m_EdgeChromium --debug 
+2022-05-28 08:23:43.7632 | I | System info: Machine name: DESKTOP-O6N6ORL, 64-bit: True, User: CFUser OS: Windows10 (10.0.22000)
+2022-05-28 08:23:44.0291 | D | Validating configuration files
+2022-05-28 08:23:47.6693 | D | 261 targets and 254 modules validated successfully
+2022-05-28 08:23:47.6853 | I | Using Target operations
+2022-05-28 08:23:47.6853 | W | 	Flushing target destination directory 'C:\temp\edgechromium\tout'
+2022-05-28 08:23:47.6853 | W | 	Creating target destination directory 'C:\temp\edgechromium\tout'
+2022-05-28 08:23:47.6853 | I | Found 2 targets. Expanding targets to file list...
+2022-05-28 08:23:47.7002 | D | Processing target: Edge bookmarks
+2022-05-28 08:23:47.7002 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:47.7313 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.7633 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.7633 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.7633 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.7633 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7633 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7783 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7783 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7783 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7783 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7783 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7783 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.8104 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.8104 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.8104 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.8104 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.8253 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.8253 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.8253 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.8253 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.8253 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.8253 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:47.8253 | D | Files found: 0
+2022-05-28 08:23:47.8253 | D | Processing target: Edge Collections
+2022-05-28 08:23:47.8413 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\Collections'
+2022-05-28 08:23:47.8413 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Collections'. Recursive: False, Mask: collectionsSQLite
+2022-05-28 08:23:47.8723 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Collections\collectionsSQLite
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8723 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData\Collections' does not exist. Skipping
+2022-05-28 08:23:47.8883 | D | Files found: 1
+2022-05-28 08:23:47.8883 | D | Processing target: Edge Cookies
+2022-05-28 08:23:47.8883 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:47.8883 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.9194 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.9194 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.9353 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:47.9353 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9353 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9353 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9353 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9353 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9664 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9664 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9664 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9664 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9664 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9664 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Cookies*
+2022-05-28 08:23:47.9974 | D | Files found: 0
+2022-05-28 08:23:47.9974 | D | Processing target: Edge Current Session
+2022-05-28 08:23:47.9974 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:47.9974 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.0285 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.0285 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.0285 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.0285 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0445 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0445 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0445 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0445 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0445 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0445 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0445 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0605 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0605 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0605 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0605 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0605 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0605 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0755 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0755 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0755 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0755 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0755 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0755 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0914 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0914 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0914 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0914 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Current Session
+2022-05-28 08:23:48.0914 | D | Files found: 0
+2022-05-28 08:23:48.0914 | D | Processing target: Edge Current Tabs
+2022-05-28 08:23:48.0914 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:48.1065 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.1225 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.1225 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.1225 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.1384 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1384 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1384 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1384 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1384 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1695 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1695 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1695 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1695 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1695 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1695 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1853 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1853 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1853 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1853 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1853 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1853 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Current Tabs
+2022-05-28 08:23:48.1853 | D | Files found: 0
+2022-05-28 08:23:48.1853 | D | Processing target: Edge Favicons
+2022-05-28 08:23:48.2005 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:48.2005 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.2314 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.2314 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.2314 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.2314 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2314 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2314 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2314 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2474 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2474 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2474 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2474 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons
+2022-05-28 08:23:48.2474 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons-journal
+2022-05-28 08:23:48.2474 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2474 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2474 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2634 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2634 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2634 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2634 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2634 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2634 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2784 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2784 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2784 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2784 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2784 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2784 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2784 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Favicons*
+2022-05-28 08:23:48.2944 | D | Files found: 2
+2022-05-28 08:23:48.2944 | D | Processing target: Edge History
+2022-05-28 08:23:48.2944 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:48.2944 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.3255 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.3255 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.3255 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.3255 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3255 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3255 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3414 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3414 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3414 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3414 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3414 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\History
+2022-05-28 08:23:48.3564 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\History-journal
+2022-05-28 08:23:48.3564 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3564 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3564 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3564 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3564 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3723 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3723 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3723 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3723 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3884 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3884 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3884 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3884 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3884 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.3884 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.4033 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.4033 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: History*
+2022-05-28 08:23:48.4033 | D | Files found: 2
+2022-05-28 08:23:48.4033 | D | Processing target: Edge Last Session
+2022-05-28 08:23:48.4033 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:48.4033 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.4354 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.4354 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.4354 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.4504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4504 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4665 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4665 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4665 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4665 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4815 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4975 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4975 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.4975 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.5134 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.5134 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.5134 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.5134 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.5134 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.5134 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Last Session
+2022-05-28 08:23:48.5284 | D | Files found: 0
+2022-05-28 08:23:48.5284 | D | Processing target: Edge Last Tabs
+2022-05-28 08:23:48.5284 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:48.5284 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.5595 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.5595 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.5595 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.5595 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5595 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5595 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5595 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5754 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5754 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5754 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5754 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5910 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5910 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5910 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5910 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5910 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.5910 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.6064 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.6064 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.6064 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.6064 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.6064 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.6064 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.6224 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.6224 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.6224 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.6224 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Last Tabs
+2022-05-28 08:23:48.6224 | D | Files found: 0
+2022-05-28 08:23:48.6224 | D | Processing target: Edge Sessions Folder
+2022-05-28 08:23:48.6224 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\Sessions\'
+2022-05-28 08:23:48.6383 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.6694 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.6694 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.6694 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.6694 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6694 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6694 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6694 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6694 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6694 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Sessions'. Recursive: False, Mask: *
+2022-05-28 08:23:48.6861 | D | Found match: 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Sessions\Session_13298213833256493'
+2022-05-28 08:23:48.6861 | D | Found match: 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Sessions\Tabs_13298213845338785'
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.6861 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.7005 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.7005 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.7005 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData\Sessions' does not exist. Skipping
+2022-05-28 08:23:48.7005 | D | Files found: 2
+2022-05-28 08:23:48.7005 | D | Processing target: Edge Login Data
+2022-05-28 08:23:48.7005 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:48.7005 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.7472 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.7472 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.7472 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.7472 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7472 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7472 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7625 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7625 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7625 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7625 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7625 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Login Data
+2022-05-28 08:23:48.7625 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7782 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7782 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7782 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7782 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7782 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7782 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.7944 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.8103 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.8103 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.8103 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Login Data
+2022-05-28 08:23:48.8103 | D | Files found: 1
+2022-05-28 08:23:48.8103 | D | Processing target: Edge Media History
+2022-05-28 08:23:48.8103 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:48.8103 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.8412 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.8412 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.8412 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.8563 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8563 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8563 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8563 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8563 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8563 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8563 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8563 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Media History
+2022-05-28 08:23:48.8563 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Media History-journal
+2022-05-28 08:23:48.8723 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8723 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8723 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8723 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8723 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8723 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8877 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8877 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8877 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8877 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8877 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.8877 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.9038 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.9038 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.9038 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.9038 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.9038 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Media History*
+2022-05-28 08:23:48.9038 | D | Files found: 2
+2022-05-28 08:23:48.9038 | D | Processing target: Edge Network Action Predictor
+2022-05-28 08:23:48.9038 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:48.9188 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.9348 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.9348 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.9348 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:48.9348 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9508 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9508 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9508 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9508 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9508 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9508 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9508 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Network Action Predictor
+2022-05-28 08:23:48.9657 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9657 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9657 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9657 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9657 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9657 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9657 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9657 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9819 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9819 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9819 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9819 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9819 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9819 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9969 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9969 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9969 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Network Action Predictor
+2022-05-28 08:23:48.9969 | D | Files found: 1
+2022-05-28 08:23:48.9969 | D | Processing target: Edge Preferences
+2022-05-28 08:23:48.9969 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:48.9969 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.0283 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.0283 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.0283 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.0283 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0443 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0443 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0443 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0443 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0443 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0443 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0596 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Preferences
+2022-05-28 08:23:49.0596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0758 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0758 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0758 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0758 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0758 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0758 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0909 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0909 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0909 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0909 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0909 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0909 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Preferences
+2022-05-28 08:23:49.0909 | D | Files found: 1
+2022-05-28 08:23:49.1067 | D | Processing target: Edge Shortcuts
+2022-05-28 08:23:49.1067 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:49.1067 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.1375 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.1375 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.1375 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.1375 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1375 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1536 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1536 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1536 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1536 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1536 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1687 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Shortcuts
+2022-05-28 08:23:49.1687 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Shortcuts-journal
+2022-05-28 08:23:49.1687 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1687 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1687 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1687 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1687 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1846 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1846 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1846 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1846 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1846 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.1846 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.2006 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.2006 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.2006 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.2006 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.2006 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.2006 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Shortcuts*
+2022-05-28 08:23:49.2006 | D | Files found: 2
+2022-05-28 08:23:49.2006 | D | Processing target: Edge Top Sites
+2022-05-28 08:23:49.2165 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:49.2165 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.2476 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.2476 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.2476 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.2476 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2476 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2476 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2625 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2625 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2625 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2625 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2625 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Top Sites
+2022-05-28 08:23:49.2625 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Top Sites-journal
+2022-05-28 08:23:49.2625 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2625 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2786 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2786 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2786 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2786 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2786 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2786 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2946 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2946 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2946 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2946 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.2946 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.3096 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.3096 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.3096 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.3096 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Top Sites*
+2022-05-28 08:23:49.3096 | D | Files found: 2
+2022-05-28 08:23:49.3096 | D | Processing target: Edge SyncData Database
+2022-05-28 08:23:49.3096 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\Sync Data'
+2022-05-28 08:23:49.3256 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.3416 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Sync Data'. Recursive: False, Mask: SyncData.sqlite3
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3566 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData\Sync Data' does not exist. Skipping
+2022-05-28 08:23:49.3726 | D | Files found: 0
+2022-05-28 08:23:49.3726 | D | Processing target: Edge Bookmarks
+2022-05-28 08:23:49.3726 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:49.3726 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.4035 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.4035 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.4035 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.4035 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4035 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4196 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4196 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4196 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4196 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4196 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4346 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4346 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4346 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4346 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4346 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4346 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4506 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4506 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4506 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4506 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4506 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4506 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4665 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4665 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4665 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4665 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4665 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Bookmarks*
+2022-05-28 08:23:49.4665 | D | Files found: 0
+2022-05-28 08:23:49.4665 | D | Processing target: Edge Visited Links
+2022-05-28 08:23:49.4816 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:49.4816 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.5126 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.5126 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.5126 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.5126 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5126 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5126 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5286 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5286 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5286 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5286 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5286 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Visited Links
+2022-05-28 08:23:49.5286 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5286 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5446 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5446 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5446 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5446 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5446 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5446 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5596 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5755 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5755 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Visited Links
+2022-05-28 08:23:49.5755 | D | Files found: 1
+2022-05-28 08:23:49.5755 | D | Processing target: Edge Web Data
+2022-05-28 08:23:49.5755 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\*\'
+2022-05-28 08:23:49.5755 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.6066 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.6066 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.6066 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data' does not exist. Skipping
+2022-05-28 08:23:49.6066 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Ad Blocking'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6066 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Autofill'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6226 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\AutoLaunchProtocolsComponent'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6226 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\BrowserMetrics'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6226 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\CertificateRevocation'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6226 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Crashpad'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6226 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6226 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Web Data
+2022-05-28 08:23:49.6226 | D | Found match: C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Web Data-journal
+2022-05-28 08:23:49.6375 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Edge Shopping'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6375 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\GrShaderCache'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6375 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\hyphen-data'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6375 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Nurturing'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6375 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OptimizationGuidePredictionModels'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6375 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\OriginTrials'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6375 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\RecoveryImproved'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Safe Browsing'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SafetyTips'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ShaderCache'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\SmartScreen'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Speech Recognition'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6535 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Subresource Filter'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6696 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Trust Protection Lists'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6696 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Web Notifications Deny List'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6696 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\WidevineCdm'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6696 | D | Getting files from 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\ZxcvbnData'. Recursive: False, Mask: Web Data*
+2022-05-28 08:23:49.6696 | D | Files found: 2
+2022-05-28 08:23:49.6696 | D | Processing target: Windows Protect Folder
+2022-05-28 08:23:49.6696 | D | Expanding directory: 'C:\Users\%user%\AppData\Roaming\Microsoft\Protect\*\'
+2022-05-28 08:23:49.6696 | D | 	'C:\ProgramData\AppData\Roaming\Microsoft\Protect' does not exist. Skipping
+2022-05-28 08:23:49.6846 | D | 	'C:\Users\Default\AppData\Roaming\Microsoft\Protect' does not exist. Skipping
+2022-05-28 08:23:49.6846 | D | 	'C:\Users\Default\AppData\Roaming\Microsoft\Protect' does not exist. Skipping
+2022-05-28 08:23:49.6846 | D | 	'C:\Users\Public\AppData\Roaming\Microsoft\Protect' does not exist. Skipping
+2022-05-28 08:23:49.6846 | D | Getting files from 'C:\Users\CFUser\AppData\Roaming\Microsoft\Protect\S-1-5-21-2209459975-2648094048-902850153-1001'. Recursive: True, Mask: *
+2022-05-28 08:23:49.6846 | D | Found match: 'C:\Users\CFUser\AppData\Roaming\Microsoft\Protect\S-1-5-21-2209459975-2648094048-902850153-1001\5c2dcb44-7f9a-4a9a-8172-c6264f497c51'
+2022-05-28 08:23:49.6846 | D | Found match: 'C:\Users\CFUser\AppData\Roaming\Microsoft\Protect\S-1-5-21-2209459975-2648094048-902850153-1001\Preferred'
+2022-05-28 08:23:49.6846 | D | Files found: 2
+2022-05-28 08:23:49.6846 | D | Processing target: Edge Snapshots Folder
+2022-05-28 08:23:49.6846 | D | Expanding directory: 'C:\Users\%user%\AppData\Local\Microsoft\Edge\User Data\Snapshots\*\'
+2022-05-28 08:23:49.6846 | D | 	'C:\ProgramData\AppData\Local\Microsoft\Edge\User Data\Snapshots' does not exist. Skipping
+2022-05-28 08:23:49.7006 | D | 	'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Snapshots' does not exist. Skipping
+2022-05-28 08:23:49.7006 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data\Snapshots' does not exist. Skipping
+2022-05-28 08:23:49.7006 | D | 	'C:\Users\Default\AppData\Local\Microsoft\Edge\User Data\Snapshots' does not exist. Skipping
+2022-05-28 08:23:49.7006 | D | 	'C:\Users\Public\AppData\Local\Microsoft\Edge\User Data\Snapshots' does not exist. Skipping
+2022-05-28 08:23:49.7006 | D | Files found: 0
+2022-05-28 08:23:49.7006 | D | Processing target: SAM registry transaction files
+2022-05-28 08:23:49.7006 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-28 08:23:49.7006 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SAM.LOG*
+2022-05-28 08:23:49.7006 | D | Found match: C:\Windows\System32\config\SAM.LOG1
+2022-05-28 08:23:49.7006 | D | Found match: C:\Windows\System32\config\SAM.LOG2
+2022-05-28 08:23:49.7006 | D | Files found: 2
+2022-05-28 08:23:49.7006 | D | Processing target: SAM registry transaction files
+2022-05-28 08:23:49.7006 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-28 08:23:49.7006 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-28 08:23:49.7166 | D | Files found: 0
+2022-05-28 08:23:49.7166 | D | Processing target: SECURITY registry transaction files
+2022-05-28 08:23:49.7166 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-28 08:23:49.7166 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SECURITY.LOG*
+2022-05-28 08:23:49.7166 | D | Found match: C:\Windows\System32\config\SECURITY.LOG1
+2022-05-28 08:23:49.7166 | D | Found match: C:\Windows\System32\config\SECURITY.LOG2
+2022-05-28 08:23:49.7166 | D | Files found: 2
+2022-05-28 08:23:49.7166 | D | Processing target: SECURITY registry transaction files
+2022-05-28 08:23:49.7166 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-28 08:23:49.7166 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-28 08:23:49.7166 | D | Files found: 0
+2022-05-28 08:23:49.7166 | D | Processing target: SOFTWARE registry transaction files
+2022-05-28 08:23:49.7166 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-28 08:23:49.7166 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SOFTWARE.LOG*
+2022-05-28 08:23:49.7166 | D | Found match: C:\Windows\System32\config\SOFTWARE.LOG1
+2022-05-28 08:23:49.7166 | D | Found match: C:\Windows\System32\config\SOFTWARE.LOG2
+2022-05-28 08:23:49.7166 | D | Files found: 2
+2022-05-28 08:23:49.7166 | D | Processing target: SOFTWARE registry transaction files
+2022-05-28 08:23:49.7315 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-28 08:23:49.7315 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-28 08:23:49.7315 | D | Files found: 0
+2022-05-28 08:23:49.7315 | D | Processing target: SYSTEM registry transaction files
+2022-05-28 08:23:49.7315 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-28 08:23:49.7315 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SYSTEM.LOG*
+2022-05-28 08:23:49.7315 | D | Found match: C:\Windows\System32\config\SYSTEM.LOG1
+2022-05-28 08:23:49.7315 | D | Found match: C:\Windows\System32\config\SYSTEM.LOG2
+2022-05-28 08:23:49.7315 | D | Files found: 2
+2022-05-28 08:23:49.7315 | D | Processing target: SYSTEM registry transaction files
+2022-05-28 08:23:49.7315 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-28 08:23:49.7315 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-28 08:23:49.7315 | D | Files found: 0
+2022-05-28 08:23:49.7315 | D | Processing target: SAM registry hive
+2022-05-28 08:23:49.7315 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-28 08:23:49.7315 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SAM
+2022-05-28 08:23:49.7315 | D | Found match: C:\Windows\System32\config\SAM
+2022-05-28 08:23:49.7315 | D | Files found: 1
+2022-05-28 08:23:49.7315 | D | Processing target: SAM registry hive
+2022-05-28 08:23:49.7476 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-28 08:23:49.7476 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-28 08:23:49.7476 | D | Files found: 0
+2022-05-28 08:23:49.7476 | D | Processing target: SECURITY registry hive
+2022-05-28 08:23:49.7476 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-28 08:23:49.7476 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SECURITY
+2022-05-28 08:23:49.7476 | D | Found match: C:\Windows\System32\config\SECURITY
+2022-05-28 08:23:49.7476 | D | Files found: 1
+2022-05-28 08:23:49.7476 | D | Processing target: SECURITY registry hive
+2022-05-28 08:23:49.7476 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-28 08:23:49.7476 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-28 08:23:49.7476 | D | Files found: 0
+2022-05-28 08:23:49.7476 | D | Processing target: SOFTWARE registry hive
+2022-05-28 08:23:49.7476 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-28 08:23:49.7476 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SOFTWARE
+2022-05-28 08:23:49.7476 | D | Found match: C:\Windows\System32\config\SOFTWARE
+2022-05-28 08:23:49.7476 | D | Files found: 1
+2022-05-28 08:23:49.7476 | D | Processing target: SOFTWARE registry hive
+2022-05-28 08:23:49.7626 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-28 08:23:49.7626 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-28 08:23:49.7626 | D | Files found: 0
+2022-05-28 08:23:49.7626 | D | Processing target: SYSTEM registry hive
+2022-05-28 08:23:49.7626 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-28 08:23:49.7626 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SYSTEM
+2022-05-28 08:23:49.7626 | D | Found match: C:\Windows\System32\config\SYSTEM
+2022-05-28 08:23:49.7626 | D | Files found: 1
+2022-05-28 08:23:49.7626 | D | Processing target: SYSTEM registry hive
+2022-05-28 08:23:49.7626 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-28 08:23:49.7626 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-28 08:23:49.7626 | D | Files found: 0
+2022-05-28 08:23:49.7626 | D | Processing target: RegBack registry transaction files
+2022-05-28 08:23:49.7626 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.7626 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: *.LOG*
+2022-05-28 08:23:49.7626 | D | Files found: 0
+2022-05-28 08:23:49.7626 | D | Processing target: RegBack registry transaction files
+2022-05-28 08:23:49.7626 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.7626 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-28 08:23:49.7626 | D | Files found: 0
+2022-05-28 08:23:49.7786 | D | Processing target: SAM registry hive (RegBack)
+2022-05-28 08:23:49.7786 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.7786 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: SAM
+2022-05-28 08:23:49.7786 | D | Files found: 0
+2022-05-28 08:23:49.7786 | D | Processing target: SAM registry hive (RegBack)
+2022-05-28 08:23:49.7786 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.7786 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-28 08:23:49.7786 | D | Files found: 0
+2022-05-28 08:23:49.7786 | D | Processing target: SECURITY registry hive (RegBack)
+2022-05-28 08:23:49.7786 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.7786 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: SECURITY
+2022-05-28 08:23:49.7786 | D | Files found: 0
+2022-05-28 08:23:49.7786 | D | Processing target: SECURITY registry hive (RegBack)
+2022-05-28 08:23:49.7786 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.7786 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-28 08:23:49.7786 | D | Files found: 0
+2022-05-28 08:23:49.7946 | D | Processing target: SOFTWARE registry hive (RegBack)
+2022-05-28 08:23:49.7946 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.7946 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: SOFTWARE
+2022-05-28 08:23:49.7946 | D | Files found: 0
+2022-05-28 08:23:49.7946 | D | Processing target: SOFTWARE registry hive (RegBack)
+2022-05-28 08:23:49.7946 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.7946 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-28 08:23:49.7946 | D | Files found: 0
+2022-05-28 08:23:49.7946 | D | Processing target: SYSTEM registry hive (RegBack)
+2022-05-28 08:23:49.7946 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.7946 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: SYSTEM
+2022-05-28 08:23:49.7946 | D | Files found: 0
+2022-05-28 08:23:49.7946 | D | Processing target: SYSTEM registry hive (RegBack)
+2022-05-28 08:23:49.7946 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.7946 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-28 08:23:49.8095 | D | Files found: 0
+2022-05-28 08:23:49.8095 | D | Processing target: SYSTEM registry hive (RegBack)
+2022-05-28 08:23:49.8095 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.8095 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: SYSTEM1
+2022-05-28 08:23:49.8095 | D | Files found: 0
+2022-05-28 08:23:49.8095 | D | Processing target: SYSTEM registry hive (RegBack)
+2022-05-28 08:23:49.8095 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-28 08:23:49.8095 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-28 08:23:49.8095 | D | Files found: 0
+2022-05-28 08:23:49.8095 | D | Processing target: System Profile registry hive
+2022-05-28 08:23:49.8095 | D | Expanding directory: 'C:\Windows\System32\config\systemprofile\'
+2022-05-28 08:23:49.8095 | D | Getting files from 'C:\Windows\System32\config\systemprofile'. Recursive: False, Mask: NTUSER.DAT
+2022-05-28 08:23:49.8095 | D | Files found: 0
+2022-05-28 08:23:49.8095 | D | Processing target: System Profile registry hive
+2022-05-28 08:23:49.8095 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\systemprofile\'
+2022-05-28 08:23:49.8095 | D | 	'C:\Windows.old\Windows\System32\config\systemprofile\' does not exist. Skipping
+2022-05-28 08:23:49.8095 | D | Files found: 0
+2022-05-28 08:23:49.8095 | D | Processing target: System Profile registry transaction files
+2022-05-28 08:23:49.8095 | D | Expanding directory: 'C:\Windows\System32\config\systemprofile\'
+2022-05-28 08:23:49.8255 | D | Getting files from 'C:\Windows\System32\config\systemprofile'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-28 08:23:49.8255 | D | Files found: 0
+2022-05-28 08:23:49.8255 | D | Processing target: System Profile registry transaction files
+2022-05-28 08:23:49.8255 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\systemprofile\'
+2022-05-28 08:23:49.8255 | D | 	'C:\Windows.old\Windows\System32\config\systemprofile\' does not exist. Skipping
+2022-05-28 08:23:49.8255 | D | Files found: 0
+2022-05-28 08:23:49.8255 | D | Processing target: Local Service registry hive
+2022-05-28 08:23:49.8255 | D | Expanding directory: 'C:\Windows\ServiceProfiles\LocalService\'
+2022-05-28 08:23:49.8255 | D | Getting files from 'C:\Windows\ServiceProfiles\LocalService'. Recursive: False, Mask: NTUSER.DAT
+2022-05-28 08:23:49.8255 | D | Found match: C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT
+2022-05-28 08:23:49.8255 | D | Files found: 1
+2022-05-28 08:23:49.8255 | D | Processing target: Local Service registry hive
+2022-05-28 08:23:49.8255 | D | Expanding directory: 'C:\Windows.old\Windows\ServiceProfiles\LocalService\'
+2022-05-28 08:23:49.8255 | D | 	'C:\Windows.old\Windows\ServiceProfiles\LocalService\' does not exist. Skipping
+2022-05-28 08:23:49.8255 | D | Files found: 0
+2022-05-28 08:23:49.8255 | D | Processing target: Local Service registry transaction files
+2022-05-28 08:23:49.8255 | D | Expanding directory: 'C:\Windows\ServiceProfiles\LocalService\'
+2022-05-28 08:23:49.8255 | D | Getting files from 'C:\Windows\ServiceProfiles\LocalService'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-28 08:23:49.8255 | D | Found match: C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1
+2022-05-28 08:23:49.8415 | D | Found match: C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2
+2022-05-28 08:23:49.8415 | D | Files found: 2
+2022-05-28 08:23:49.8415 | D | Processing target: Local Service registry transaction files
+2022-05-28 08:23:49.8415 | D | Expanding directory: 'C:\Windows.old\Windows\ServiceProfiles\LocalService\'
+2022-05-28 08:23:49.8415 | D | 	'C:\Windows.old\Windows\ServiceProfiles\LocalService\' does not exist. Skipping
+2022-05-28 08:23:49.8415 | D | Files found: 0
+2022-05-28 08:23:49.8415 | D | Processing target: Network Service registry hive
+2022-05-28 08:23:49.8415 | D | Expanding directory: 'C:\Windows\ServiceProfiles\NetworkService\'
+2022-05-28 08:23:49.8415 | D | Getting files from 'C:\Windows\ServiceProfiles\NetworkService'. Recursive: False, Mask: NTUSER.DAT
+2022-05-28 08:23:49.8415 | D | Found match: C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT
+2022-05-28 08:23:49.8415 | D | Files found: 1
+2022-05-28 08:23:49.8415 | D | Processing target: Network Service registry hive
+2022-05-28 08:23:49.8415 | D | Expanding directory: 'C:\Windows.old\Windows\ServiceProfiles\NetworkService\'
+2022-05-28 08:23:49.8415 | D | 	'C:\Windows.old\Windows\ServiceProfiles\NetworkService\' does not exist. Skipping
+2022-05-28 08:23:49.8415 | D | Files found: 0
+2022-05-28 08:23:49.8415 | D | Processing target: Network Service registry transaction files
+2022-05-28 08:23:49.8566 | D | Expanding directory: 'C:\Windows\ServiceProfiles\NetworkService\'
+2022-05-28 08:23:49.8566 | D | Getting files from 'C:\Windows\ServiceProfiles\NetworkService'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-28 08:23:49.8566 | D | Found match: C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1
+2022-05-28 08:23:49.8566 | D | Found match: C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2
+2022-05-28 08:23:49.8566 | D | Files found: 2
+2022-05-28 08:23:49.8566 | D | Processing target: Network Service registry transaction files
+2022-05-28 08:23:49.8566 | D | Expanding directory: 'C:\Windows.old\Windows\ServiceProfiles\NetworkService\'
+2022-05-28 08:23:49.8566 | D | 	'C:\Windows.old\Windows\ServiceProfiles\NetworkService\' does not exist. Skipping
+2022-05-28 08:23:49.8566 | D | Files found: 0
+2022-05-28 08:23:49.8566 | D | Processing target: System Restore Points Registry Hives (XP)
+2022-05-28 08:23:49.8566 | D | Expanding directory: 'C:\System Volume Information\_restore*\RP*\snapshot\'
+2022-05-28 08:23:49.8566 | D | Files found: 0
+2022-05-28 08:23:50.0446 | I | Found 39 files in 2.195 seconds. Beginning copy...
+2022-05-28 08:23:52.3406 | D | Creating directory 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Collections'
+2022-05-28 08:23:52.3725 | D | Copied 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Collections\collectionsSQLite' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Collections\collectionsSQLite' | Source SHA-1: 5D2935FD5A86EA02FA8EA95A1786F64F869CD37C | Source created: 2022-05-28 12:23:21.7724078 | Source modified: 2022-05-28 12:23:21.9036397 | Source last accessed: 2022-05-28 12:23:21.9036397
+2022-05-28 08:23:52.4193 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons' due to IOException...
+2022-05-28 08:23:52.4193 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons-journal' due to IOException...
+2022-05-28 08:23:52.4353 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\History' due to IOException...
+2022-05-28 08:23:52.4353 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\History-journal' due to IOException...
+2022-05-28 08:23:52.4353 | D | Creating directory 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Sessions'
+2022-05-28 08:23:52.4500 | D | Copied 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Sessions\Session_13298213833256493' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Sessions\Session_13298213833256493' | Source SHA-1: B69AF191E3E3D9451AD0E213D6C7747D16A7CBC0 | Source created: 2022-05-28 12:17:13.2568725 | Source modified: 2022-05-28 12:23:34.5849992 | Source last accessed: 2022-05-28 12:23:34.5849992
+2022-05-28 08:23:52.4660 | D | Copied 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Sessions\Tabs_13298213845338785' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Sessions\Tabs_13298213845338785' | Source SHA-1: 0E3E3BF6CAA2BB1E40DAC4A12BBC3F22EA668D8A | Source created: 2022-05-28 12:17:25.3298289 | Source modified: 2022-05-28 12:23:34.7940268 | Source last accessed: 2022-05-28 12:23:34.7940268
+2022-05-28 08:23:52.4660 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Login Data' due to IOException...
+2022-05-28 08:23:52.4812 | D | Copied 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Media History' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Media History' | Source SHA-1: B405C8E0737BE8E16A08556757DC817BD02AF025 | Source created: 2022-03-05 13:34:52.0846247 | Source modified: 2022-03-05 13:34:52.1002458 | Source last accessed: 2022-03-05 13:34:52.1002458
+2022-05-28 08:23:52.4812 | D | Copied 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Media History-journal' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Media History-journal' | Source SHA-1: DA39A3EE5E6B4B0D3255BFEF95601890AFD80709 | Source created: 2022-03-05 13:34:52.0846247 | Source modified: 2022-03-05 13:34:52.1002458 | Source last accessed: 2022-03-05 13:34:52.1002458
+2022-05-28 08:23:52.4812 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Network Action Predictor' due to IOException...
+2022-05-28 08:23:52.5128 | D | Copied 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Preferences' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Preferences' | Source SHA-1: 6B19E66A794731A141FC5023406F2F3DE3B9E9CE | Source created: 2022-03-05 13:34:52.1156517 | Source modified: 2022-05-28 12:23:46.0601113 | Source last accessed: 2022-05-28 12:23:46.0601113
+2022-05-28 08:23:52.5282 | D | Copied 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Shortcuts' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Shortcuts' | Source SHA-1: BE25C6A8AEC6AB3FF0C08721918CA87FFC5B1E09 | Source created: 2022-05-28 12:17:14.7775010 | Source modified: 2022-05-28 12:23:12.3278108 | Source last accessed: 2022-05-28 12:23:12.3278108
+2022-05-28 08:23:52.5282 | D | 	Skipping 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Shortcuts-journal' with SHA-1 'DA39A3EE5E6B4B0D3255BFEF95601890AFD80709' as a file with same hash has already been copied
+2022-05-28 08:23:52.5440 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Top Sites' due to IOException...
+2022-05-28 08:23:52.5440 | D | 	Skipping 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Top Sites-journal' with SHA-1 'DA39A3EE5E6B4B0D3255BFEF95601890AFD80709' as a file with same hash has already been copied
+2022-05-28 08:23:52.5440 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Visited Links' due to IOException...
+2022-05-28 08:23:52.5440 | I | 	Deferring 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Web Data' due to IOException...
+2022-05-28 08:23:52.5440 | D | 	Skipping 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Web Data-journal' with SHA-1 'DA39A3EE5E6B4B0D3255BFEF95601890AFD80709' as a file with same hash has already been copied
+2022-05-28 08:23:52.5440 | D | Creating directory 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Roaming\Microsoft\Protect\S-1-5-21-2209459975-2648094048-902850153-1001'
+2022-05-28 08:23:52.5913 | D | Copied 'C:\Users\CFUser\AppData\Roaming\Microsoft\Protect\S-1-5-21-2209459975-2648094048-902850153-1001\5c2dcb44-7f9a-4a9a-8172-c6264f497c51' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Roaming\Microsoft\Protect\S-1-5-21-2209459975-2648094048-902850153-1001\5c2dcb44-7f9a-4a9a-8172-c6264f497c51' | Source SHA-1: 77E6F9B54DF89994BF9C02770593D4A566B6A68A | Source created: 2022-03-05 13:34:49.5844324 | Source modified: 2022-03-05 13:34:49.5844324 | Source last accessed: 2022-03-05 13:34:49.5844324
+2022-05-28 08:23:52.5913 | D | Copied 'C:\Users\CFUser\AppData\Roaming\Microsoft\Protect\S-1-5-21-2209459975-2648094048-902850153-1001\Preferred' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Roaming\Microsoft\Protect\S-1-5-21-2209459975-2648094048-902850153-1001\Preferred' | Source SHA-1: ACFEF2540692FE593DA87290019A4EA63D82F528 | Source created: 2022-03-05 13:34:49.5844324 | Source modified: 2022-03-05 13:34:49.5844324 | Source last accessed: 2022-05-28 12:04:01.2724455
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SAM.LOG1' due to IOException...
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SAM.LOG2' due to IOException...
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SECURITY.LOG1' due to IOException...
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SECURITY.LOG2' due to IOException...
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SOFTWARE.LOG1' due to IOException...
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SOFTWARE.LOG2' due to IOException...
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SYSTEM.LOG1' due to IOException...
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SYSTEM.LOG2' due to IOException...
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SAM' due to IOException...
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SECURITY' due to IOException...
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SOFTWARE' due to IOException...
+2022-05-28 08:23:52.6063 | I | 	Deferring 'C:\Windows\System32\config\SYSTEM' due to IOException...
+2022-05-28 08:23:52.6222 | I | 	Deferring 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT' due to IOException...
+2022-05-28 08:23:52.6222 | I | 	Deferring 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1' due to IOException...
+2022-05-28 08:23:52.6222 | I | 	Deferring 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2' due to IOException...
+2022-05-28 08:23:52.6222 | I | 	Deferring 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT' due to IOException...
+2022-05-28 08:23:52.6222 | I | 	Deferring 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1' due to IOException...
+2022-05-28 08:23:52.6222 | I | 	Deferring 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2' due to IOException...
+2022-05-28 08:23:52.6222 | I | Deferred file count: 27. Copying locked files...
+2022-05-28 08:23:52.6376 | I | 	Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons'. Hashing source file...
+2022-05-28 08:23:52.6376 | D | Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons' | Source SHA-1: 55CD0F3E5A4BDD4F08DA2CFE2F015455405E50D7 | Source created: 2022-03-05 13:34:52.1002458 | Source modified: 2022-05-28 12:23:25.0547697 | Source last accessed: 2022-05-28 12:23:25.0547697
+2022-05-28 08:23:52.6376 | I | 	Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons-journal' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons-journal'. Hashing source file...
+2022-05-28 08:23:52.6376 | D | Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons-journal' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Favicons-journal' | Source SHA-1: 05658708F88417729644376ECB13C8B540453AB9 | Source created: 2022-03-05 13:34:52.1002458 | Source modified: 2022-05-28 12:23:25.0557939 | Source last accessed: 2022-05-28 12:23:25.0557939
+2022-05-28 08:23:52.6533 | I | 	Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\History' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\History'. Hashing source file...
+2022-05-28 08:23:52.6533 | D | Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\History' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\History' | Source SHA-1: 95F43F2A250391C37811866A44FED28D93FC027F | Source created: 2022-03-05 13:34:52.0846247 | Source modified: 2022-05-28 12:23:35.9299038 | Source last accessed: 2022-05-28 12:23:35.9299038
+2022-05-28 08:23:52.6533 | D | 	Skipping 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\History-journal' with SHA-1 'DA39A3EE5E6B4B0D3255BFEF95601890AFD80709' as a file with same hash has already been copied
+2022-05-28 08:23:52.6687 | I | 	Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Login Data' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Login Data'. Hashing source file...
+2022-05-28 08:23:52.6687 | D | Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Login Data' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Login Data' | Source SHA-1: 9E37E34F8B04102A66D7F254B34D536ECCB305A9 | Source created: 2022-03-05 13:34:52.1002458 | Source modified: 2022-05-28 12:17:10.7004648 | Source last accessed: 2022-05-28 12:17:10.7004648
+2022-05-28 08:23:52.6687 | I | 	Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Network Action Predictor' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Network Action Predictor'. Hashing source file...
+2022-05-28 08:23:52.6687 | D | Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Network Action Predictor' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Network Action Predictor' | Source SHA-1: A5C60915D7BBE8F985855252B7D99F4EBB168421 | Source created: 2022-05-28 12:17:14.8995222 | Source modified: 2022-05-28 12:23:11.1661283 | Source last accessed: 2022-05-28 12:23:11.1661283
+2022-05-28 08:23:52.6853 | I | 	Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Top Sites' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Top Sites'. Hashing source file...
+2022-05-28 08:23:52.6853 | D | Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Top Sites' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Top Sites' | Source SHA-1: 43A923435DCCBFCFFDA5D7BB353E2FFE249F0E6C | Source created: 2022-05-28 12:17:10.7318795 | Source modified: 2022-05-28 12:23:08.3267579 | Source last accessed: 2022-05-28 12:23:08.3267579
+2022-05-28 08:23:52.7000 | I | 	Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Visited Links' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Visited Links'. Hashing source file...
+2022-05-28 08:23:52.7000 | D | Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Visited Links' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Visited Links' | Source SHA-1: FCE2A6EF635F9CBF448BEF845E06008C060DE63D | Source created: 2022-05-28 12:17:11.7605137 | Source modified: 2022-05-28 12:23:22.4176180 | Source last accessed: 2022-05-28 12:23:22.4176180
+2022-05-28 08:23:52.7156 | I | 	Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Web Data' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Web Data'. Hashing source file...
+2022-05-28 08:23:52.7156 | D | Copied deferred file 'C:\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Web Data' to 'C:\temp\edgechromium\tout\C\Users\CFUser\AppData\Local\Microsoft\Edge\User Data\Default\Web Data' | Source SHA-1: 5F65A3721A1E42A7852CC08D53A8EAE51D37C26F | Source created: 2022-03-05 13:34:52.0846247 | Source modified: 2022-05-28 12:23:17.2672426 | Source last accessed: 2022-05-28 12:23:17.2672426
+2022-05-28 08:23:52.7156 | D | Creating directory 'C:\temp\edgechromium\tout\C\Windows\System32\config'
+2022-05-28 08:23:52.7156 | I | 	Copied deferred file 'C:\Windows\System32\config\SAM.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SAM.LOG1'. Hashing source file...
+2022-05-28 08:23:52.7156 | D | Copied deferred file 'C:\Windows\System32\config\SAM.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SAM.LOG1' | Source SHA-1: ED9DF3D0B9EE39BEC92BF8031648A9BE090F0D2D | Source created: 2021-06-05 12:01:25.2341373 | Source modified: 2021-06-05 12:01:25.2341373 | Source last accessed: 2021-06-05 12:01:25.2341373
+2022-05-28 08:23:52.7317 | I | 	Copied deferred file 'C:\Windows\System32\config\SAM.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SAM.LOG2'. Hashing source file...
+2022-05-28 08:23:52.7317 | D | Copied deferred file 'C:\Windows\System32\config\SAM.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SAM.LOG2' | Source SHA-1: F5D6A2180275DCB0F37AA23A0E89A168519892DB | Source created: 2021-06-05 12:01:25.2341373 | Source modified: 2021-06-05 12:01:25.2341373 | Source last accessed: 2021-06-05 12:01:25.2341373
+2022-05-28 08:23:52.7317 | I | 	Copied deferred file 'C:\Windows\System32\config\SECURITY.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SECURITY.LOG1'. Hashing source file...
+2022-05-28 08:23:52.7317 | D | Copied deferred file 'C:\Windows\System32\config\SECURITY.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SECURITY.LOG1' | Source SHA-1: F491634DC33BA3BD56D1D82A0FAA51FF2202B47A | Source created: 2021-06-05 12:01:25.2341373 | Source modified: 2021-06-05 12:01:25.2341373 | Source last accessed: 2021-06-05 12:01:25.2341373
+2022-05-28 08:23:52.7468 | I | 	Copied deferred file 'C:\Windows\System32\config\SECURITY.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SECURITY.LOG2'. Hashing source file...
+2022-05-28 08:23:52.7468 | D | Copied deferred file 'C:\Windows\System32\config\SECURITY.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SECURITY.LOG2' | Source SHA-1: 0D1DBC767C926F829FFED35E35B43A5989C665A5 | Source created: 2021-06-05 12:01:25.2341373 | Source modified: 2021-06-05 12:01:25.2341373 | Source last accessed: 2021-06-05 12:01:25.2341373
+2022-05-28 08:23:52.9813 | I | 	Copied deferred file 'C:\Windows\System32\config\SOFTWARE.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SOFTWARE.LOG1'. Hashing source file...
+2022-05-28 08:23:52.9975 | D | Copied deferred file 'C:\Windows\System32\config\SOFTWARE.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SOFTWARE.LOG1' | Source SHA-1: 9D743352991CA59BDACA10CA932A71C9F42C85F6 | Source created: 2021-06-05 12:01:25.2027708 | Source modified: 2021-06-05 12:01:25.2027708 | Source last accessed: 2021-06-05 12:01:25.2027708
+2022-05-28 08:23:54.0440 | I | 	Copied deferred file 'C:\Windows\System32\config\SOFTWARE.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SOFTWARE.LOG2'. Hashing source file...
+2022-05-28 08:23:54.0440 | D | Copied deferred file 'C:\Windows\System32\config\SOFTWARE.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SOFTWARE.LOG2' | Source SHA-1: E9A43451E61D4E3F88A03FAA3AFFAD13F1851008 | Source created: 2021-06-05 12:01:25.2027708 | Source modified: 2021-06-05 12:01:25.2027708 | Source last accessed: 2021-06-05 12:01:25.2027708
+2022-05-28 08:23:54.1063 | I | 	Copied deferred file 'C:\Windows\System32\config\SYSTEM.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SYSTEM.LOG1'. Hashing source file...
+2022-05-28 08:23:54.1063 | D | Copied deferred file 'C:\Windows\System32\config\SYSTEM.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SYSTEM.LOG1' | Source SHA-1: 53439EA4E443D53AC6707C57DB39835A3C4D7572 | Source created: 2021-06-05 12:01:25.2184107 | Source modified: 2021-06-05 12:01:25.2184107 | Source last accessed: 2021-06-05 12:01:25.2184107
+2022-05-28 08:23:54.2939 | I | 	Copied deferred file 'C:\Windows\System32\config\SYSTEM.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SYSTEM.LOG2'. Hashing source file...
+2022-05-28 08:23:54.2939 | D | Copied deferred file 'C:\Windows\System32\config\SYSTEM.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SYSTEM.LOG2' | Source SHA-1: C81AD42ED971B6E6B867071F2E9DFE07E59D822F | Source created: 2021-06-05 12:01:25.2184107 | Source modified: 2021-06-05 12:01:25.2184107 | Source last accessed: 2021-06-05 12:01:25.2184107
+2022-05-28 08:23:54.2939 | I | 	Copied deferred file 'C:\Windows\System32\config\SAM' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SAM'. Hashing source file...
+2022-05-28 08:23:54.2939 | D | Copied deferred file 'C:\Windows\System32\config\SAM' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SAM' | Source SHA-1: 8CD75030EDA763D81602FE23A22F08B01784A733 | Source created: 2021-06-05 12:01:25.1871455 | Source modified: 2022-03-05 13:31:39.8249097 | Source last accessed: 2022-03-05 13:31:39.8249097
+2022-05-28 08:23:54.3094 | I | 	Copied deferred file 'C:\Windows\System32\config\SECURITY' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SECURITY'. Hashing source file...
+2022-05-28 08:23:54.3094 | D | Copied deferred file 'C:\Windows\System32\config\SECURITY' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SECURITY' | Source SHA-1: 0DC5AAF65327837462D90F80EFBAAE508ABA72F7 | Source created: 2021-06-05 12:01:25.1871455 | Source modified: 2022-03-05 13:31:39.8249097 | Source last accessed: 2022-03-05 13:31:39.8249097
+2022-05-28 08:24:00.3406 | I | 	Copied deferred file 'C:\Windows\System32\config\SOFTWARE' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SOFTWARE'. Hashing source file...
+2022-05-28 08:24:00.3406 | D | Copied deferred file 'C:\Windows\System32\config\SOFTWARE' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SOFTWARE' | Source SHA-1: A4979946405F2860C4B2DBB9F7EFB8451EA6F240 | Source created: 2021-06-05 12:01:25.1871455 | Source modified: 2022-03-05 13:31:39.8249097 | Source last accessed: 2022-03-05 13:31:39.8249097
+2022-05-28 08:24:01.2783 | I | 	Copied deferred file 'C:\Windows\System32\config\SYSTEM' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SYSTEM'. Hashing source file...
+2022-05-28 08:24:01.2783 | D | Copied deferred file 'C:\Windows\System32\config\SYSTEM' to 'C:\temp\edgechromium\tout\C\Windows\System32\config\SYSTEM' | Source SHA-1: A90F3723F98843C94A49EB96377BA283A03E790C | Source created: 2021-06-05 12:01:25.1871455 | Source modified: 2022-03-05 13:31:39.7936470 | Source last accessed: 2022-03-05 13:31:39.7936470
+2022-05-28 08:24:01.2938 | D | Creating directory 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\LocalService'
+2022-05-28 08:24:01.2938 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT'. Hashing source file...
+2022-05-28 08:24:01.2938 | D | Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT' | Source SHA-1: 0AA16721449756AA5F5732146401FCDFB76249B5 | Source created: 2022-03-05 16:19:55.3007956 | Source modified: 2022-03-05 13:31:39.8249097 | Source last accessed: 2022-03-05 13:31:39.8249097
+2022-05-28 08:24:01.3095 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1'. Hashing source file...
+2022-05-28 08:24:01.3095 | D | Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1' | Source SHA-1: 9B93A1AE1BEB9F9E67B29024EC843060040C9DB6 | Source created: 2022-03-05 16:19:55.3007956 | Source modified: 2022-03-05 16:19:55.3007956 | Source last accessed: 2022-03-05 16:19:55.3007956
+2022-05-28 08:24:01.3095 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2'. Hashing source file...
+2022-05-28 08:24:01.3095 | D | Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2' | Source SHA-1: 5AF51FAD1A5C7D69B65DDA2F100F534029CA5EC4 | Source created: 2022-03-05 16:19:55.3007956 | Source modified: 2022-03-05 16:19:55.3007956 | Source last accessed: 2022-03-05 16:19:55.3007956
+2022-05-28 08:24:01.3406 | D | Creating directory 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\NetworkService'
+2022-05-28 08:24:01.3406 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT'. Hashing source file...
+2022-05-28 08:24:01.3406 | D | Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT' | Source SHA-1: C6C2B2C0B70ED5407678CF4C728F139B9FA64F3C | Source created: 2022-03-05 16:19:54.9884862 | Source modified: 2022-03-05 13:31:39.8249097 | Source last accessed: 2022-03-05 13:31:39.8249097
+2022-05-28 08:24:01.3406 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1'. Hashing source file...
+2022-05-28 08:24:01.3568 | D | Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1' | Source SHA-1: BDE51084870605C7E7592EE5D15586890BA45DE5 | Source created: 2022-03-05 16:19:54.9884862 | Source modified: 2022-03-05 16:19:54.9884862 | Source last accessed: 2022-03-05 16:19:54.9884862
+2022-05-28 08:24:01.3568 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2'. Hashing source file...
+2022-05-28 08:24:01.3568 | D | Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2' to 'C:\temp\edgechromium\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2' | Source SHA-1: 4EA5659E949E350628B362CCC9315534C13BB642 | Source created: 2022-03-05 16:19:54.9884862 | Source modified: 2022-03-05 16:19:54.9884862 | Source last accessed: 2022-03-05 16:19:54.9884862
+2022-05-28 08:24:01.3568 | D | Flushing writers and streams...
+2022-05-28 08:24:01.3568 | I | Copied 35 (Deduplicated: 4) out of 39 files in 13.6822 seconds. See '*_CopyLog.csv' in the VHD(X)/Zip located in 'C:\temp\edgechromium\tout' for copy details
+2022-05-28 08:24:01.3728 | W | Compressing files to 'C:\temp\edgechromium\tout\2022-05-28T122343_DESKTOP-O6N6ORL_EdgeChromium.zip'...
+2022-05-28 08:24:03.9405 | I | Cleaning up files in 'C:\temp\edgechromium\tout'...
+2022-05-28 08:24:03.9714 | F | Total execution time: 16.2999 seconds
