@@ -1,0 +1,282 @@
+2022-05-27 23:18:42.9654 | D | Enabled debug messages...
+2022-05-27 23:18:42.9961 | I | KAPE version 1.2.0.0 Author: Eric Zimmerman (kape@kroll.com)
+2022-05-27 23:18:42.9961 | I | KAPE directory: C:\Users\CFUser\Desktop\kape
+2022-05-27 23:18:42.9961 | I | Command line: --tsource C: --tdest C:\temp\shimcache\tout --tflush --target RegistryHivesSystem --mdest C:\temp\shimcache\mout --mflush --module AppCompatCacheParser --debug 
+2022-05-27 23:18:42.9961 | I | System info: Machine name: DESKTOP-3VP67NQ, 64-bit: True, User: CFUser OS: Windows10 (10.0.19043)
+2022-05-27 23:18:43.1992 | D | Validating configuration files
+2022-05-27 23:18:43.9179 | D | 261 targets and 254 modules validated successfully
+2022-05-27 23:18:43.9336 | I | Using Target operations
+2022-05-27 23:18:43.9336 | W | 	Flushing target destination directory 'C:\temp\shimcache\tout'
+2022-05-27 23:18:43.9336 | W | 	Creating target destination directory 'C:\temp\shimcache\tout'
+2022-05-27 23:18:43.9336 | I | Found 41 targets. Expanding targets to file list...
+2022-05-27 23:18:43.9497 | D | Processing target: SAM registry transaction files
+2022-05-27 23:18:43.9497 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-27 23:18:43.9653 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SAM.LOG*
+2022-05-27 23:18:43.9653 | D | Found match: C:\Windows\System32\config\SAM.LOG1
+2022-05-27 23:18:43.9653 | D | Found match: C:\Windows\System32\config\SAM.LOG2
+2022-05-27 23:18:43.9653 | D | Files found: 2
+2022-05-27 23:18:43.9653 | D | Processing target: SAM registry transaction files
+2022-05-27 23:18:43.9653 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-27 23:18:43.9653 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-27 23:18:43.9653 | D | Files found: 0
+2022-05-27 23:18:43.9653 | D | Processing target: SECURITY registry transaction files
+2022-05-27 23:18:43.9653 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-27 23:18:43.9653 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SECURITY.LOG*
+2022-05-27 23:18:43.9809 | D | Found match: C:\Windows\System32\config\SECURITY.LOG1
+2022-05-27 23:18:43.9809 | D | Found match: C:\Windows\System32\config\SECURITY.LOG2
+2022-05-27 23:18:43.9809 | D | Files found: 2
+2022-05-27 23:18:43.9809 | D | Processing target: SECURITY registry transaction files
+2022-05-27 23:18:43.9809 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-27 23:18:43.9809 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-27 23:18:43.9809 | D | Files found: 0
+2022-05-27 23:18:43.9809 | D | Processing target: SOFTWARE registry transaction files
+2022-05-27 23:18:43.9962 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-27 23:18:43.9962 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SOFTWARE.LOG*
+2022-05-27 23:18:43.9962 | D | Found match: C:\Windows\System32\config\SOFTWARE.LOG1
+2022-05-27 23:18:43.9962 | D | Found match: C:\Windows\System32\config\SOFTWARE.LOG2
+2022-05-27 23:18:43.9962 | D | Files found: 2
+2022-05-27 23:18:43.9962 | D | Processing target: SOFTWARE registry transaction files
+2022-05-27 23:18:44.0123 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-27 23:18:44.0123 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-27 23:18:44.0275 | D | Files found: 0
+2022-05-27 23:18:44.0275 | D | Processing target: SYSTEM registry transaction files
+2022-05-27 23:18:44.0275 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-27 23:18:44.0275 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SYSTEM.LOG*
+2022-05-27 23:18:44.0275 | D | Found match: C:\Windows\System32\config\SYSTEM.LOG1
+2022-05-27 23:18:44.0433 | D | Found match: C:\Windows\System32\config\SYSTEM.LOG2
+2022-05-27 23:18:44.0433 | D | Files found: 2
+2022-05-27 23:18:44.0433 | D | Processing target: SYSTEM registry transaction files
+2022-05-27 23:18:44.0433 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-27 23:18:44.0433 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-27 23:18:44.0433 | D | Files found: 0
+2022-05-27 23:18:44.0585 | D | Processing target: SAM registry hive
+2022-05-27 23:18:44.0585 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-27 23:18:44.0585 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SAM
+2022-05-27 23:18:44.0585 | D | Found match: C:\Windows\System32\config\SAM
+2022-05-27 23:18:44.0585 | D | Files found: 1
+2022-05-27 23:18:44.0742 | D | Processing target: SAM registry hive
+2022-05-27 23:18:44.0742 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-27 23:18:44.0742 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-27 23:18:44.0742 | D | Files found: 0
+2022-05-27 23:18:44.0742 | D | Processing target: SECURITY registry hive
+2022-05-27 23:18:44.0742 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-27 23:18:44.0901 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SECURITY
+2022-05-27 23:18:44.0901 | D | Found match: C:\Windows\System32\config\SECURITY
+2022-05-27 23:18:44.0901 | D | Files found: 1
+2022-05-27 23:18:44.0901 | D | Processing target: SECURITY registry hive
+2022-05-27 23:18:44.0901 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-27 23:18:44.0901 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-27 23:18:44.1056 | D | Files found: 0
+2022-05-27 23:18:44.1056 | D | Processing target: SOFTWARE registry hive
+2022-05-27 23:18:44.1056 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-27 23:18:44.1056 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SOFTWARE
+2022-05-27 23:18:44.1056 | D | Found match: C:\Windows\System32\config\SOFTWARE
+2022-05-27 23:18:44.1056 | D | Files found: 1
+2022-05-27 23:18:44.1056 | D | Processing target: SOFTWARE registry hive
+2022-05-27 23:18:44.1215 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-27 23:18:44.1215 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-27 23:18:44.1215 | D | Files found: 0
+2022-05-27 23:18:44.1215 | D | Processing target: SYSTEM registry hive
+2022-05-27 23:18:44.1215 | D | Expanding directory: 'C:\Windows\System32\config\'
+2022-05-27 23:18:44.1215 | D | Getting files from 'C:\Windows\System32\config'. Recursive: False, Mask: SYSTEM
+2022-05-27 23:18:44.1368 | D | Found match: C:\Windows\System32\config\SYSTEM
+2022-05-27 23:18:44.1368 | D | Files found: 1
+2022-05-27 23:18:44.1368 | D | Processing target: SYSTEM registry hive
+2022-05-27 23:18:44.1368 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\'
+2022-05-27 23:18:44.1368 | D | 	'C:\Windows.old\Windows\System32\config\' does not exist. Skipping
+2022-05-27 23:18:44.1532 | D | Files found: 0
+2022-05-27 23:18:44.1532 | D | Processing target: RegBack registry transaction files
+2022-05-27 23:18:44.1532 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.1532 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: *.LOG*
+2022-05-27 23:18:44.1532 | D | Files found: 0
+2022-05-27 23:18:44.1532 | D | Processing target: RegBack registry transaction files
+2022-05-27 23:18:44.1687 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.1687 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-27 23:18:44.1835 | D | Files found: 0
+2022-05-27 23:18:44.1835 | D | Processing target: SAM registry hive (RegBack)
+2022-05-27 23:18:44.1835 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.1835 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: SAM
+2022-05-27 23:18:44.1835 | D | Files found: 0
+2022-05-27 23:18:44.1835 | D | Processing target: SAM registry hive (RegBack)
+2022-05-27 23:18:44.1996 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.1996 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-27 23:18:44.1996 | D | Files found: 0
+2022-05-27 23:18:44.1996 | D | Processing target: SECURITY registry hive (RegBack)
+2022-05-27 23:18:44.1996 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.2152 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: SECURITY
+2022-05-27 23:18:44.2152 | D | Files found: 0
+2022-05-27 23:18:44.2152 | D | Processing target: SECURITY registry hive (RegBack)
+2022-05-27 23:18:44.2152 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.2152 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-27 23:18:44.2152 | D | Files found: 0
+2022-05-27 23:18:44.2152 | D | Processing target: SOFTWARE registry hive (RegBack)
+2022-05-27 23:18:44.2317 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.2317 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: SOFTWARE
+2022-05-27 23:18:44.2317 | D | Files found: 0
+2022-05-27 23:18:44.2317 | D | Processing target: SOFTWARE registry hive (RegBack)
+2022-05-27 23:18:44.2317 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.2317 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-27 23:18:44.2469 | D | Files found: 0
+2022-05-27 23:18:44.2469 | D | Processing target: SYSTEM registry hive (RegBack)
+2022-05-27 23:18:44.2469 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.2469 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: SYSTEM
+2022-05-27 23:18:44.2469 | D | Files found: 0
+2022-05-27 23:18:44.2622 | D | Processing target: SYSTEM registry hive (RegBack)
+2022-05-27 23:18:44.2622 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.2622 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-27 23:18:44.2622 | D | Files found: 0
+2022-05-27 23:18:44.2622 | D | Processing target: SYSTEM registry hive (RegBack)
+2022-05-27 23:18:44.2622 | D | Expanding directory: 'C:\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.2773 | D | Getting files from 'C:\Windows\System32\config\RegBack'. Recursive: False, Mask: SYSTEM1
+2022-05-27 23:18:44.2773 | D | Files found: 0
+2022-05-27 23:18:44.2773 | D | Processing target: SYSTEM registry hive (RegBack)
+2022-05-27 23:18:44.2773 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\RegBack\'
+2022-05-27 23:18:44.2773 | D | 	'C:\Windows.old\Windows\System32\config\RegBack\' does not exist. Skipping
+2022-05-27 23:18:44.2773 | D | Files found: 0
+2022-05-27 23:18:44.2773 | D | Processing target: System Profile registry hive
+2022-05-27 23:18:44.2934 | D | Expanding directory: 'C:\Windows\System32\config\systemprofile\'
+2022-05-27 23:18:44.2934 | D | Getting files from 'C:\Windows\System32\config\systemprofile'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 23:18:44.2934 | D | Files found: 0
+2022-05-27 23:18:44.2934 | D | Processing target: System Profile registry hive
+2022-05-27 23:18:44.3085 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\systemprofile\'
+2022-05-27 23:18:44.3085 | D | 	'C:\Windows.old\Windows\System32\config\systemprofile\' does not exist. Skipping
+2022-05-27 23:18:44.3085 | D | Files found: 0
+2022-05-27 23:18:44.3085 | D | Processing target: System Profile registry transaction files
+2022-05-27 23:18:44.3085 | D | Expanding directory: 'C:\Windows\System32\config\systemprofile\'
+2022-05-27 23:18:44.3085 | D | Getting files from 'C:\Windows\System32\config\systemprofile'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-27 23:18:44.3085 | D | Files found: 0
+2022-05-27 23:18:44.3085 | D | Processing target: System Profile registry transaction files
+2022-05-27 23:18:44.3246 | D | Expanding directory: 'C:\Windows.old\Windows\System32\config\systemprofile\'
+2022-05-27 23:18:44.3404 | D | 	'C:\Windows.old\Windows\System32\config\systemprofile\' does not exist. Skipping
+2022-05-27 23:18:44.3404 | D | Files found: 0
+2022-05-27 23:18:44.3404 | D | Processing target: Local Service registry hive
+2022-05-27 23:18:44.3404 | D | Expanding directory: 'C:\Windows\ServiceProfiles\LocalService\'
+2022-05-27 23:18:44.3404 | D | Getting files from 'C:\Windows\ServiceProfiles\LocalService'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 23:18:44.3555 | D | Found match: C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT
+2022-05-27 23:18:44.3555 | D | Files found: 1
+2022-05-27 23:18:44.3555 | D | Processing target: Local Service registry hive
+2022-05-27 23:18:44.3555 | D | Expanding directory: 'C:\Windows.old\Windows\ServiceProfiles\LocalService\'
+2022-05-27 23:18:44.3555 | D | 	'C:\Windows.old\Windows\ServiceProfiles\LocalService\' does not exist. Skipping
+2022-05-27 23:18:44.3555 | D | Files found: 0
+2022-05-27 23:18:44.3555 | D | Processing target: Local Service registry transaction files
+2022-05-27 23:18:44.3711 | D | Expanding directory: 'C:\Windows\ServiceProfiles\LocalService\'
+2022-05-27 23:18:44.3711 | D | Getting files from 'C:\Windows\ServiceProfiles\LocalService'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-27 23:18:44.3711 | D | Found match: C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1
+2022-05-27 23:18:44.3711 | D | Found match: C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2
+2022-05-27 23:18:44.3711 | D | Files found: 2
+2022-05-27 23:18:44.3872 | D | Processing target: Local Service registry transaction files
+2022-05-27 23:18:44.3872 | D | Expanding directory: 'C:\Windows.old\Windows\ServiceProfiles\LocalService\'
+2022-05-27 23:18:44.3872 | D | 	'C:\Windows.old\Windows\ServiceProfiles\LocalService\' does not exist. Skipping
+2022-05-27 23:18:44.3872 | D | Files found: 0
+2022-05-27 23:18:44.3872 | D | Processing target: Network Service registry hive
+2022-05-27 23:18:44.4023 | D | Expanding directory: 'C:\Windows\ServiceProfiles\NetworkService\'
+2022-05-27 23:18:44.4023 | D | Getting files from 'C:\Windows\ServiceProfiles\NetworkService'. Recursive: False, Mask: NTUSER.DAT
+2022-05-27 23:18:44.4023 | D | Found match: C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT
+2022-05-27 23:18:44.4023 | D | Files found: 1
+2022-05-27 23:18:44.4023 | D | Processing target: Network Service registry hive
+2022-05-27 23:18:44.4023 | D | Expanding directory: 'C:\Windows.old\Windows\ServiceProfiles\NetworkService\'
+2022-05-27 23:18:44.4023 | D | 	'C:\Windows.old\Windows\ServiceProfiles\NetworkService\' does not exist. Skipping
+2022-05-27 23:18:44.4181 | D | Files found: 0
+2022-05-27 23:18:44.4181 | D | Processing target: Network Service registry transaction files
+2022-05-27 23:18:44.4181 | D | Expanding directory: 'C:\Windows\ServiceProfiles\NetworkService\'
+2022-05-27 23:18:44.4181 | D | Getting files from 'C:\Windows\ServiceProfiles\NetworkService'. Recursive: False, Mask: NTUSER.DAT.LOG*
+2022-05-27 23:18:44.4181 | D | Found match: C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1
+2022-05-27 23:18:44.4181 | D | Found match: C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2
+2022-05-27 23:18:44.4339 | D | Files found: 2
+2022-05-27 23:18:44.4339 | D | Processing target: Network Service registry transaction files
+2022-05-27 23:18:44.4339 | D | Expanding directory: 'C:\Windows.old\Windows\ServiceProfiles\NetworkService\'
+2022-05-27 23:18:44.4339 | D | 	'C:\Windows.old\Windows\ServiceProfiles\NetworkService\' does not exist. Skipping
+2022-05-27 23:18:44.4339 | D | Files found: 0
+2022-05-27 23:18:44.4339 | D | Processing target: System Restore Points Registry Hives (XP)
+2022-05-27 23:18:44.4493 | D | Expanding directory: 'C:\System Volume Information\_restore*\RP*\snapshot\'
+2022-05-27 23:18:44.4493 | D | Files found: 0
+2022-05-27 23:18:44.6368 | I | Found 18 files in 0.545 seconds. Beginning copy...
+2022-05-27 23:18:46.1993 | I | 	Deferring 'C:\Windows\System32\config\SAM.LOG1' due to IOException...
+2022-05-27 23:18:46.1993 | I | 	Deferring 'C:\Windows\System32\config\SAM.LOG2' due to IOException...
+2022-05-27 23:18:46.1993 | I | 	Deferring 'C:\Windows\System32\config\SECURITY.LOG1' due to IOException...
+2022-05-27 23:18:46.1993 | I | 	Deferring 'C:\Windows\System32\config\SECURITY.LOG2' due to IOException...
+2022-05-27 23:18:46.2150 | I | 	Deferring 'C:\Windows\System32\config\SOFTWARE.LOG1' due to IOException...
+2022-05-27 23:18:46.2150 | I | 	Deferring 'C:\Windows\System32\config\SOFTWARE.LOG2' due to IOException...
+2022-05-27 23:18:46.2150 | I | 	Deferring 'C:\Windows\System32\config\SYSTEM.LOG1' due to IOException...
+2022-05-27 23:18:46.2150 | I | 	Deferring 'C:\Windows\System32\config\SYSTEM.LOG2' due to IOException...
+2022-05-27 23:18:46.2312 | I | 	Deferring 'C:\Windows\System32\config\SAM' due to IOException...
+2022-05-27 23:18:46.2460 | I | 	Deferring 'C:\Windows\System32\config\SECURITY' due to IOException...
+2022-05-27 23:18:46.2460 | I | 	Deferring 'C:\Windows\System32\config\SOFTWARE' due to IOException...
+2022-05-27 23:18:46.2616 | I | 	Deferring 'C:\Windows\System32\config\SYSTEM' due to IOException...
+2022-05-27 23:18:46.2616 | I | 	Deferring 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT' due to IOException...
+2022-05-27 23:18:46.2773 | I | 	Deferring 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1' due to IOException...
+2022-05-27 23:18:46.2773 | I | 	Deferring 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2' due to IOException...
+2022-05-27 23:18:46.2930 | I | 	Deferring 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT' due to IOException...
+2022-05-27 23:18:46.2930 | I | 	Deferring 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1' due to IOException...
+2022-05-27 23:18:46.2930 | I | 	Deferring 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2' due to IOException...
+2022-05-27 23:18:46.2930 | I | Deferred file count: 18. Copying locked files...
+2022-05-27 23:18:46.3087 | D | Creating directory 'C:\temp\shimcache\tout\C\Windows\System32\config'
+2022-05-27 23:18:46.3240 | I | 	Copied deferred file 'C:\Windows\System32\config\SAM.LOG1' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SAM.LOG1'. Hashing source file...
+2022-05-27 23:18:46.3240 | D | Copied deferred file 'C:\Windows\System32\config\SAM.LOG1' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SAM.LOG1' | Source SHA-1: 7D2FBAA384F0263B0957634300AFB3A1B25A3BFE | Source created: 2019-12-07 09:03:44.6332957 | Source modified: 2019-12-07 09:03:44.6332957 | Source last accessed: 2019-12-07 09:03:44.6332957
+2022-05-27 23:18:46.3866 | I | 	Copied deferred file 'C:\Windows\System32\config\SAM.LOG2' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SAM.LOG2'. Hashing source file...
+2022-05-27 23:18:46.3866 | D | Copied deferred file 'C:\Windows\System32\config\SAM.LOG2' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SAM.LOG2' | Source SHA-1: E1DCC5E790EFDB28E9239CA910442EA002628858 | Source created: 2019-12-07 09:03:44.6332957 | Source modified: 2019-12-07 09:03:44.6332957 | Source last accessed: 2019-12-07 09:03:44.6332957
+2022-05-27 23:18:46.3866 | I | 	Copied deferred file 'C:\Windows\System32\config\SECURITY.LOG1' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SECURITY.LOG1'. Hashing source file...
+2022-05-27 23:18:46.4029 | D | Copied deferred file 'C:\Windows\System32\config\SECURITY.LOG1' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SECURITY.LOG1' | Source SHA-1: 91D5247A773C27A35BE55F19BD5CD9D81197A560 | Source created: 2019-12-07 09:03:44.6002885 | Source modified: 2019-12-07 09:03:44.6002885 | Source last accessed: 2019-12-07 09:03:44.6002885
+2022-05-27 23:18:46.4179 | I | 	Copied deferred file 'C:\Windows\System32\config\SECURITY.LOG2' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SECURITY.LOG2'. Hashing source file...
+2022-05-27 23:18:46.4179 | D | Copied deferred file 'C:\Windows\System32\config\SECURITY.LOG2' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SECURITY.LOG2' | Source SHA-1: 727B86CC02055BE87FA584A2CAF7C19AF1F6580F | Source created: 2019-12-07 09:03:44.6002885 | Source modified: 2019-12-07 09:03:44.6002885 | Source last accessed: 2019-12-07 09:03:44.6002885
+2022-05-27 23:18:48.1365 | I | 	Copied deferred file 'C:\Windows\System32\config\SOFTWARE.LOG1' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SOFTWARE.LOG1'. Hashing source file...
+2022-05-27 23:18:48.1365 | D | Copied deferred file 'C:\Windows\System32\config\SOFTWARE.LOG1' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SOFTWARE.LOG1' | Source SHA-1: 3425A2AE591DC908455BE61E259877BC8099F575 | Source created: 2019-12-07 09:03:44.5863280 | Source modified: 2019-12-07 09:03:44.5863280 | Source last accessed: 2019-12-07 09:03:44.5863280
+2022-05-27 23:18:48.2459 | I | 	Copied deferred file 'C:\Windows\System32\config\SOFTWARE.LOG2' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SOFTWARE.LOG2'. Hashing source file...
+2022-05-27 23:18:48.2459 | D | Copied deferred file 'C:\Windows\System32\config\SOFTWARE.LOG2' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SOFTWARE.LOG2' | Source SHA-1: A8E464EA6B480B8284BF13D427AF99DD8FA27D6F | Source created: 2019-12-07 09:03:44.5863280 | Source modified: 2019-12-07 09:03:44.5863280 | Source last accessed: 2019-12-07 09:03:44.5863280
+2022-05-27 23:18:48.5120 | I | 	Copied deferred file 'C:\Windows\System32\config\SYSTEM.LOG1' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM.LOG1'. Hashing source file...
+2022-05-27 23:18:48.5120 | D | Copied deferred file 'C:\Windows\System32\config\SYSTEM.LOG1' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM.LOG1' | Source SHA-1: B13C4F708ADBBBD8494D8A81D87DE2EC02BF506A | Source created: 2019-12-07 09:03:44.6002885 | Source modified: 2019-12-07 09:03:44.6002885 | Source last accessed: 2019-12-07 09:03:44.6002885
+2022-05-27 23:18:48.5428 | I | 	Copied deferred file 'C:\Windows\System32\config\SYSTEM.LOG2' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM.LOG2'. Hashing source file...
+2022-05-27 23:18:48.5588 | D | Copied deferred file 'C:\Windows\System32\config\SYSTEM.LOG2' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM.LOG2' | Source SHA-1: 8A9DE8E94B5F0346895220A068D73531D44BE6F9 | Source created: 2019-12-07 09:03:44.6002885 | Source modified: 2019-12-07 09:03:44.6002885 | Source last accessed: 2019-12-07 09:03:44.6002885
+2022-05-27 23:18:48.5744 | I | 	Copied deferred file 'C:\Windows\System32\config\SAM' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SAM'. Hashing source file...
+2022-05-27 23:18:48.5744 | D | Copied deferred file 'C:\Windows\System32\config\SAM' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SAM' | Source SHA-1: DD0DE33C82AFB7D54921E789C7F9BAF1A2EB87A1 | Source created: 2019-12-07 09:03:44.5557404 | Source modified: 2022-03-05 13:10:05.6778275 | Source last accessed: 2022-03-05 13:10:05.6778275
+2022-05-27 23:18:48.5900 | I | 	Copied deferred file 'C:\Windows\System32\config\SECURITY' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SECURITY'. Hashing source file...
+2022-05-27 23:18:48.5900 | D | Copied deferred file 'C:\Windows\System32\config\SECURITY' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SECURITY' | Source SHA-1: 3731905938C95F057D61F4523E6C8253DD539BFB | Source created: 2019-12-07 09:03:44.5557404 | Source modified: 2022-03-05 13:10:05.6778275 | Source last accessed: 2022-03-05 13:10:05.6778275
+2022-05-27 23:18:57.1991 | I | 	Copied deferred file 'C:\Windows\System32\config\SOFTWARE' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SOFTWARE'. Hashing source file...
+2022-05-27 23:18:57.1991 | D | Copied deferred file 'C:\Windows\System32\config\SOFTWARE' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SOFTWARE' | Source SHA-1: 2FF12CA48FC6F4CBF8B649F057FD64BB31EC3274 | Source created: 2019-12-07 09:03:44.5557404 | Source modified: 2022-03-05 13:10:05.6778275 | Source last accessed: 2022-03-05 13:10:05.6778275
+2022-05-27 23:18:58.4182 | I | 	Copied deferred file 'C:\Windows\System32\config\SYSTEM' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM'. Hashing source file...
+2022-05-27 23:18:58.4182 | D | Copied deferred file 'C:\Windows\System32\config\SYSTEM' to 'C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM' | Source SHA-1: 33CCEEB1B7A960697055C738A58CBC09D18ED7E0 | Source created: 2019-12-07 09:03:44.5557404 | Source modified: 2022-03-05 13:10:05.6469547 | Source last accessed: 2022-03-05 13:10:05.6469547
+2022-05-27 23:18:58.4491 | D | Creating directory 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\LocalService'
+2022-05-27 23:18:58.4491 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT'. Hashing source file...
+2022-05-27 23:18:58.4653 | D | Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT' | Source SHA-1: 23FD130FD0CCE25CD2CAD82256B9D02323D0FD01 | Source created: 2022-03-05 16:06:43.4430912 | Source modified: 2022-03-05 13:10:05.6778275 | Source last accessed: 2022-03-05 13:10:05.6778275
+2022-05-27 23:18:58.4804 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1'. Hashing source file...
+2022-05-27 23:18:58.4804 | D | Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1' | Source SHA-1: 35D3FD605E67BB26D6996143B350966847418863 | Source created: 2022-03-05 16:06:43.4430912 | Source modified: 2022-03-05 16:06:43.4430912 | Source last accessed: 2022-03-05 16:06:43.4430912
+2022-05-27 23:18:58.4960 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2'. Hashing source file...
+2022-05-27 23:18:58.4960 | D | Copied deferred file 'C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2' | Source SHA-1: E906F94E63C479213F8EAC0DFCF26ECC9889975E | Source created: 2022-03-05 16:06:43.4430912 | Source modified: 2022-03-05 16:06:43.4430912 | Source last accessed: 2022-03-05 16:06:43.4430912
+2022-05-27 23:18:58.5273 | D | Creating directory 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\NetworkService'
+2022-05-27 23:18:58.5273 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT'. Hashing source file...
+2022-05-27 23:18:58.5273 | D | Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT' | Source SHA-1: 6F4B745310087A95AA6AFABF94860CA8A2E31CEC | Source created: 2022-03-05 16:06:43.1773412 | Source modified: 2022-03-05 13:10:05.6778275 | Source last accessed: 2022-03-05 13:10:05.6778275
+2022-05-27 23:18:58.5584 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1'. Hashing source file...
+2022-05-27 23:18:58.5584 | D | Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG1' | Source SHA-1: 580C20B3F6D00FB6DFDA2205674BF782E1A7EC77 | Source created: 2022-03-05 16:06:43.1773412 | Source modified: 2022-03-05 16:06:43.1773412 | Source last accessed: 2022-03-05 16:06:43.1773412
+2022-05-27 23:18:58.5742 | I | 	Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2'. Hashing source file...
+2022-05-27 23:18:58.5902 | D | Copied deferred file 'C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2' to 'C:\temp\shimcache\tout\C\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2' | Source SHA-1: 8EB2B3793A68BBE30ED3B3727AA735C3468CA092 | Source created: 2022-03-05 16:06:43.1773412 | Source modified: 2022-03-05 16:06:43.1773412 | Source last accessed: 2022-03-05 16:06:43.1773412
+2022-05-27 23:18:58.5902 | D | Flushing writers and streams...
+2022-05-27 23:18:58.5902 | D | Deleting empty skiplog CSV
+2022-05-27 23:18:58.6063 | I | Copied 18 out of 18 files in 14.6812 seconds. See '*_CopyLog.csv' in 'C:\temp\shimcache\tout' for copy details
+2022-05-27 23:18:58.6213 | I | Using Module operations
+2022-05-27 23:18:58.6213 | W | 	Setting --msource to 'C:\temp\shimcache\tout' since --msource was not provided
+2022-05-27 23:18:58.6372 | W | 	Flushing module destination directory 'C:\temp\shimcache\mout'
+2022-05-27 23:18:58.6372 | W | 	Creating module destination directory 'C:\temp\shimcache\mout'
+2022-05-27 23:18:58.6527 | D | 	AppCompatCacheParser: Determining correct processor based export type 'csv'...
+2022-05-27 23:18:58.6527 | I | 		Found processor 'Executable: AppCompatCacheParser.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False'!
+2022-05-27 23:18:58.6527 | I | Discovered 1 processor to run.
+2022-05-27 23:18:58.6527 | D | Module name: AppCompatCacheParser, Processor: Executable: AppCompatCacheParser.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False , File mask: SYSTEM , Category: ProgramExecution 
+2022-05-27 23:18:58.6681 | W | Executing modules with file masks...
+2022-05-27 23:18:58.6681 | D | Getting files from 'C:\temp\shimcache\tout'. Recursive: True, Mask: SYSTEM
+2022-05-27 23:18:58.6681 | D | Found match: C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+2022-05-27 23:18:58.6838 | D | Found the following files for mask 'SYSTEM': C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+2022-05-27 23:18:58.6838 | I | 	Running 'AppCompatCacheParser.exe': -f "C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM" --csv C:\temp\shimcache\mout\ProgramExecution
+2022-05-27 23:18:59.6526 | D | AppCompatCache Parser version 1.5.0.0
+2022-05-27 23:18:59.6526 | D | Author: Eric Zimmerman (saericzimmerman@gmail.com)
+2022-05-27 23:18:59.6526 | D | https://github.com/EricZimmerman/AppCompatCacheParser
+2022-05-27 23:18:59.6526 | D | Command line: -f C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM --csv C:\temp\shimcache\mout\ProgramExecution
+2022-05-27 23:18:59.6526 | D | Processing hive 'C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM'
+2022-05-27 23:18:59.9964 | D | Two transaction logs found. Determining primary log...
+2022-05-27 23:18:59.9964 | D | Primary log: C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM.LOG1, secondary log: C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM.LOG2
+2022-05-27 23:18:59.9964 | D | Replaying log file: C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM.LOG1
+2022-05-27 23:18:59.9964 | D | Replaying log file: C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM.LOG2
+2022-05-27 23:19:00.0120 | D | At least one transaction log was applied. Sequence numbers have been updated to 0x01A6. New Checksum: 0x3DF0EF16
+2022-05-27 23:19:00.9184 | D | Found 162 cache entries for Windows10Creators in ControlSet001
+2022-05-27 23:19:00.9339 | D | Results saved to 'C:\temp\shimcache\mout\ProgramExecution\20220527231900_Windows10Creators_SYSTEM_AppCompatCache.csv'
+2022-05-27 23:19:00.9804 | W | Executing remaining modules...
+2022-05-27 23:19:00.9964 | I | Executed 1 processor in 2.3476 seconds
+2022-05-27 23:19:00.9964 | F | Total execution time: 17.0712 seconds

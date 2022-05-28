@@ -1,0 +1,163 @@
+ControlSet,CacheEntryPosition,Path,LastModifiedTimeUTC,Executed,Duplicate,SourceFile
+1,0,C:\Windows\System32\msdtc.exe,2019-12-07 09:09:37,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,1,C:\Program Files\Common Files\VMware\Drivers\vss\comreg.exe,2021-08-31 08:04:08,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,2,C:\Program Files\VMware\VMware Tools\VMwareResolutionSet.exe,2021-08-31 08:00:26,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,3,C:\Program Files\VMware\VMware Tools\vmtoolsd.exe,2021-08-31 08:00:32,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,4,C:\Windows\system32\vm3dservice.exe,2021-08-31 08:04:22,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,5,C:\Windows\syswow64\WOWReg32.exe,2021-09-13 07:08:41,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,6,C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe,2021-08-31 07:43:46,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,7,C:\Windows\syswow64\MsiExec.exe,2019-12-07 09:10:02,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,8,C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\Application,2022-03-05 13:09:32,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,9,C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Application,2022-03-05 13:09:30,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,10,C:\Windows\System32\RuntimeBroker.exe,2021-09-13 07:07:49,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,11,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\Application,2022-03-05 13:09:31,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,12,00000009	0001000763bb0000	000a000027410000	8664	Microsoft.NET.Native.Framework.1.7	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,13,00000009	0001000763bb0000	000a000027410000	8664	Microsoft.NET.Native.Runtime.1.7	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,14,C:\Windows\Temp\{D4760E6D-84EE-49B0-B6CB-442BD17B285D}\.be\VC_redist.x64.exe,2022-03-05 13:09:33,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,15,C:\Windows\Temp\{D3F4B158-016E-44E0-9CFB-551A8D5A3664}\.cr\vcredist_x64.exe,2022-03-05 13:09:33,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,16,C:\Users\CFUser\AppData\Local\Temp\{1FF5D624-5515-4343-837A-E54C101573E6}~setup\vcredist_x64.exe,2022-03-05 13:09:32,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,17,C:\Windows\system32\msiexec.exe,2019-12-07 09:09:44,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,18,C:\Windows\Temp\{DF64F00F-8514-45B7-B2D9-15422E3E1BE1}\.be\VC_redist.x86.exe,2022-03-05 13:09:32,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,19,C:\Windows\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\Application,2022-03-05 13:09:32,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,20,C:\Windows\Temp\{BDAD71C3-9501-47B0-A144-AFAF55A8DE2D}\.cr\vcredist_x86.exe,2022-03-05 13:09:32,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,21,C:\Users\CFUser\AppData\Local\Temp\{1FF5D624-5515-4343-837A-E54C101573E6}~setup\vcredist_x86.exe,2022-03-05 13:09:32,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,22,00000009	000e00006bed0000	000a0000273a0000	8664	Microsoft.VCLibs.140.00.UWPDesktop	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,23,00000009	000200026b0d0000	000a000027410000	8664	Microsoft.NET.Native.Framework.2.2	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,24,00000009	000200026ac00000	000a000027410000	8664	Microsoft.NET.Native.Runtime.2.2	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,25,C:\Users\CFUser\AppData\Local\Temp\vmware-CFUser\000062a1\setup64.exe,2022-03-05 13:09:31,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,26,C:\Users\CFUser\AppData\Local\Temp\vmware-CFUser\000062a1\setup.exe,2022-03-05 13:09:31,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,27,0000000b	000a0000000203e8	000a00004a6103ff	8664	windows.immersivecontrolpanel	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,28,0000000b	000a00004a6103ff	000a00004a6103ff	8664	MicrosoftWindows.UndockedDevKit	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,29,C:\Windows\system32\consent.exe,2021-09-13 07:08:18,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,30,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,2021-04-01 08:51:20,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,31,C:\Windows\system32\net1.exe,2021-09-13 07:08:44,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,32,C:\Windows\System32\net.exe,2019-12-07 09:09:33,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,33,C:\Windows\System32\powercfg.exe,2019-12-07 09:09:05,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,34,00000009	000e00006abb0000	000a0000273a0000	8664	Microsoft.VCLibs.140.00	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,35,0000000b	000a00004a6103ff	000a00004a6103ff	8664	Microsoft.Windows.OOBENetworkCaptivePortal	cw5n1h2txyewy	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,36,C:\Users\CFUser\AppData\Local\Temp\upgrader.exe,2022-03-05 13:04:34,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,37,C:\Windows\system32\PING.EXE,2019-12-07 09:09:33,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,38,C:\Users\CFUser\AppData\Local\Temp\storePwd.exe,2022-03-05 13:04:34,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,39,0000000b	000a00004a6103ff	000a00004a6103ff	8664	Microsoft.Windows.OOBENetworkConnectionFlow	cw5n1h2txyewy	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,40,C:\Windows\System32\ie4uinit.exe,2021-09-13 07:08:47,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,41,C:\Windows\System32\unregmp2.exe,2019-12-06 21:28:00,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,42,C:\Windows\System32\smartscreen.exe,2021-09-13 07:07:48,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,43,C:\Windows\System32\cmd.exe,2021-09-13 07:08:04,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,44,0000000b	000a00004a6104f1	000b000000000000	8664	Microsoft.Windows.CloudExperienceHost	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,45,C:\Windows\system32\runonce.exe,2021-09-13 07:08:18,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,46,C:\Windows\Explorer.EXE,2021-09-13 07:07:43,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,47,C:\Windows\system32\userinit.exe,2019-12-07 09:08:49,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,48,C:\Windows\system32\ctfmon.exe,2019-12-07 09:09:00,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,49,C:\Windows\system32\MDMAgent.exe,2021-09-13 07:07:41,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,50,C:\Windows\system32\sihost.exe,2021-09-13 07:08:01,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,51,C:\Windows\system32\oobe\FirstLogonAnim.exe,2019-12-07 09:09:05,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,52,C:\Windows\SysWOW64\wermgr.exe,2021-09-13 07:08:37,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,53,C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{DD996138-9C75-4515-8937-7554E147143C}\MicrosoftEdge_X64_99.0.1150.30.exe,2022-03-05 13:08:59,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,54,C:\Windows\system32\vssvc.exe,2021-09-13 07:08:06,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,55,C:\Windows\system32\SearchFilterHost.exe,2021-09-13 07:07:59,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,56,C:\Windows\system32\SearchProtocolHost.exe,2021-09-13 07:07:59,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,57,C:\Windows\system32\LogonUI.exe,2019-12-07 09:08:19,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,58,C:\Windows\system32\compattelrunner.exe,2021-09-13 07:08:11,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,59,C:\Windows\system32\dxgiadaptercache.exe,2021-09-13 07:07:59,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,60,C:\Windows\system32\wermgr.exe,2021-09-13 07:08:14,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,61,C:\Windows\system32\SearchIndexer.exe,2021-09-13 07:07:59,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,62,C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{069E2E2C-E61F-41D8-BA5A-F8EFD4DDBE96}\MicrosoftEdge_X64_0.0.0.0.exe,2022-03-05 13:08:52,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,63,C:\Program Files (x86)\Microsoft\Temp\EU4EC.tmp\MicrosoftEdgeUpdate.exe,2022-03-05 13:08:52,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,64,C:\Windows\SoftwareDistribution\Download\Install\MicrosoftEdgeStandaloneStubInstallerX64.exe,2022-03-05 13:08:28,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,65,C:\Windows\system32\wuauclt.exe,2021-09-13 07:08:06,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,66,C:\Windows\SysWOW64\regsvr32.exe,2019-12-07 09:10:04,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,67,C:\Windows\system32\regsvr32.exe,2019-12-07 09:09:46,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,68,C:\Windows\system32\taskhostw.exe,2021-09-13 07:08:20,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,69,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.19041.1220_none_7e21bc567c7ed16b\TiWorker.exe,2021-09-13 07:03:10,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,70,C:\Windows\system32\mcbuilder.exe,2019-12-07 09:08:58,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,71,C:\Windows\system32\oobe\msoobe.exe,2021-09-13 07:08:21,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,72,C:\WINDOWS\SYSTEM32\RUNDLL32.EXE,2021-09-13 07:08:24,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,73,C:\Windows\system32\oobe\oobeldr.exe,2021-09-13 07:08:26,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,74,C:\WINDOWS\SYSTEM32\reg.exe,2019-12-07 09:09:33,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,75,C:\WINDOWS\SYSTEM32\SETUPUGC.EXE,2021-09-13 07:08:12,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,76,C:\Windows\system32\provtool.exe,2021-09-13 07:07:42,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,77,C:\Windows\System32\vds.exe,2021-09-13 07:07:45,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,78,C:\Windows\System32\vdsldr.exe,2021-09-13 07:07:45,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,79,C:\Windows\system32\ByteCodeGenerator.exe,2021-09-13 07:08:03,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,80,00000009	000a4a7f4a430000	000a000042ee0000	8664	Microsoft.ZuneVideo	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,81,C:\Program Files (x86)\Microsoft\EdgeUpdate\1.3.155.77\MicrosoftEdgeUpdateComRegisterShell64.exe,2022-03-05 16:07:22,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,82,00000009	000a4a7f4a430000	000a000042ee0000	8664	Microsoft.ZuneMusic	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,83,C:\Program Files (x86)\Microsoft\Temp\EUBB8F.tmp\MicrosoftEdgeUpdate.exe,2022-03-05 16:07:22,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,84,C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{C4A27A86-207F-4710-8A91-DF68BCCCA629}\MicrosoftEdgeUpdateSetup_X86_1.3.155.77.exe,2022-03-05 16:07:21,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,85,00000009	000c003217710000	000a000042ee0000	8664	Microsoft.XboxIdentityProvider	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,86,00000009	0001002e2af90000	000a000042ee0000	8664	Microsoft.XboxGameOverlay	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,87,00000009	0030003179190000	000a00003f810000	8664	Microsoft.XboxApp	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,88,00000009	2e8603ea00050000	000a000045550000	8664	Microsoft.WindowsStore	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,89,00000009	000a077207b40000	000a000045630000	8664	Microsoft.WindowsSoundRecorder	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,90,00000009	0005077207b40000	000a000045630000	8664	Microsoft.WindowsMaps	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,91,00000009	000107730c500000	000a000047ba0000	8664	Microsoft.WindowsFeedbackHub	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,92,00000009	3e852d6d4f5c0000	000a000045630000	8664	microsoft.windowscommunicationsapps	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,93,00000009	07e2033a00620000	000a000045630000	8664	Microsoft.WindowsCamera	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,94,00000009	000a077208860000	000a000045630000	8664	Microsoft.WindowsAlarms	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,95,00000009	07e34a7f31040000	000a000045630000	8664	Microsoft.Windows.Photos	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,96,00000009	00010000518b0000	000a000045630000	8664	Microsoft.WebMediaExtensions	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,97,00000009	0002000447940000	000a000042ee0000	8664	Microsoft.Wallet	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,98,00000009	2e2303e900120000	000a000045550000	8664	Microsoft.StorePurchaseApp	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,99,00000009	000e0035004d0000	000a000042ee0000	8664	Microsoft.SkypeApp	kzf8qxf38zg5c	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,100,00000009	000a077309a70000	000a000045630000	8664	Microsoft.ScreenSketch	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,101,00000009	000a076e02790000	000a000045630000	8664	Microsoft.People	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,102,00000009	3e812efa4e900000	000a000047ba0000	8664	Microsoft.Office.OneNote	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,103,00000009	0006077371630000	000a000042ee0000	8664	Microsoft.MSPaint	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,104,00000009	07d04a8905150000	000a000045180000	8664	Microsoft.MixedReality.Portal	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,105,00000009	0003000600490000	000a000047ba0000	8664	Microsoft.MicrosoftStickyNotes	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,106,00000009	00040004200c0000	000a00003fab0000	8664	Microsoft.MicrosoftSolitaireCollection	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,107,00000009	0012076f04800000	000b000000000000	8664	Microsoft.MicrosoftOfficeHub	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,108,00000009	0006077407fa0000	000a000045630000	8664	Microsoft.Microsoft3DViewer	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,109,00000009	00080002599e0000	000a000045630000	8664	Microsoft.Getstarted	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,110,00000009	000a06aa34130000	000a00003fab0000	8664	Microsoft.GetHelp	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,111,00000009	00010000762b0000	000a000047830000	8664	Microsoft.DesktopAppInstaller	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,112,00000009	000400194ef30000	000a000042ee0000	8664	Microsoft.BingWeather	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,113,00000009	000a071000030000	000a000028000000	8664	Microsoft.Advertising.Xaml	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,114,00000009	0002071246540000	000a0000452a0000	8664	Microsoft.UI.Xaml.2.0	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,115,00000009	000a000046b50000	000a000028000000	8664	Microsoft.Services.Store.Engagement	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,116,00000000	000a000046b50000	000a000028000000	8664	Microsoft.Services.Store.Engagement	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,117,00000009	0001077754d10000	000a000047ba0000	8664	Microsoft.549981C3F5F10	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,118,0000000b	0006000200010000	03e84a6103ff0000	8664	Windows.PrintDialog	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,119,0000000b	03e84a6103ff0000	03e84a6103ff0000	8664	NcsiUwpApp	8wekyb3d8bbwe	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,120,00000009	007808a40dca0000	000a00007fff0000	8664	MicrosoftWindows.Client.CBS	cw5n1h2txyewy	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,121,0000000b	03e84a6103ff0000	000a000000000000	8664	Microsoft.XboxGameCallableUI	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,122,0000000b	000a00004a6103ff	000a00004a6103ff	8664	Microsoft.Windows.StartMenuExperienceHost	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,123,0000000b	000a00004a6103ff	000a00004a6103ff	8664	Microsoft.Windows.ShellExperienceHost	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,124,0000000b	000a00004a6103ff	000a000000000000	8664	Microsoft.Windows.SecureAssessmentBrowser	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,125,0000000b	000a00004a6103ff	000a00004a6103ff	8664	Microsoft.Windows.SecHealthUI	cw5n1h2txyewy	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,126,0000000b	0001000e00024a61	000a00004a610000	8664	Microsoft.Windows.Search	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,127,0000000b	000a00004a6103ff	000a00004a6103ff	8664	Microsoft.Windows.PeopleExperienceHost	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,128,0000000b	000a00004a6103ff	000a000000000000	8664	Microsoft.Windows.ContentDeliveryManager	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,129,0000000b	000a00004a6103ff	000b000000000000	8664	Microsoft.Windows.CloudExperienceHost	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,130,C:\Windows\system32\DllHost.exe,2021-09-13 07:08:13,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,131,0000000b	03e84a6103ff0000	03e84a6103ff0000	8664	Microsoft.Windows.CallingShellApp	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,132,C:\Program Files\Windows Defender\NisSrv.exe,2019-12-07 09:08:16,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,133,C:\Program Files\Windows Defender\MpCmdRun.exe,2019-12-07 09:08:16,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,134,0000000b	002c4a6103ff0000	000a000047ba0000	8664	Microsoft.MicrosoftEdge	8wekyb3d8bbwe	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,135,C:\Windows\System32\mousocoreworker.exe,2021-09-13 07:08:06,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,136,C:\Windows\system32\usoclient.exe,2021-09-13 07:08:06,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,137,C:\Windows\system32\DeviceCensus.exe,2021-09-13 07:08:13,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,138,0000000b	000a00004a6103ff	000a00003fab0000	8664	Microsoft.BioEnrollment	cw5n1h2txyewy	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,139,C:\Windows\system32\wevtutil.exe,2021-09-13 07:08:05,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,140,0000000b	000a00004a6103ff	000a00004a6103ff	8664	Microsoft.AccountsControl	cw5n1h2txyewy	,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,141,0000000b	03e84a6103ff0000	000a0000295b0000	8664	Microsoft.AAD.BrokerPlugin	cw5n1h2txyewy	neutral,,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,142,C:\Program Files (x86)\Microsoft\Edge\Application\89.0.774.68\Installer\setup.exe,2021-04-01 19:17:46,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,143,C:\Program Files (x86)\Microsoft\EdgeUpdate\1.3.141.63\MicrosoftEdgeUpdateComRegisterShell64.exe,2021-04-01 19:17:37,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,144,C:\Windows\system32\taskkill.exe,2019-12-07 09:09:51,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,145,C:\Windows\system32\wbem\wmiprvse.exe,2021-09-13 07:08:08,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,146,C:\Windows\system32\DrvInst.exe,2021-09-13 07:08:22,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,147,C:\Windows\system32\wbem\mofcomp.exe,2021-09-13 07:07:42,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,148,C:\Program Files\Windows Defender\MsMpEng.exe,2019-12-07 09:08:16,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,149,C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe,2021-04-01 19:17:37,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,150,C:\Windows\System32\spoolsv.exe,2021-09-13 07:07:42,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,151,C:\Windows\servicing\TrustedInstaller.exe,2021-09-13 07:08:25,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,152,C:\Windows\System32\Upfc.exe,2019-12-07 09:08:33,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,153,C:\Windows\system32\secinit.exe,2019-12-07 09:08:55,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,154,C:\Windows\system32\oobe\setup.exe,2021-09-13 07:08:25,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,155,C:\Windows\system32\oobe\windeploy.exe,2021-09-13 07:08:26,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,156,C:\Windows\system32\dwm.exe,2021-09-13 07:08:12,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,157,C:\Windows\system32\sppsvc.exe,2021-09-13 07:08:19,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,158,C:\Windows\system32\fontdrvhost.exe,2021-09-13 07:08:16,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,159,C:\Windows\system32\svchost.exe,2021-09-13 07:08:13,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,160,C:\Windows\system32\lsass.exe,2021-09-13 07:08:15,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
+1,161,C:\Windows\system32\services.exe,2021-09-13 07:08:15,NA,False,C:\temp\shimcache\tout\C\Windows\System32\config\SYSTEM
