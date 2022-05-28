@@ -182,3 +182,105 @@ Repair completed. Database corruption has been repaired!
 
 ***** Eseutil completed in 1 seconds
 
+***** Integrity check of database '.\Windows.edb' started [ESENT version 10.00.22000.0000, (ESENT[10.0.22000.0] RETAIL RTM MBCS)]
+
+search for 'ERROR:' to find errors
+search for 'WARNING:' to find warnings
+checking database header
+database file ".\Windows.edb" is 16777216 bytes
+database file ".\Windows.edb" is 16777216 bytes on disk.
+Creating 64 threads
+checking SystemRoot
+SystemRoot (OE)
+SystemRoot (AE)
+checking system tables
+MSysObjects 
+MSysObjectsShadow 
+MSysObjects Name
+MSysObjects RootObjects
+rebuilding and comparing indexes
+checking logical consistency of system tables
+MSysObjects
+MSysObjectsShadow
+MSysObjids
+CatalogManager_Properties:	16368:	checking table "CatalogManager_Properties" (8)
+CatalogManager_Properties:	16368:	checking data
+CatalogManager_Properties:	16368:	integrity-check of table "CatalogManager_Properties" (8) finishes with error 0 (0x0) after 0 seconds
+CatalogStorageManager:	16368:	checking table "CatalogStorageManager" (9)
+CatalogStorageManager:	16368:	checking data
+CatalogStorageManager:	16368:	integrity-check of table "CatalogStorageManager" (9) finishes with error 0 (0x0) after 0 seconds
+ChangeTracking:	16368:	checking table "ChangeTracking" (42)
+ChangeTracking:	16368:	checking data
+ChangeTracking:	16368:	integrity-check of table "ChangeTracking" (42) finishes with error 0 (0x0) after 0 seconds
+MSysLocales:	16368:	checking table "MSysLocales" (60)
+MSysLocales:	16368:	checking data
+MSysLocales:	16368:	integrity-check of table "MSysLocales" (60) finishes with error 0 (0x0) after 0 seconds
+MSysObjids:	16368:	checking table "MSysObjids" (58)
+MSysObjids:	16368:	checking data
+MSysObjids:	16368:	integrity-check of table "MSysObjids" (58) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1:	16368:	checking table "SystemIndex_1" (16)
+SystemIndex_1:	16368:	checking long value tree (19)
+SystemIndex_1:	16368:	checking data
+SystemIndex_1:	16368:	checking LV refcounts
+SystemIndex_1:	16368:	integrity-check of table "SystemIndex_1" (16) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_14:	16368:	checking table "SystemIndex_1_DATA_14" (47)
+SystemIndex_1_DATA_14:	16368:	checking data
+SystemIndex_1_DATA_14:	16368:	integrity-check of table "SystemIndex_1_DATA_14" (47) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_15:	16368:	checking table "SystemIndex_1_DATA_15" (49)
+SystemIndex_1_DATA_15:	16368:	checking data
+SystemIndex_1_DATA_15:	16368:	integrity-check of table "SystemIndex_1_DATA_15" (49) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_16:	16368:	checking table "SystemIndex_1_DATA_16" (51)
+SystemIndex_1_DATA_16:	16368:	checking data
+SystemIndex_1_DATA_16:	16368:	integrity-check of table "SystemIndex_1_DATA_16" (51) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_21:	16368:	checking table "SystemIndex_1_DATA_21" (53)
+SystemIndex_1_DATA_21:	16368:	checking data
+SystemIndex_1_DATA_21:	16368:	integrity-check of table "SystemIndex_1_DATA_21" (53) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_22:	16368:	checking table "SystemIndex_1_DATA_22" (55)
+SystemIndex_1_DATA_22:	16368:	checking data
+SystemIndex_1_DATA_22:	16368:	integrity-check of table "SystemIndex_1_DATA_22" (55) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_14:	16368:	checking table "SystemIndex_1_OCC_14" (48)
+SystemIndex_1_OCC_14:	16368:	checking data
+SystemIndex_1_OCC_14:	16368:	integrity-check of table "SystemIndex_1_OCC_14" (48) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_15:	16368:	checking table "SystemIndex_1_OCC_15" (50)
+SystemIndex_1_OCC_15:	16368:	checking data
+SystemIndex_1_OCC_15:	16368:	integrity-check of table "SystemIndex_1_OCC_15" (50) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_16:	16368:	checking table "SystemIndex_1_OCC_16" (52)
+SystemIndex_1_OCC_16:	16368:	checking data
+SystemIndex_1_OCC_16:	16368:	integrity-check of table "SystemIndex_1_OCC_16" (52) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_21:	16368:	checking table "SystemIndex_1_OCC_21" (54)
+SystemIndex_1_OCC_21:	16368:	checking data
+SystemIndex_1_OCC_21:	16368:	integrity-check of table "SystemIndex_1_OCC_21" (54) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_22:	16368:	checking table "SystemIndex_1_OCC_22" (56)
+SystemIndex_1_OCC_22:	16368:	checking data
+SystemIndex_1_OCC_22:	16368:	integrity-check of table "SystemIndex_1_OCC_22" (56) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_Properties:	16368:	checking table "SystemIndex_1_Properties" (15)
+SystemIndex_1_Properties:	16368:	checking long value tree (18)
+SystemIndex_1_Properties:	16368:	checking data
+SystemIndex_1_Properties:	16368:	checking LV refcounts
+SystemIndex_1_Properties:	16368:	integrity-check of table "SystemIndex_1_Properties" (15) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_Gthr:	16368:	checking table "SystemIndex_Gthr" (10)
+SystemIndex_Gthr:	16368:	checking long value tree (41)
+SystemIndex_Gthr:	16368:	checking data
+SystemIndex_Gthr:	16368:	checking index "indexRecovery" (12)
+SystemIndex_Gthr:	16368:	checking index "indexDocID" (11)
+SystemIndex_Gthr:	16368:	checking LV refcounts
+SystemIndex_Gthr:	16368:	rebuilding and comparing indexes
+SystemIndex_Gthr:	16368:	integrity-check of table "SystemIndex_Gthr" (10) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_GthrAppOwner:	16368:	checking table "SystemIndex_GthrAppOwner" (14)
+SystemIndex_GthrAppOwner:	16368:	checking data
+SystemIndex_GthrAppOwner:	16368:	integrity-check of table "SystemIndex_GthrAppOwner" (14) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_GthrPth:	16368:	checking table "SystemIndex_GthrPth" (13)
+SystemIndex_GthrPth:	16368:	checking data
+SystemIndex_GthrPth:	16368:	integrity-check of table "SystemIndex_GthrPth" (13) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_PropertyStore:	16368:	checking table "SystemIndex_PropertyStore" (17)
+SystemIndex_PropertyStore:	16368:	checking long value tree (34)
+SystemIndex_PropertyStore:	16368:	checking data
+SystemIndex_PropertyStore:	16368:	checking LV refcounts
+SystemIndex_PropertyStore:	16368:	integrity-check of table "SystemIndex_PropertyStore" (17) finishes with error 0 (0x0) after 0 seconds
+
+Integrity check successful.
+
+
+
+***** Eseutil completed in 0 seconds
+
