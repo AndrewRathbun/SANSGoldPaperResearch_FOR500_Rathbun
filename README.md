@@ -1,8 +1,8 @@
 # SANSGoldPaperResearch_FOR500_Rathbun
 
-https://www.giac.org/research-papers/windows-10-vs-windows-11-what-has-changed/
+Check out my GIAC Gold Paper (GCFE): [Windows 10 vs. Windows 11, What Has Changed?](https://www.giac.org/research-papers/windows-10-vs-windows-11-what-has-changed/)
 
-A repository containing my research output in comparing Windows 10 and 11.
+This is a repository containing my research output in comparing Windows 10 and 11.
 
 ## KapeTriage Packages
 
